@@ -343,8 +343,12 @@
                   - paragraph: How can we help? We're here for you!
             - generic [ref=e503]:
               - list:
-                - listitem
-                - listitem
-                - listitem
-                - listitem
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e504] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e506]:
+                        - img [ref=e507]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e509]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
 ```
