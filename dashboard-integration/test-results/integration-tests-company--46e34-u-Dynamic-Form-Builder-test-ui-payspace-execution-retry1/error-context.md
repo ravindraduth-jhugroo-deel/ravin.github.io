@@ -352,6 +352,13 @@
           - columnheader "Column Action" [ref=e440]: Action
         - generic [ref=e446]: No data
   - text:  Search 
+  - alert [ref=e448]:
+    - generic [ref=e449]:
+      - generic [ref=e451]: 
+      - strong [ref=e452]: Success
+      - generic [ref=e453]: 13:06
+      - button [ref=e454] [cursor=pointer]
+    - generic [ref=e455]: Update Successful.
   - complementary:
     - generic:
       - generic:
@@ -359,29 +366,29 @@
           - generic:
             - generic:
               - generic: Welcome to White Label
-              - generic [ref=e447]:
-                - img [ref=e451]
-                - generic [ref=e453]:
-                  - button "Choose language" [ref=e456] [cursor=pointer]:
-                    - generic "English" [ref=e457]:
+              - generic [ref=e456]:
+                - img [ref=e460]
+                - generic [ref=e462]:
+                  - button "Choose language" [ref=e465] [cursor=pointer]:
+                    - generic "English" [ref=e466]:
                       - text: En
-                      - img [ref=e459]
-                  - button "Modules Menu" [ref=e463] [cursor=pointer]:
-                    - img [ref=e465]
-                  - button "close asap" [ref=e467] [cursor=pointer]:
-                    - img [ref=e469]
-              - generic [ref=e471]:
+                      - img [ref=e468]
+                  - button "Modules Menu" [ref=e472] [cursor=pointer]:
+                    - img [ref=e474]
+                  - button "close asap" [ref=e476] [cursor=pointer]:
+                    - img [ref=e478]
+              - generic [ref=e480]:
                 - heading "Hi there!" [level=1]
                 - generic:
                   - paragraph: How can we help? We're here for you!
-            - generic [ref=e472]:
+            - generic [ref=e481]:
               - list:
                 - listitem:
-                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e473] [cursor=pointer]:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e482] [cursor=pointer]:
                     - generic:
-                      - img [ref=e475]:
-                        - img [ref=e476]
+                      - img [ref=e484]:
+                        - img [ref=e485]
                       - heading "Knowledge Base" [level=4]
-                    - generic [ref=e478]:
+                    - generic [ref=e487]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
 ```

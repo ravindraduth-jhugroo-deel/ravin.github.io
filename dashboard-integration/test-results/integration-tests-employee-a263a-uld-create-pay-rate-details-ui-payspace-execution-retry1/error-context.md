@@ -53,20 +53,20 @@
           - text:  Search  _  Search  _
           - generic [ref=e60]:
             - generic [ref=e61]:
-              - link "Abbie Upton":
-                - /url: /employees/5153184/contact
-                - img "Abbie Upton" [ref=e62] [cursor=pointer]
+              - link "Valentin Gusikowski":
+                - /url: /employees/5153424/contact
+                - img "Valentin Gusikowski" [ref=e62] [cursor=pointer]
             - generic [ref=e63]:
               - generic [ref=e64]: Playwright Integration Demo
               - generic [ref=e65]: Monthly
             - separator [ref=e66]
-            - generic [ref=e68]: Abbie Upton
+            - generic [ref=e68]: Valentin Gusikowski
             - generic [ref=e69]:
               - link "" [ref=e70] [cursor=pointer]:
-                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=5153184&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153184%2F108658%2Fpay-rate
-              - button "222806" [ref=e71] [cursor=pointer]
+                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=5153424&frequencyId=108658&returnUrl=%2F50830%2FEmployees%2F5153424%2F108658%2FPayRate%2Fapi
+              - button "084425" [ref=e71] [cursor=pointer]
               - link "" [ref=e72] [cursor=pointer]:
-                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=5153184&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153184%2F108658%2Fpay-rate
+                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=5153424&frequencyId=108658&returnUrl=%2F50830%2FEmployees%2F5153424%2F108658%2FPayRate%2Fapi
         - tree [ref=e75]:
           - group [ref=e80]:
             - treeitem " Basic Information " [level=1] [ref=e81]:
@@ -75,279 +75,230 @@
                   - generic [ref=e84]: 
                   - generic [ref=e85]: Basic Information
                 - generic [ref=e86]: 
-            - treeitem " Payroll Processing " [expanded] [level=1] [ref=e87]:
+            - treeitem " Payroll Processing " [level=1] [ref=e87]:
               - generic [ref=e88] [cursor=pointer]:
                 - generic [ref=e89]:
                   - generic [ref=e90]: 
                   - generic [ref=e91]: Payroll Processing
-                - generic [ref=e92]: 
-              - group [ref=e93]:
-                - treeitem "Pay Rate Details" [level=2] [selected] [ref=e94]:
-                  - generic [ref=e97] [cursor=pointer]: Pay Rate Details
-                - treeitem "Edit Payslip" [level=2] [ref=e99]:
-                  - generic [ref=e102] [cursor=pointer]: Edit Payslip
-                - treeitem "Recurring Payroll Components" [level=2] [ref=e104]:
-                  - generic [ref=e107] [cursor=pointer]: Recurring Payroll Components
-                - treeitem "Take On Year To Date Figures" [level=2] [ref=e109]:
-                  - generic [ref=e112] [cursor=pointer]: Take On Year To Date Figures
-                - treeitem "Claims" [level=2] [ref=e114]:
-                  - generic [ref=e117] [cursor=pointer]: Claims
-                - treeitem "Change Request" [level=2] [ref=e119]:
-                  - generic [ref=e122] [cursor=pointer]: Change Request
-            - treeitem " Payroll Results " [level=1] [ref=e124]:
-              - generic [ref=e125] [cursor=pointer]:
-                - generic [ref=e126]:
-                  - generic [ref=e127]: 
-                  - generic [ref=e128]: Payroll Results
-                - generic [ref=e129]: 
-            - treeitem " Leave " [level=1] [ref=e130]:
-              - generic [ref=e131] [cursor=pointer]:
-                - generic [ref=e132]:
-                  - generic [ref=e133]: 
-                  - generic [ref=e134]: Leave
-                - generic [ref=e135]: 
-            - treeitem " Performance " [level=1] [ref=e136]:
-              - generic [ref=e137] [cursor=pointer]:
-                - generic [ref=e138]:
-                  - generic [ref=e139]: 
-                  - generic [ref=e140]: Performance
-                - generic [ref=e141]: 
-            - treeitem " Skills " [level=1] [ref=e142]:
-              - generic [ref=e143] [cursor=pointer]:
-                - generic [ref=e144]:
-                  - generic [ref=e145]: 
-                  - generic [ref=e146]: Skills
-                - generic [ref=e147]: 
-            - treeitem " Costing " [level=1] [ref=e148]:
-              - generic [ref=e149] [cursor=pointer]:
-                - generic [ref=e150]:
-                  - generic [ref=e151]: 
-                  - generic [ref=e152]: Costing
-                - generic [ref=e153]: 
-            - treeitem " Other " [level=1] [ref=e154]:
-              - generic [ref=e155] [cursor=pointer]:
-                - generic [ref=e156]:
-                  - generic [ref=e157]: 
-                  - generic [ref=e158]: Other
-                - generic [ref=e159]: 
-      - generic [ref=e160]:
-        - alert [ref=e161]: This environment is not a live environment, it is a backup from 2025/12/07
-        - generic [ref=e162]:
-          - generic [ref=e163]:
-            - generic [ref=e164]: 
-            - text: Calculations are currently in progress.
-          - text: View Details
-        - banner [ref=e165]:
-          - generic [ref=e166]:
-            - heading "Pay Rate Details" [level=1] [ref=e168]
-            - generic [ref=e169]:
-              - button "Pay Rate" [ref=e171] [cursor=pointer]:
-                - generic [ref=e172]: +
-                - text: Pay Rate
-              - button "bulletlist" [ref=e173] [cursor=pointer]:
-                - generic [ref=e175]: 
-        - main [ref=e176]:
-          - generic [ref=e177]:
-            - generic [ref=e179]:
-              - form [ref=e182]:
-                - generic [ref=e185]:
-                  - group "Current Pay Rate Detail" [ref=e190]:
-                    - generic [ref=e191]: Current Pay Rate Detail
-                    - group [ref=e200]:
-                      - generic [ref=e204]:
-                        - generic [ref=e206]:
-                          - generic [ref=e211] [cursor=pointer]:
-                            - generic [ref=e213]:
-                              - generic [ref=e214]:
-                                - combobox "Effective date" [ref=e215]: 2025/12/08
+                - generic [ref=e92]: 
+            - treeitem " Payroll Results " [level=1] [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]:
+                - generic [ref=e95]:
+                  - generic [ref=e96]: 
+                  - generic [ref=e97]: Payroll Results
+                - generic [ref=e98]: 
+            - treeitem " Leave " [level=1] [ref=e99]:
+              - generic [ref=e100] [cursor=pointer]:
+                - generic [ref=e101]:
+                  - generic [ref=e102]: 
+                  - generic [ref=e103]: Leave
+                - generic [ref=e104]: 
+            - treeitem " Performance " [level=1] [ref=e105]:
+              - generic [ref=e106] [cursor=pointer]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: 
+                  - generic [ref=e109]: Performance
+                - generic [ref=e110]: 
+            - treeitem " Skills " [level=1] [ref=e111]:
+              - generic [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]:
+                  - generic [ref=e114]: 
+                  - generic [ref=e115]: Skills
+                - generic [ref=e116]: 
+            - treeitem " Costing " [level=1] [ref=e117]:
+              - generic [ref=e118] [cursor=pointer]:
+                - generic [ref=e119]:
+                  - generic [ref=e120]: 
+                  - generic [ref=e121]: Costing
+                - generic [ref=e122]: 
+            - treeitem " Other " [level=1] [ref=e123]:
+              - generic [ref=e124] [cursor=pointer]:
+                - generic [ref=e125]:
+                  - generic [ref=e126]: 
+                  - generic [ref=e127]: Other
+                - generic [ref=e128]: 
+      - generic [ref=e129]:
+        - alert [ref=e130]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - banner [ref=e131]:
+          - generic [ref=e132]:
+            - heading "Pay Rate Details" [level=1] [ref=e134]
+            - button "bulletlist" [ref=e136] [cursor=pointer]:
+              - generic [ref=e138]: 
+        - main [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e142]:
+              - form [ref=e145]:
+                - generic [ref=e148]:
+                  - group "Current Pay Rate Detail" [ref=e153]:
+                    - generic [ref=e154]: Current Pay Rate Detail
+                    - group [ref=e163]:
+                      - generic [ref=e167]:
+                        - generic [ref=e169]:
+                          - generic [ref=e173]:
+                            - generic:
+                              - generic:
+                                - combobox [disabled]: . Monthly
+                                - generic: 
+                              - generic:
+                                - generic:
+                                  - generic: Frequency
+                          - generic [ref=e178] [cursor=pointer]:
+                            - generic [ref=e180]:
+                              - generic [ref=e181]:
+                                - combobox "Effective date" [ref=e182]: 2025/12/10
                                 - text: Effective date
-                              - button "Select" [ref=e217]:
-                                - generic [ref=e219]: 
+                              - button "Select" [ref=e184]:
+                                - generic [ref=e186]: 
                             - generic:
                               - generic:
                                 - generic: Effective date
-                          - generic [ref=e224] [cursor=pointer]:
-                            - generic [ref=e226]:
-                              - generic [ref=e227]:
-                                - combobox "Employee is paid *" [ref=e228]: per day
+                        - generic [ref=e188]:
+                          - generic [ref=e193] [cursor=pointer]:
+                            - generic [ref=e195]:
+                              - generic [ref=e196]:
+                                - combobox "Employee is paid *" [ref=e197]: per day
                                 - text: Employee is paid
-                              - button "Select" [ref=e230]:
-                                - generic [ref=e232]: 
+                              - button "Select" [ref=e199]:
+                                - generic [ref=e201]: 
                             - generic:
                               - generic:
                                 - generic: Employee is paid *
-                        - generic [ref=e234]:
-                          - generic [ref=e239]:
-                            - textbox "Increase reason" [ref=e242]: Reasons not configured
+                          - generic [ref=e206]:
+                            - textbox "Increase reason" [ref=e209]: Reasons not configured
                             - generic:
                               - generic:
                                 - generic: Increase reason
-                          - group [ref=e247]:
-                            - generic [ref=e256]:
-                              - generic [ref=e258]:
-                                - spinbutton "Package" [ref=e259]: 150,00
+                        - generic [ref=e211]:
+                          - group [ref=e216]:
+                            - generic [ref=e225]:
+                              - generic [ref=e227]:
+                                - spinbutton "Package" [ref=e228]: 150,00
                                 - text: Package
                               - generic:
                                 - generic:
                                   - generic: Package
-                        - generic [ref=e268]:
-                          - checkbox "Pay package automatically":
+                          - generic [ref=e235]:
+                            - checkbox "Pay package automatically":
+                              - generic:
+                                - generic: Pay package automatically
+                  - group "Additional" [ref=e241]:
+                    - generic [ref=e242]: Additional
+                    - generic [ref=e246]:
+                      - group [ref=e251]:
+                        - generic [ref=e257]:
+                          - generic [ref=e262]:
+                            - generic [ref=e264]:
+                              - spinbutton "Hours per day *" [ref=e265]: "8"
+                              - text: Hours per day
                             - generic:
-                              - generic: Pay package automatically
-                  - group "Additional" [ref=e276]:
-                    - generic [ref=e277]: Additional
-                    - generic [ref=e281]:
-                      - group [ref=e286]:
-                        - generic [ref=e290]:
-                          - generic [ref=e292]:
-                            - generic [ref=e297]:
-                              - generic [ref=e299]:
-                                - spinbutton "Hours per day *" [ref=e300]: "8"
-                                - text: Hours per day
                               - generic:
-                                - generic:
-                                  - generic: Hours per day *
-                            - generic [ref=e305]:
-                              - generic [ref=e307]:
-                                - spinbutton "Days per period *" [ref=e308]: "20"
-                                - text: Days per period
+                                - generic: Hours per day *
+                          - generic [ref=e270]:
+                            - generic [ref=e272]:
+                              - spinbutton "Days per period *" [ref=e273]: "20"
+                              - text: Days per period
+                            - generic:
                               - generic:
-                                - generic:
-                                  - generic: Days per period *
-                            - generic [ref=e313]:
-                              - generic [ref=e315]:
-                                - spinbutton "Hours per month" [ref=e316]: "160"
-                                - text: Hours per month
-                              - generic:
-                                - generic:
-                                  - generic: Hours per month
-                          - generic [ref=e318]:
-                            - generic [ref=e323]:
-                              - generic [ref=e325]:
-                                - spinbutton "Hourly rate" [ref=e326]: 18,75
-                                - text: Hourly rate
-                              - generic:
-                                - generic:
-                                  - generic: Hourly rate
-                            - generic [ref=e331]:
-                              - generic [ref=e333]:
-                                - spinbutton "Daily rate" [ref=e334]: 150,00
-                                - text: Daily rate
-                              - generic:
-                                - generic:
-                                  - generic: Daily rate
-                            - generic [ref=e339]:
-                              - generic [ref=e341]:
-                                - spinbutton "Monthly rate" [ref=e342]: 3000,00
-                                - text: Monthly rate
-                              - generic:
-                                - generic:
-                                  - generic: Monthly rate
-                      - group [ref=e347]:
-                        - generic [ref=e353]:
-                          - generic [ref=e357]:
+                                - generic: Days per period *
+                      - group [ref=e280]:
+                        - generic [ref=e286]:
+                          - generic [ref=e290]:
                             - checkbox " Monday" [checked]:
                               - generic:
-                                - generic [ref=e358] [cursor=pointer]: 
+                                - generic [ref=e291] [cursor=pointer]: 
                                 - generic: Monday
-                          - generic [ref=e362]:
+                          - generic [ref=e295]:
                             - checkbox "Tuesday":
                               - generic:
                                 - generic: Tuesday
-                          - generic [ref=e367]:
+                          - generic [ref=e300]:
                             - checkbox "Wednesday":
                               - generic:
                                 - generic: Wednesday
-                          - generic [ref=e372]:
+                          - generic [ref=e305]:
                             - checkbox "Thursday":
                               - generic:
                                 - generic: Thursday
-                          - generic [ref=e377]:
+                          - generic [ref=e310]:
                             - checkbox "Friday":
                               - generic:
                                 - generic: Friday
-                          - generic [ref=e382]:
+                          - generic [ref=e315]:
                             - checkbox "Saturday":
                               - generic:
                                 - generic: Saturday
-                          - generic [ref=e387]:
+                          - generic [ref=e320]:
                             - checkbox "Sunday":
                               - generic:
                                 - generic: Sunday
-                      - group [ref=e393]:
-                        - generic [ref=e402]:
-                          - generic [ref=e404]:
-                            - textbox "Comments" [ref=e405]: Laborum sono cumque.
+                      - group [ref=e326]:
+                        - generic [ref=e335]:
+                          - generic [ref=e337]:
+                            - textbox "Comments" [ref=e338]: Depopulo vero deporto auditor claustrum torrens consuasor curso cotidie sum.
                             - text: Comments
                           - generic:
                             - generic:
                               - generic: Comments
-                  - generic [ref=e408]:
+                  - generic [ref=e341]:
                     - generic:
                       - group
-              - button "Save" [ref=e411] [cursor=pointer]:
-                - generic [ref=e413]: Save
-            - tablist [ref=e414]:
-              - tab " History Data grid with 1 rows and 6 columns" [selected] [ref=e416]:
-                - generic [ref=e417] [cursor=pointer]:
+              - button "Save" [ref=e344] [cursor=pointer]:
+                - generic [ref=e346]: Save
+            - tablist [ref=e347]:
+              - tab " History Data grid with 0 rows and 6 columns" [selected] [ref=e349]:
+                - generic [ref=e350] [cursor=pointer]:
                   - text: 
-                  - generic [ref=e418]: History
-                - group "Data grid with 1 rows and 6 columns" [ref=e420]:
-                  - status [ref=e421]: Data grid with 1 rows and 6 columns
-                  - row "Column Effective date Column Employee is paid Column Package Column Daily rate percentage change Column AutomaticPayInd" [ref=e429]:
-                    - columnheader "Column Effective date" [ref=e430] [cursor=pointer]:
+                  - generic [ref=e351]: History
+                - group "Data grid with 0 rows and 6 columns" [ref=e353]:
+                  - status [ref=e354]: Data grid with 0 rows and 6 columns
+                  - row "Column Effective date Column Employee is paid Column Package Column Daily rate percentage change Column AutomaticPayInd" [ref=e362]:
+                    - columnheader "Column Effective date" [ref=e363] [cursor=pointer]:
                       - text: Effective date
-                      - generic [ref=e431]: 
-                    - columnheader "Column Employee is paid" [ref=e432] [cursor=pointer]: Employee is paid
-                    - columnheader "Column Package" [ref=e433] [cursor=pointer]: Package
-                    - columnheader "Column Daily rate percentage change" [ref=e434]: Daily rate percentage change
-                    - columnheader "Column AutomaticPayInd" [ref=e435] [cursor=pointer]: Auto pay
-                    - gridcell [ref=e436]
-                  - row "Filter cell Filter cell Filter cell Filter cell" [ref=e437]:
-                    - gridcell "Filter cell" [ref=e438]:
-                      - generic [ref=e439]:
+                      - generic [ref=e364]: 
+                    - columnheader "Column Employee is paid" [ref=e365] [cursor=pointer]: Employee is paid
+                    - columnheader "Column Package" [ref=e366] [cursor=pointer]: Package
+                    - columnheader "Column Daily rate percentage change" [ref=e367]: Daily rate percentage change
+                    - columnheader "Column AutomaticPayInd" [ref=e368] [cursor=pointer]: Auto pay
+                    - gridcell [ref=e369]
+                  - row "Filter cell Filter cell Filter cell Filter cell" [ref=e370]:
+                    - gridcell "Filter cell" [ref=e371]:
+                      - generic [ref=e372]:
                         - menubar:
-                          - menuitem "Search box" [ref=e440] [cursor=pointer]:
-                            - generic [ref=e441]:
-                              - generic [ref=e442]: 
+                          - menuitem "Search box" [ref=e373] [cursor=pointer]:
+                            - generic [ref=e374]:
+                              - generic [ref=e375]: 
                               - text: 
-                        - generic [ref=e446] [cursor=pointer]:
-                          - combobox "Filter cell" [ref=e448]
-                          - button "Select" [ref=e450]:
-                            - generic [ref=e452]: 
-                    - gridcell "Filter cell" [ref=e453]:
-                      - generic [ref=e458] [cursor=pointer]:
-                        - generic [ref=e459]:
-                          - combobox "Filter cell" [ref=e460]: (All)
+                        - generic [ref=e379] [cursor=pointer]:
+                          - combobox "Filter cell" [ref=e381]
+                          - button "Select" [ref=e383]:
+                            - generic [ref=e385]: 
+                    - gridcell "Filter cell" [ref=e386]:
+                      - generic [ref=e391] [cursor=pointer]:
+                        - generic [ref=e392]:
+                          - combobox "Filter cell" [ref=e393]: (All)
                           - text: Select...
-                        - button "Select" [ref=e462]:
-                          - generic [ref=e464]: 
-                    - gridcell "Filter cell" [ref=e465]:
-                      - generic [ref=e466]:
+                        - button "Select" [ref=e395]:
+                          - generic [ref=e397]: 
+                    - gridcell "Filter cell" [ref=e398]:
+                      - generic [ref=e399]:
                         - menubar:
-                          - menuitem "Search box" [ref=e467] [cursor=pointer]:
-                            - generic [ref=e468]:
-                              - generic [ref=e469]: 
+                          - menuitem "Search box" [ref=e400] [cursor=pointer]:
+                            - generic [ref=e401]:
+                              - generic [ref=e402]: 
                               - text: 
-                        - spinbutton "Filter cell" [ref=e474]
-                    - gridcell [ref=e475]
-                    - gridcell "Filter cell" [ref=e476]:
-                      - generic [ref=e481] [cursor=pointer]:
-                        - generic [ref=e482]:
-                          - combobox "Filter cell" [ref=e483]: (All)
+                        - spinbutton "Filter cell" [ref=e407]
+                    - gridcell [ref=e408]
+                    - gridcell "Filter cell" [ref=e409]:
+                      - generic [ref=e414] [cursor=pointer]:
+                        - generic [ref=e415]:
+                          - combobox "Filter cell" [ref=e416]: (All)
                           - text: Select...
-                        - button "Select" [ref=e485]:
-                          - generic [ref=e487]: 
-                    - gridcell [ref=e488]
-                  - grid [ref=e492]:
-                    - row "2025/12/08 per day 150,00 0,00%" [ref=e500]:
-                      - gridcell "2025/12/08" [ref=e501]
-                      - gridcell "per day" [ref=e502]
-                      - gridcell "150,00" [ref=e503]
-                      - gridcell "0,00%" [ref=e504]
-                      - gridcell [ref=e505]
-                      - gridcell [ref=e506]
-                      - generic [ref=e507] [cursor=pointer]: 
+                        - button "Select" [ref=e418]:
+                          - generic [ref=e420]: 
+                    - gridcell [ref=e421]
+                  - generic [ref=e426]: No data
+  - text:  Search 
   - complementary:
     - generic:
       - generic:
@@ -355,37 +306,29 @@
           - generic:
             - generic:
               - generic: Welcome to White Label
-              - generic [ref=e508]:
-                - img [ref=e512]
-                - generic [ref=e514]:
-                  - button "Choose language" [ref=e517] [cursor=pointer]:
-                    - generic "English" [ref=e518]:
+              - generic [ref=e427]:
+                - img [ref=e431]
+                - generic [ref=e433]:
+                  - button "Choose language" [ref=e436] [cursor=pointer]:
+                    - generic "English" [ref=e437]:
                       - text: En
-                      - img [ref=e520]
-                  - button "Modules Menu" [ref=e524] [cursor=pointer]:
-                    - img [ref=e526]
-                  - button "close asap" [ref=e528] [cursor=pointer]:
-                    - img [ref=e530]
-              - generic [ref=e532]:
+                      - img [ref=e439]
+                  - button "Modules Menu" [ref=e443] [cursor=pointer]:
+                    - img [ref=e445]
+                  - button "close asap" [ref=e447] [cursor=pointer]:
+                    - img [ref=e449]
+              - generic [ref=e451]:
                 - heading "Hi there!" [level=1]
                 - generic:
                   - paragraph: How can we help? We're here for you!
-            - generic [ref=e533]:
+            - generic [ref=e452]:
               - list:
                 - listitem:
-                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e534] [cursor=pointer]:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e453] [cursor=pointer]:
                     - generic:
-                      - img [ref=e536]:
-                        - img [ref=e537]
+                      - img [ref=e455]:
+                        - img [ref=e456]
                       - heading "Knowledge Base" [level=4]
-                    - generic [ref=e539]:
+                    - generic [ref=e458]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
-  - text:  Search 
-  - alert [ref=e541]:
-    - generic [ref=e542]:
-      - generic [ref=e544]: 
-      - strong [ref=e545]: Success
-      - generic [ref=e546]: 10:22
-      - button [ref=e547] [cursor=pointer]
-    - generic [ref=e548]: Update Successful.
 ```

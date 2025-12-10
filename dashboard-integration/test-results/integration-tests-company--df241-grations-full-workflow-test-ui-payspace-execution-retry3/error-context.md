@@ -152,7 +152,7 @@
               - generic [ref=e204]: 
         - main [ref=e205]:
           - tabpanel [ref=e206]:
-            - tablist [active] [ref=e208]:
+            - tablist [ref=e208]:
               - generic [ref=e209]:
                 - tab "Webhooks" [ref=e210] [cursor=pointer]:
                   - generic [ref=e213]: Webhooks
@@ -165,14 +165,30 @@
                 - heading "External Identity Provider" [level=6] [ref=e229]
                 - generic [ref=e235] [cursor=pointer]:
                   - generic [ref=e236]:
-                    - combobox "Select..." [ref=e237]
+                    - combobox "Select..." [expanded] [active] [ref=e237]:
+                      - group [ref=e239]:
+                        - application [ref=e243]:
+                          - listbox "Items" [ref=e244]:
+                            - option "_ AzureAD" [ref=e245]:
+                              - generic [ref=e246]: _ AzureAD
+                            - option "_ Google" [ref=e247]:
+                              - generic [ref=e248]: _ Google
                     - generic: Select...
-                  - generic [ref=e238]:
+                  - generic [ref=e249]:
                     - text: 
-                    - button "Select" [ref=e239]:
-                      - generic [ref=e241]: 
+                    - button "Select" [ref=e250]:
+                      - generic [ref=e252]: 
   - text:              Select...   
   - text:  Search 
+  - alert [ref=e254]:
+    - generic [ref=e255]:
+      - generic [ref=e257]: 
+      - strong [ref=e258]: Failed
+      - generic [ref=e259]: 13:13
+      - button [ref=e260] [cursor=pointer]: −
+      - button [ref=e261] [cursor=pointer]
+    - list [ref=e263]:
+      - listitem [ref=e264]: Please select an alternate employee
   - complementary:
     - generic:
       - generic:
@@ -180,29 +196,30 @@
           - generic:
             - generic:
               - generic: Welcome to White Label
-              - generic [ref=e242]:
-                - img [ref=e246]
-                - generic [ref=e248]:
-                  - button "Choose language" [ref=e251] [cursor=pointer]:
-                    - generic "English" [ref=e252]:
+              - generic [ref=e265]:
+                - img [ref=e269]
+                - generic [ref=e271]:
+                  - button "Choose language" [ref=e274] [cursor=pointer]:
+                    - generic "English" [ref=e275]:
                       - text: En
-                      - img [ref=e254]
-                  - button "Modules Menu" [ref=e258] [cursor=pointer]:
-                    - img [ref=e260]
-                  - button "close asap" [ref=e262] [cursor=pointer]:
-                    - img [ref=e264]
-              - generic [ref=e266]:
+                      - img [ref=e277]
+                  - button "Modules Menu" [ref=e281] [cursor=pointer]:
+                    - img [ref=e283]
+                  - button "close asap" [ref=e285] [cursor=pointer]:
+                    - img [ref=e287]
+              - generic [ref=e289]:
                 - heading "Hi there!" [level=1]
                 - generic:
                   - paragraph: How can we help? We're here for you!
-            - generic [ref=e267]:
+            - generic [ref=e290]:
               - list:
                 - listitem:
-                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e268] [cursor=pointer]:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e291] [cursor=pointer]:
                     - generic:
-                      - img [ref=e270]:
-                        - img [ref=e271]
+                      - img [ref=e293]:
+                        - img [ref=e294]
                       - heading "Knowledge Base" [level=4]
-                    - generic [ref=e273]:
+                    - generic [ref=e296]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
+  - dialog "Dropdown" [ref=e297]
 ```

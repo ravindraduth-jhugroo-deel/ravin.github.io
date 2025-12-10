@@ -1,7 +1,7 @@
 # Page snapshot
 
 ```yaml
-- generic [active] [ref=e1]:
+- generic [ref=e1]:
   - generic [ref=e2]:
     - navigation [ref=e3]:
       - generic [ref=e4]:
@@ -49,288 +49,375 @@
           - generic [ref=e50]: Config
     - generic [ref=e54]:
       - generic [ref=e56]:
-        - generic [ref=e57]:
-          - text:  Search  _  Search  _
+        - generic [ref=e58]:
           - generic [ref=e60]:
-            - generic [ref=e61]:
-              - link "Angelita Wilkinson":
-                - /url: /employees/5153191/contact
-                - img "Angelita Wilkinson" [ref=e62] [cursor=pointer]
-            - generic [ref=e63]:
-              - generic [ref=e64]: Playwright Integration Demo
-              - generic [ref=e65]: Monthly
-            - separator [ref=e66]
-            - generic [ref=e68]: Angelita Wilkinson
-            - generic [ref=e69]:
-              - link "" [ref=e70] [cursor=pointer]:
-                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=5153191&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153191%2F108658%2Fpay-rate
-              - button "843699" [ref=e71] [cursor=pointer]
-              - link "" [ref=e72] [cursor=pointer]:
-                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=5153191&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153191%2F108658%2Fpay-rate
-        - tree [ref=e75]:
-          - group [ref=e80]:
-            - treeitem " Basic Information " [level=1] [ref=e81]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Add New Employee" [level=1] [ref=e80]:
               - generic [ref=e82] [cursor=pointer]:
-                - generic [ref=e83]:
-                  - generic [ref=e84]: 
-                  - generic [ref=e85]: Basic Information
-                - generic [ref=e86]: 
-            - treeitem " Payroll Processing " [level=1] [ref=e87]:
+                - generic [ref=e83]: 
+                - generic [ref=e84]: Add New Employee
+            - treeitem " E-Onboarding" [level=1] [ref=e86]:
               - generic [ref=e88] [cursor=pointer]:
-                - generic [ref=e89]:
-                  - generic [ref=e90]: 
-                  - generic [ref=e91]: Payroll Processing
-                - generic [ref=e92]: 
-            - treeitem " Payroll Results " [level=1] [ref=e93]:
+                - generic [ref=e89]: 
+                - generic [ref=e90]: E-Onboarding
+            - treeitem " Terminate / Reinstate" [level=1] [ref=e92]:
               - generic [ref=e94] [cursor=pointer]:
-                - generic [ref=e95]:
-                  - generic [ref=e96]: 
-                  - generic [ref=e97]: Payroll Results
-                - generic [ref=e98]: 
-            - treeitem " Leave " [level=1] [ref=e99]:
+                - generic [ref=e95]: 
+                - generic [ref=e96]: Terminate / Reinstate
+            - treeitem " Transfer C" [level=1] [ref=e98]:
               - generic [ref=e100] [cursor=pointer]:
-                - generic [ref=e101]:
-                  - generic [ref=e102]: 
-                  - generic [ref=e103]: Leave
-                - generic [ref=e104]: 
-            - treeitem " Performance " [level=1] [ref=e105]:
-              - generic [ref=e106] [cursor=pointer]:
-                - generic [ref=e107]:
-                  - generic [ref=e108]: 
-                  - generic [ref=e109]: Performance
-                - generic [ref=e110]: 
-            - treeitem " Skills " [level=1] [ref=e111]:
-              - generic [ref=e112] [cursor=pointer]:
-                - generic [ref=e113]:
-                  - generic [ref=e114]: 
-                  - generic [ref=e115]: Skills
-                - generic [ref=e116]: 
-            - treeitem " Costing " [level=1] [ref=e117]:
-              - generic [ref=e118] [cursor=pointer]:
-                - generic [ref=e119]:
-                  - generic [ref=e120]: 
-                  - generic [ref=e121]: Costing
-                - generic [ref=e122]: 
-            - treeitem " Other " [level=1] [ref=e123]:
-              - generic [ref=e124] [cursor=pointer]:
-                - generic [ref=e125]:
-                  - generic [ref=e126]: 
-                  - generic [ref=e127]: Other
-                - generic [ref=e128]: 
-      - generic [ref=e129]:
-        - alert [ref=e130]: This environment is not a live environment, it is a backup from 2025/12/07
+                - generic [ref=e101]: 
+                - generic [ref=e102]: Transfer
+                - generic [ref=e103]: C
+            - treeitem " Transfer History C" [level=1] [ref=e105]:
+              - generic [ref=e107] [cursor=pointer]:
+                - generic [ref=e108]: 
+                - generic [ref=e109]: Transfer History
+                - generic [ref=e110]: C
+            - treeitem " Suspension" [level=1] [ref=e112]:
+              - generic [ref=e114] [cursor=pointer]:
+                - generic [ref=e115]: 
+                - generic [ref=e116]: Suspension
+            - treeitem " Create A Mock Payslip C" [level=1] [ref=e118]:
+              - generic [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]: 
+                - generic [ref=e122]: Create A Mock Payslip
+                - generic [ref=e123]: C
+      - generic [ref=e125]:
+        - alert [ref=e126]: This environment is not a live environment, it is a backup from 2025/12/07
         - text: 
-        - banner [ref=e131]:
-          - generic [ref=e132]:
-            - heading "Pay Rate Details" [level=1] [ref=e134]
-            - generic [ref=e135]:
-              - button "Pay Rate" [ref=e137] [cursor=pointer]:
-                - generic [ref=e138]: +
-                - text: Pay Rate
-              - button "bulletlist" [ref=e139] [cursor=pointer]:
-                - generic [ref=e141]: 
-        - main [ref=e142]:
-          - generic [ref=e143]:
-            - generic [ref=e145]:
-              - form [ref=e148]:
-                - generic [ref=e151]:
-                  - group "Current Pay Rate Detail" [ref=e156]:
-                    - generic [ref=e157]: Current Pay Rate Detail
-                    - group [ref=e166]:
-                      - generic [ref=e170]:
-                        - generic [ref=e172]:
-                          - generic [ref=e177] [cursor=pointer]:
-                            - generic [ref=e179]:
-                              - generic [ref=e180]:
-                                - combobox "Effective date" [ref=e181]: 2025/12/08
-                                - text: Effective date
-                              - button "Select" [ref=e183]:
-                                - generic [ref=e185]: 
-                            - generic:
-                              - generic:
-                                - generic: Effective date
-                          - generic [ref=e190] [cursor=pointer]:
-                            - generic [ref=e192]:
-                              - generic [ref=e193]:
-                                - combobox "Employee is paid *" [ref=e194]: per day
-                                - text: Employee is paid
-                              - button "Select" [ref=e196]:
-                                - generic [ref=e198]: 
-                            - generic:
-                              - generic:
-                                - generic: Employee is paid *
-                        - generic [ref=e200]:
-                          - generic [ref=e205]:
-                            - textbox "Increase reason" [ref=e208]: Reasons not configured
-                            - generic:
-                              - generic:
-                                - generic: Increase reason
-                          - group [ref=e213]:
-                            - generic [ref=e222]:
-                              - generic [ref=e224]:
-                                - spinbutton "Package" [ref=e225]: 150,00
-                                - text: Package
-                              - generic:
-                                - generic:
-                                  - generic: Package
-                        - generic [ref=e234]:
-                          - checkbox "Pay package automatically":
-                            - generic:
-                              - generic: Pay package automatically
-                  - group "Additional" [ref=e242]:
-                    - generic [ref=e243]: Additional
-                    - generic [ref=e247]:
-                      - group [ref=e252]:
-                        - generic [ref=e256]:
-                          - generic [ref=e258]:
-                            - generic [ref=e263]:
-                              - generic [ref=e265]:
-                                - spinbutton "Hours per day *" [ref=e266]: "8"
-                                - text: Hours per day
-                              - generic:
-                                - generic:
-                                  - generic: Hours per day *
-                            - generic [ref=e271]:
-                              - generic [ref=e273]:
-                                - spinbutton "Days per period *" [ref=e274]: "20"
-                                - text: Days per period
-                              - generic:
-                                - generic:
-                                  - generic: Days per period *
-                            - generic [ref=e279]:
-                              - generic [ref=e281]:
-                                - spinbutton "Hours per month" [ref=e282]: "160"
-                                - text: Hours per month
-                              - generic:
-                                - generic:
-                                  - generic: Hours per month
-                          - generic [ref=e284]:
-                            - generic [ref=e289]:
-                              - generic [ref=e291]:
-                                - spinbutton "Hourly rate" [ref=e292]: 18,75
-                                - text: Hourly rate
-                              - generic:
-                                - generic:
-                                  - generic: Hourly rate
-                            - generic [ref=e297]:
-                              - generic [ref=e299]:
-                                - spinbutton "Daily rate" [ref=e300]: 150,00
-                                - text: Daily rate
-                              - generic:
-                                - generic:
-                                  - generic: Daily rate
-                            - generic [ref=e305]:
-                              - generic [ref=e307]:
-                                - spinbutton "Monthly rate" [ref=e308]: 3000,00
-                                - text: Monthly rate
-                              - generic:
-                                - generic:
-                                  - generic: Monthly rate
-                      - group [ref=e313]:
-                        - generic [ref=e319]:
-                          - generic [ref=e323]:
-                            - checkbox " Monday" [checked]:
-                              - generic:
-                                - generic [ref=e324] [cursor=pointer]: 
-                                - generic: Monday
-                          - generic [ref=e328]:
-                            - checkbox "Tuesday":
-                              - generic:
-                                - generic: Tuesday
-                          - generic [ref=e333]:
-                            - checkbox "Wednesday":
-                              - generic:
-                                - generic: Wednesday
-                          - generic [ref=e338]:
-                            - checkbox "Thursday":
-                              - generic:
-                                - generic: Thursday
-                          - generic [ref=e343]:
-                            - checkbox "Friday":
-                              - generic:
-                                - generic: Friday
-                          - generic [ref=e348]:
-                            - checkbox "Saturday":
-                              - generic:
-                                - generic: Saturday
-                          - generic [ref=e353]:
-                            - checkbox "Sunday":
-                              - generic:
-                                - generic: Sunday
-                      - group [ref=e359]:
-                        - generic [ref=e368]:
-                          - generic [ref=e370]:
-                            - textbox "Comments" [ref=e371]: Tener peccatus aestivus supplanto voluptas.
-                            - text: Comments
-                          - generic:
-                            - generic:
-                              - generic: Comments
-                  - generic [ref=e374]:
+        - main [ref=e127]:
+          - generic [ref=e128]:
+            - generic [ref=e131]:
+              - heading "Stats" [level=6] [ref=e133]
+              - generic [ref=e134]:
+                - generic [ref=e139] [cursor=pointer]:
+                  - combobox [ref=e141]: December 2025
+                  - button "Select" [ref=e143]:
+                    - generic [ref=e145]: 
+                - generic [ref=e147]:
+                  - generic [ref=e149]:
+                    - generic [ref=e150]: 
+                    - generic [ref=e151]: 
+                  - generic [ref=e153]: Active Employees
+                  - heading "128 fas fa-download" [level=4] [ref=e155]:
+                    - text: "128"
+                    - button "fas fa-download" [ref=e156] [cursor=pointer]:
+                      - generic [ref=e158]: 
+                - generic [ref=e160]:
+                  - generic [ref=e162]:
+                    - generic [ref=e163]: 
+                    - generic [ref=e164]: 
+                  - generic [ref=e166]: Other Statistics
+                  - heading "fas fa-download" [level=4] [ref=e168]:
+                    - button "fas fa-download" [ref=e169] [cursor=pointer]:
+                      - generic [ref=e171]: 
+                - generic [ref=e172]:
+                  - generic [ref=e175]:
+                    - generic [ref=e177]:
+                      - generic [ref=e178]: 
+                      - generic [ref=e179]: 
+                    - generic [ref=e181]: Bank Detail Changes
+                    - heading "62" [level=4] [ref=e183]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]:
+                      - generic [ref=e189]: 
+                      - generic [ref=e190]: 
+                    - generic [ref=e192]: Reporting Line Changes
+                    - heading "0" [level=4] [ref=e194]
+                  - generic [ref=e197]:
+                    - generic [ref=e199]:
+                      - generic [ref=e200]: 
+                      - generic [ref=e201]: 
+                    - generic [ref=e203]: Position Changes
+                    - heading "0" [level=4] [ref=e205]
+                  - generic [ref=e208]:
+                    - generic [ref=e210]:
+                      - generic [ref=e211]: 
+                      - generic [ref=e212]: 
+                    - generic [ref=e214]: Pay Rate Changes
+                    - heading "0" [level=4] [ref=e216]
+                  - generic [ref=e219]:
+                    - generic [ref=e221]:
+                      - generic [ref=e222]: 
+                      - generic [ref=e223]: 
+                    - generic [ref=e225]: Active Employees Not Paid
+                    - heading "64" [level=4] [ref=e227]
+                  - generic [ref=e230]:
+                    - generic [ref=e232]:
+                      - generic [ref=e233]: 
+                      - generic [ref=e234]: 
+                    - generic [ref=e236]: Org Unit Changes
+                    - heading "0" [level=4] [ref=e238]
+            - generic [ref=e241]:
+              - heading "Employee Movement" [level=6] [ref=e243]
+              - generic [ref=e244]:
+                - generic [ref=e246]:
+                  - generic [ref=e247]:
                     - generic:
-                      - group
-              - button "Save" [ref=e377] [cursor=pointer]:
-                - generic [ref=e379]: Save
-            - tablist [ref=e380]:
-              - tab " History Data grid with 1 rows and 6 columns" [selected] [ref=e382]:
-                - generic [ref=e383] [cursor=pointer]:
-                  - text: 
-                  - generic [ref=e384]: History
-                - group "Data grid with 1 rows and 6 columns" [ref=e386]:
-                  - status [ref=e387]: Data grid with 1 rows and 6 columns
-                  - row "Column Effective date Column Employee is paid Column Package Column Daily rate percentage change Column AutomaticPayInd" [ref=e395]:
-                    - columnheader "Column Effective date" [ref=e396] [cursor=pointer]:
-                      - text: Effective date
-                      - generic [ref=e397]: 
-                    - columnheader "Column Employee is paid" [ref=e398] [cursor=pointer]: Employee is paid
-                    - columnheader "Column Package" [ref=e399] [cursor=pointer]: Package
-                    - columnheader "Column Daily rate percentage change" [ref=e400]: Daily rate percentage change
-                    - columnheader "Column AutomaticPayInd" [ref=e401] [cursor=pointer]: Auto pay
-                    - gridcell [ref=e402]
-                  - row "Filter cell Filter cell Filter cell Filter cell" [ref=e403]:
-                    - gridcell "Filter cell" [ref=e404]:
-                      - generic [ref=e405]:
-                        - menubar:
-                          - menuitem "Search box" [ref=e406] [cursor=pointer]:
-                            - generic [ref=e407]:
-                              - generic [ref=e408]: 
-                              - text: 
-                        - generic [ref=e412] [cursor=pointer]:
-                          - combobox "Filter cell" [ref=e414]
-                          - button "Select" [ref=e416]:
-                            - generic [ref=e418]: 
-                    - gridcell "Filter cell" [ref=e419]:
-                      - generic [ref=e424] [cursor=pointer]:
-                        - generic [ref=e425]:
-                          - combobox "Filter cell" [ref=e426]: (All)
-                          - text: Select...
-                        - button "Select" [ref=e428]:
-                          - generic [ref=e430]: 
-                    - gridcell "Filter cell" [ref=e431]:
-                      - generic [ref=e432]:
-                        - menubar:
-                          - menuitem "Search box" [ref=e433] [cursor=pointer]:
-                            - generic [ref=e434]:
-                              - generic [ref=e435]: 
-                              - text: 
-                        - spinbutton "Filter cell" [ref=e440]
-                    - gridcell [ref=e441]
-                    - gridcell "Filter cell" [ref=e442]:
-                      - generic [ref=e447] [cursor=pointer]:
-                        - generic [ref=e448]:
-                          - combobox "Filter cell" [ref=e449]: (All)
-                          - text: Select...
-                        - button "Select" [ref=e451]:
-                          - generic [ref=e453]: 
-                    - gridcell [ref=e454]
-                  - grid [ref=e458]:
-                    - row "2025/12/08 per day 150,00 0,00%" [ref=e466]:
-                      - gridcell "2025/12/08" [ref=e467]
-                      - gridcell "per day" [ref=e468]
-                      - gridcell "150,00" [ref=e469]
-                      - gridcell "0,00%" [ref=e470]
-                      - gridcell [ref=e471]
-                      - gridcell [ref=e472]
-                      - generic [ref=e473] [cursor=pointer]: 
+                      - generic:
+                        - generic:
+                          - generic:
+                            - combobox [disabled]: October 2025
+                          - generic:
+                            - button "Select":
+                              - generic:
+                                - generic: 
+                  - generic [ref=e249]: to
+                  - generic [ref=e253] [cursor=pointer]:
+                    - combobox [ref=e255]: December 2025
+                    - button "Select" [ref=e257]:
+                      - generic [ref=e259]: 
+                - img [ref=e262]:
+                  - generic [ref=e276]:
+                    - generic [ref=e277]:
+                      - generic [ref=e278]: "0"
+                      - generic [ref=e279]: "50"
+                      - generic [ref=e280]: "100"
+                      - generic [ref=e281]: "150"
+                    - generic [ref=e283]: December
+                  - generic [ref=e286]:
+                    - generic [ref=e290]: Terminations
+                    - generic [ref=e294]: New Engagements
+                - generic [ref=e295]:
+                  - generic [ref=e296]:
+                    - generic [ref=e297]: Termination Reason
+                    - img [ref=e300]
+                    - generic [ref=e307]:
+                      - img [ref=e309]
+                      - text: Contract Expired
+                  - generic [ref=e311]:
+                    - generic [ref=e312]: Leaver's Length of Service
+                    - img [ref=e315]
+                    - generic [ref=e322]:
+                      - img [ref=e324]
+                      - text: < 1
+  - dialog [ref=e326]:
+    - generic [ref=e327]:
+      - heading "Employee search" [level=5] [ref=e328]
+      - button [ref=e329] [cursor=pointer]
+    - generic [ref=e330]:
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - generic [ref=e336]:
+              - generic: 
+              - textbox "Employee" [active] [ref=e337]: Lewis Schmitt
+            - generic [ref=e340] [cursor=pointer]: 
+          - generic:
+            - generic:
+              - generic: Employee
+        - checkbox "Incl. Terminated":
+          - generic:
+            - generic: Incl. Terminated
+        - application [ref=e342] [cursor=pointer]:
+          - generic [ref=e345]:
+            - combobox "Company" [ref=e346]
+            - generic: Select...
+          - generic:
+            - generic:
+              - generic: Company
+        - text: Select...
+        - generic [ref=e347]:
+          - button "Clear Filters" [ref=e348] [cursor=pointer]:
+            - generic [ref=e350]: Clear Filters
+          - button "Search" [ref=e351] [cursor=pointer]:
+            - generic [ref=e353]: Search
+      - generic [ref=e354]:
+        - paragraph [ref=e355]: "Results: 275 | Terminated: 5"
+        - group [ref=e356]:
+          - application [ref=e360]:
+            - listbox "Items" [ref=e361]:
+              - option "_ Bluey Heeler Playwright Integration Demo Bluey Heeler (PW001) Monthly" [ref=e362] [cursor=pointer]:
+                - generic [ref=e363]:
+                  - text: _
+                  - generic [ref=e364]:
+                    - img "Bluey Heeler" [ref=e365]
+                    - generic [ref=e366]:
+                      - generic [ref=e367]: Playwright Integration Demo
+                      - generic [ref=e368]: Bluey Heeler (PW001)
+                      - generic [ref=e369]: Monthly
+              - option "_ Bingo Heeler Playwright Integration Demo Bingo Heeler (PW002) Monthly" [ref=e370] [cursor=pointer]:
+                - generic [ref=e371]:
+                  - text: _
+                  - generic [ref=e372]:
+                    - img "Bingo Heeler" [ref=e373]
+                    - generic [ref=e374]:
+                      - generic [ref=e375]: Playwright Integration Demo
+                      - generic [ref=e376]: Bingo Heeler (PW002)
+                      - generic [ref=e377]: Monthly
+              - option "_ Chilli Heeler Playwright Integration Demo Chilli Heeler (PW003) Monthly" [ref=e378] [cursor=pointer]:
+                - generic [ref=e379]:
+                  - text: _
+                  - generic [ref=e380]:
+                    - img "Chilli Heeler" [ref=e381]
+                    - generic [ref=e382]:
+                      - generic [ref=e383]: Playwright Integration Demo
+                      - generic [ref=e384]: Chilli Heeler (PW003)
+                      - generic [ref=e385]: Monthly
+              - option "_ Automation Employee Playwright Integration Demo Automation Employee (000234) Monthly" [ref=e386] [cursor=pointer]:
+                - generic [ref=e387]:
+                  - text: _
+                  - generic [ref=e388]:
+                    - img "Automation Employee" [ref=e389]
+                    - generic [ref=e390]:
+                      - generic [ref=e391]: Playwright Integration Demo
+                      - generic [ref=e392]: Automation Employee (000234)
+                      - generic [ref=e393]: Monthly
+              - option "_ Automation EmployeeBP Playwright Integration Demo Automation EmployeeBP (000235) Monthly" [ref=e394] [cursor=pointer]:
+                - generic [ref=e395]:
+                  - text: _
+                  - generic [ref=e396]:
+                    - img "Automation EmployeeBP" [ref=e397]
+                    - generic [ref=e398]:
+                      - generic [ref=e399]: Playwright Integration Demo
+                      - generic [ref=e400]: Automation EmployeeBP (000235)
+                      - generic [ref=e401]: Monthly
+              - option "_ Alexander Borer Playwright Integration Demo Alexander Borer (710862) Monthly" [ref=e402] [cursor=pointer]:
+                - generic [ref=e403]:
+                  - text: _
+                  - generic [ref=e404]:
+                    - img "Alexander Borer" [ref=e405]
+                    - generic [ref=e406]:
+                      - generic [ref=e407]: Playwright Integration Demo
+                      - generic [ref=e408]: Alexander Borer (710862)
+                      - generic [ref=e409]: Monthly
+              - option "_ Laila Rogahn Playwright Integration Demo Laila Rogahn (392278) Monthly" [ref=e410] [cursor=pointer]:
+                - generic [ref=e411]:
+                  - text: _
+                  - generic [ref=e412]:
+                    - img "Laila Rogahn" [ref=e413]
+                    - generic [ref=e414]:
+                      - generic [ref=e415]: Playwright Integration Demo
+                      - generic [ref=e416]: Laila Rogahn (392278)
+                      - generic [ref=e417]: Monthly
+              - option "_ Tessie Buckridge Playwright Integration Demo Tessie Buckridge (966542) Monthly" [ref=e418] [cursor=pointer]:
+                - generic [ref=e419]:
+                  - text: _
+                  - generic [ref=e420]:
+                    - img "Tessie Buckridge" [ref=e421]
+                    - generic [ref=e422]:
+                      - generic [ref=e423]: Playwright Integration Demo
+                      - generic [ref=e424]: Tessie Buckridge (966542)
+                      - generic [ref=e425]: Monthly
+              - option "_ Estevan Hintz Playwright Integration Demo Estevan Hintz (517160) Monthly" [ref=e426] [cursor=pointer]:
+                - generic [ref=e427]:
+                  - text: _
+                  - generic [ref=e428]:
+                    - img "Estevan Hintz" [ref=e429]
+                    - generic [ref=e430]:
+                      - generic [ref=e431]: Playwright Integration Demo
+                      - generic [ref=e432]: Estevan Hintz (517160)
+                      - generic [ref=e433]: Monthly
+              - option "_ Fermin Schiller Playwright Integration Demo Fermin Schiller (046876) Monthly" [ref=e434] [cursor=pointer]:
+                - generic [ref=e435]:
+                  - text: _
+                  - generic [ref=e436]:
+                    - img "Fermin Schiller" [ref=e437]
+                    - generic [ref=e438]:
+                      - generic [ref=e439]: Playwright Integration Demo
+                      - generic [ref=e440]: Fermin Schiller (046876)
+                      - generic [ref=e441]: Monthly
+              - option "_ Anthony Connelly Playwright Integration Demo Anthony Connelly (274925) Monthly" [ref=e442] [cursor=pointer]:
+                - generic [ref=e443]:
+                  - text: _
+                  - generic [ref=e444]:
+                    - img "Anthony Connelly" [ref=e445]
+                    - generic [ref=e446]:
+                      - generic [ref=e447]: Playwright Integration Demo
+                      - generic [ref=e448]: Anthony Connelly (274925)
+                      - generic [ref=e449]: Monthly
+              - option "_ Georgette Mertz Playwright Integration Demo Georgette Mertz (220207) Monthly" [ref=e450] [cursor=pointer]:
+                - generic [ref=e451]:
+                  - text: _
+                  - generic [ref=e452]:
+                    - img "Georgette Mertz" [ref=e453]
+                    - generic [ref=e454]:
+                      - generic [ref=e455]: Playwright Integration Demo
+                      - generic [ref=e456]: Georgette Mertz (220207)
+                      - generic [ref=e457]: Monthly
+              - option "_ Alvis Spinka Playwright Integration Demo Alvis Spinka (079465) Monthly" [ref=e458] [cursor=pointer]:
+                - generic [ref=e459]:
+                  - text: _
+                  - generic [ref=e460]:
+                    - img "Alvis Spinka" [ref=e461]
+                    - generic [ref=e462]:
+                      - generic [ref=e463]: Playwright Integration Demo
+                      - generic [ref=e464]: Alvis Spinka (079465)
+                      - generic [ref=e465]: Monthly
+              - option "_ Amanda Abshire Playwright Integration Demo Amanda Abshire (912774) Monthly" [ref=e466] [cursor=pointer]:
+                - generic [ref=e467]:
+                  - text: _
+                  - generic [ref=e468]:
+                    - img "Amanda Abshire" [ref=e469]
+                    - generic [ref=e470]:
+                      - generic [ref=e471]: Playwright Integration Demo
+                      - generic [ref=e472]: Amanda Abshire (912774)
+                      - generic [ref=e473]: Monthly
+              - option "_ Tyrique Sporer Playwright Integration Demo Tyrique Sporer (268670) Monthly" [ref=e474] [cursor=pointer]:
+                - generic [ref=e475]:
+                  - text: _
+                  - generic [ref=e476]:
+                    - img "Tyrique Sporer" [ref=e477]
+                    - generic [ref=e478]:
+                      - generic [ref=e479]: Playwright Integration Demo
+                      - generic [ref=e480]: Tyrique Sporer (268670)
+                      - generic [ref=e481]: Monthly
+              - option "_ Misty Stokes Playwright Integration Demo Misty Stokes (117536) Monthly" [ref=e482] [cursor=pointer]:
+                - generic [ref=e483]:
+                  - text: _
+                  - generic [ref=e484]:
+                    - img "Misty Stokes" [ref=e485]
+                    - generic [ref=e486]:
+                      - generic [ref=e487]: Playwright Integration Demo
+                      - generic [ref=e488]: Misty Stokes (117536)
+                      - generic [ref=e489]: Monthly
+              - option "_ Jett Jacobson Playwright Integration Demo Jett Jacobson (779487) Monthly" [ref=e490] [cursor=pointer]:
+                - generic [ref=e491]:
+                  - text: _
+                  - generic [ref=e492]:
+                    - img "Jett Jacobson" [ref=e493]
+                    - generic [ref=e494]:
+                      - generic [ref=e495]: Playwright Integration Demo
+                      - generic [ref=e496]: Jett Jacobson (779487)
+                      - generic [ref=e497]: Monthly
+              - option "_ Alia Schinner Playwright Integration Demo Alia Schinner (860239) Monthly" [ref=e498] [cursor=pointer]:
+                - generic [ref=e499]:
+                  - text: _
+                  - generic [ref=e500]:
+                    - img "Alia Schinner" [ref=e501]
+                    - generic [ref=e502]:
+                      - generic [ref=e503]: Playwright Integration Demo
+                      - generic [ref=e504]: Alia Schinner (860239)
+                      - generic [ref=e505]: Monthly
+              - option "_ Connie Mueller Playwright Integration Demo Connie Mueller (885935) Monthly" [ref=e506] [cursor=pointer]:
+                - generic [ref=e507]:
+                  - text: _
+                  - generic [ref=e508]:
+                    - img "Connie Mueller" [ref=e509]
+                    - generic [ref=e510]:
+                      - generic [ref=e511]: Playwright Integration Demo
+                      - generic [ref=e512]: Connie Mueller (885935)
+                      - generic [ref=e513]: Monthly
+              - option "_ Winifred Keebler Playwright Integration Demo Winifred Keebler (433153) Monthly" [ref=e514] [cursor=pointer]:
+                - generic [ref=e515]:
+                  - text: _
+                  - generic [ref=e516]:
+                    - img "Winifred Keebler" [ref=e517]
+                    - generic [ref=e518]:
+                      - generic [ref=e519]: Playwright Integration Demo
+                      - generic [ref=e520]: Winifred Keebler (433153)
+                      - generic [ref=e521]: Monthly
+            - button "More" [ref=e523] [cursor=pointer]:
+              - generic [ref=e525]: More
   - text:  Search 
   - complementary:
     - generic:
@@ -339,29 +426,29 @@
           - generic:
             - generic:
               - generic: Welcome to White Label
-              - generic [ref=e474]:
-                - img [ref=e478]
-                - generic [ref=e480]:
-                  - button "Choose language" [ref=e483] [cursor=pointer]:
-                    - generic "English" [ref=e484]:
+              - generic [ref=e526]:
+                - img [ref=e530]
+                - generic [ref=e532]:
+                  - button "Choose language" [ref=e535] [cursor=pointer]:
+                    - generic "English" [ref=e536]:
                       - text: En
-                      - img [ref=e486]
-                  - button "Modules Menu" [ref=e490] [cursor=pointer]:
-                    - img [ref=e492]
-                  - button "close asap" [ref=e494] [cursor=pointer]:
-                    - img [ref=e496]
-              - generic [ref=e498]:
+                      - img [ref=e538]
+                  - button "Modules Menu" [ref=e542] [cursor=pointer]:
+                    - img [ref=e544]
+                  - button "close asap" [ref=e546] [cursor=pointer]:
+                    - img [ref=e548]
+              - generic [ref=e550]:
                 - heading "Hi there!" [level=1]
                 - generic:
                   - paragraph: How can we help? We're here for you!
-            - generic [ref=e499]:
+            - generic [ref=e551]:
               - list:
                 - listitem:
-                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e500] [cursor=pointer]:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e552] [cursor=pointer]:
                     - generic:
-                      - img [ref=e502]:
-                        - img [ref=e503]
+                      - img [ref=e554]:
+                        - img [ref=e555]
                       - heading "Knowledge Base" [level=4]
-                    - generic [ref=e505]:
+                    - generic [ref=e557]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
 ```

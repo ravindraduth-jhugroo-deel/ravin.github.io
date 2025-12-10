@@ -53,20 +53,20 @@
           - text:  Search  _  Search  _
           - generic [ref=e60]:
             - generic [ref=e61]:
-              - link "Celestine Satterfield":
-                - /url: /employees/5153182/contact
-                - img "Celestine Satterfield" [ref=e62] [cursor=pointer]
+              - link "Citlalli Block":
+                - /url: /employees/5153418/contact
+                - img "Citlalli Block" [ref=e62] [cursor=pointer]
             - generic [ref=e63]:
               - generic [ref=e64]: Playwright Integration Demo
               - generic [ref=e65]: Monthly
             - separator [ref=e66]
-            - generic [ref=e68]: Celestine Satterfield
+            - generic [ref=e68]: Citlalli Block
             - generic [ref=e69]:
               - link "" [ref=e70] [cursor=pointer]:
-                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=5153182&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153182%2F108658%2Fposition
-              - button "254127" [ref=e71] [cursor=pointer]
+                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=5153418&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153418%2F108658%2Fposition
+              - button "090200" [ref=e71] [cursor=pointer]
               - link "" [ref=e72] [cursor=pointer]:
-                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=5153182&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153182%2F108658%2Fposition
+                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=5153418&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153418%2F108658%2Fposition
         - tree [ref=e75]:
           - group [ref=e80]:
             - treeitem " Basic Information " [expanded] [level=1] [ref=e81]:
@@ -160,7 +160,7 @@
                     - generic [ref=e217] [cursor=pointer]:
                       - generic [ref=e219]:
                         - generic [ref=e220]:
-                          - combobox "Effective Date *" [ref=e221]: 1/01/01
+                          - combobox "Effective Date *" [ref=e221]: 2025/12/08
                           - text: Effective Date
                         - button "Select" [ref=e223]:
                           - generic [ref=e225]: 
@@ -183,10 +183,7 @@
                         - generic [ref=e263]:
                           - generic [ref=e268] [cursor=pointer]:
                             - generic [ref=e269]:
-                              - combobox [ref=e270]:
-                                - text: .
-                                - generic: Position
-                                - text:  Search 
+                              - combobox [ref=e270]: . Automation
                               - generic: 
                             - generic:
                               - generic:
@@ -196,6 +193,7 @@
                               - combobox [ref=e277]:
                                 - text: .
                                 - generic: Job
+                                - text:  Search 
                               - generic: 
                             - generic:
                               - generic:
@@ -208,8 +206,8 @@
                         - generic [ref=e292] [cursor=pointer]:
                           - generic [ref=e294]:
                             - generic [ref=e295]:
-                              - combobox "Organisation unit *" [ref=e296]
-                              - generic: Organisation unit
+                              - combobox "Organisation unit *" [ref=e296]: Playwright Integration Demo
+                              - text: Organisation unit
                             - button "Select" [ref=e298]:
                               - generic [ref=e299]:
                                 - generic: 
@@ -222,7 +220,7 @@
                     - form [ref=e318]:
                       - generic [ref=e323]:
                         - generic [ref=e328] [cursor=pointer]:
-                          - combobox "Default grade" [ref=e332]
+                          - combobox "Default grade" [ref=e332]: T Test
                           - generic:
                             - generic:
                               - generic: Default grade
@@ -360,7 +358,6 @@
                         - generic [ref=e518]: 
                   - gridcell [ref=e519]
                 - generic [ref=e521]: No data
-  - text:  Search 
   - complementary:
     - generic:
       - generic:
@@ -393,4 +390,5 @@
                       - heading "Knowledge Base" [level=4]
                     - generic [ref=e553]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
+  - text:  Search 
 ```

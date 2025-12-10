@@ -1,7 +1,7 @@
 # Page snapshot
 
 ```yaml
-- generic [ref=e1]:
+- generic [active] [ref=e1]:
   - generic [ref=e2]:
     - navigation [ref=e3]:
       - generic [ref=e4]:
@@ -108,8 +108,8 @@
                     - generic [ref=e150]: 
                     - generic [ref=e151]: 
                   - generic [ref=e153]: Active Employees
-                  - heading "102 fas fa-download" [level=4] [ref=e155]:
-                    - text: "102"
+                  - heading "128 fas fa-download" [level=4] [ref=e155]:
+                    - text: "128"
                     - button "fas fa-download" [ref=e156] [cursor=pointer]:
                       - generic [ref=e158]: 
                 - generic [ref=e160]:
@@ -126,7 +126,7 @@
                       - generic [ref=e178]: 
                       - generic [ref=e179]: 
                     - generic [ref=e181]: Bank Detail Changes
-                    - heading "47" [level=4] [ref=e183]
+                    - heading "62" [level=4] [ref=e183]
                   - generic [ref=e186]:
                     - generic [ref=e188]:
                       - generic [ref=e189]: 
@@ -150,7 +150,7 @@
                       - generic [ref=e222]: 
                       - generic [ref=e223]: 
                     - generic [ref=e225]: Active Employees Not Paid
-                    - heading "53" [level=4] [ref=e227]
+                    - heading "64" [level=4] [ref=e227]
                   - generic [ref=e230]:
                     - generic [ref=e232]:
                       - generic [ref=e233]: 
@@ -180,63 +180,62 @@
                   - generic [ref=e276]:
                     - generic [ref=e277]:
                       - generic [ref=e278]: "0"
-                      - generic [ref=e279]: "25"
-                      - generic [ref=e280]: "50"
-                      - generic [ref=e281]: "75"
-                      - generic [ref=e282]: "100"
-                    - generic [ref=e284]: December
-                  - generic [ref=e287]:
-                    - generic [ref=e291]: Terminations
-                    - generic [ref=e295]: New Engagements
-                - generic [ref=e296]:
-                  - generic [ref=e297]:
-                    - generic [ref=e298]: Termination Reason
-                    - img [ref=e301]
-                    - generic [ref=e308]:
-                      - img [ref=e310]
+                      - generic [ref=e279]: "50"
+                      - generic [ref=e280]: "100"
+                      - generic [ref=e281]: "150"
+                    - generic [ref=e283]: December
+                  - generic [ref=e286]:
+                    - generic [ref=e290]: Terminations
+                    - generic [ref=e294]: New Engagements
+                - generic [ref=e295]:
+                  - generic [ref=e296]:
+                    - generic [ref=e297]: Termination Reason
+                    - img [ref=e300]
+                    - generic [ref=e307]:
+                      - img [ref=e309]
                       - text: Contract Expired
-                  - generic [ref=e312]:
-                    - generic [ref=e313]: Leaver's Length of Service
-                    - img [ref=e316]
-                    - generic [ref=e323]:
-                      - img [ref=e325]
+                  - generic [ref=e311]:
+                    - generic [ref=e312]: Leaver's Length of Service
+                    - img [ref=e315]
+                    - generic [ref=e322]:
+                      - img [ref=e324]
                       - text: < 1
-  - dialog [ref=e327]:
-    - generic [ref=e328]:
-      - heading "Employee search" [level=5] [ref=e329]
-      - button [ref=e330] [cursor=pointer]
-    - generic [ref=e331]:
-      - generic [ref=e334]:
-        - generic [ref=e335]:
-          - generic [ref=e336]:
-            - generic [ref=e337]:
+  - dialog [ref=e326]:
+    - generic [ref=e327]:
+      - heading "Employee search" [level=5] [ref=e328]
+      - button [ref=e329] [cursor=pointer]
+    - generic [ref=e330]:
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - generic [ref=e336]:
               - generic: 
-              - textbox "Employee" [active] [ref=e338]: Unknown Employee
-            - generic [ref=e341] [cursor=pointer]: 
+              - textbox "Employee" [ref=e337]: Unknown Employee
+            - generic [ref=e340] [cursor=pointer]: 
           - generic:
             - generic:
               - generic: Employee
         - checkbox "Incl. Terminated":
           - generic:
             - generic: Incl. Terminated
-        - application [ref=e343] [cursor=pointer]:
-          - generic [ref=e346]:
-            - combobox "Company" [ref=e347]
+        - application [ref=e342] [cursor=pointer]:
+          - generic [ref=e345]:
+            - combobox "Company" [ref=e346]
             - generic: Select...
           - generic:
             - generic:
               - generic: Company
         - text: Select...
-        - generic [ref=e348]:
-          - button "Clear Filters" [ref=e349] [cursor=pointer]:
-            - generic [ref=e351]: Clear Filters
-          - button "Search" [ref=e352] [cursor=pointer]:
-            - generic [ref=e354]: Search
-      - generic [ref=e355]:
-        - paragraph [ref=e356]: "Results: 0 | Terminated: 0"
-        - group [ref=e357]:
-          - application [ref=e361]:
-            - generic [ref=e362]: No relevant data available
+        - generic [ref=e347]:
+          - button "Clear Filters" [ref=e348] [cursor=pointer]:
+            - generic [ref=e350]: Clear Filters
+          - button "Search" [ref=e351] [cursor=pointer]:
+            - generic [ref=e353]: Search
+      - generic [ref=e354]:
+        - paragraph [ref=e355]: "Results: 0 | Terminated: 0"
+        - group [ref=e356]:
+          - application [ref=e360]:
+            - generic [ref=e361]: No relevant data available
   - text:  Search 
   - complementary:
     - generic:
@@ -245,29 +244,29 @@
           - generic:
             - generic:
               - generic: Welcome to White Label
-              - generic [ref=e363]:
-                - img [ref=e367]
-                - generic [ref=e369]:
-                  - button "Choose language" [ref=e372] [cursor=pointer]:
-                    - generic "English" [ref=e373]:
+              - generic [ref=e362]:
+                - img [ref=e366]
+                - generic [ref=e368]:
+                  - button "Choose language" [ref=e371] [cursor=pointer]:
+                    - generic "English" [ref=e372]:
                       - text: En
-                      - img [ref=e375]
-                  - button "Modules Menu" [ref=e379] [cursor=pointer]:
-                    - img [ref=e381]
-                  - button "close asap" [ref=e383] [cursor=pointer]:
-                    - img [ref=e385]
-              - generic [ref=e387]:
+                      - img [ref=e374]
+                  - button "Modules Menu" [ref=e378] [cursor=pointer]:
+                    - img [ref=e380]
+                  - button "close asap" [ref=e382] [cursor=pointer]:
+                    - img [ref=e384]
+              - generic [ref=e386]:
                 - heading "Hi there!" [level=1]
                 - generic:
                   - paragraph: How can we help? We're here for you!
-            - generic [ref=e388]:
+            - generic [ref=e387]:
               - list:
                 - listitem:
-                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e389] [cursor=pointer]:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e388] [cursor=pointer]:
                     - generic:
-                      - img [ref=e391]:
-                        - img [ref=e392]
+                      - img [ref=e390]:
+                        - img [ref=e391]
                       - heading "Knowledge Base" [level=4]
-                    - generic [ref=e394]:
+                    - generic [ref=e393]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
 ```

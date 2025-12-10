@@ -152,7 +152,7 @@
               - generic [ref=e204]: 
         - main [ref=e205]:
           - tabpanel [ref=e206]:
-            - tablist [ref=e208]:
+            - tablist [active] [ref=e208]:
               - generic [ref=e209]:
                 - tab "Webhooks" [ref=e210] [cursor=pointer]:
                   - generic [ref=e213]: Webhooks
@@ -165,19 +165,12 @@
                 - heading "External Identity Provider" [level=6] [ref=e229]
                 - generic [ref=e235] [cursor=pointer]:
                   - generic [ref=e236]:
-                    - combobox "Select..." [expanded] [active] [ref=e237]:
-                      - group [ref=e239]:
-                        - application [ref=e243]:
-                          - listbox "Items" [ref=e244]:
-                            - option "_ AzureAD" [ref=e245]:
-                              - generic [ref=e246]: _ AzureAD
-                            - option "_ Google" [ref=e247]:
-                              - generic [ref=e248]: _ Google
+                    - combobox "Select..." [ref=e237]
                     - generic: Select...
-                  - generic [ref=e249]:
+                  - generic [ref=e238]:
                     - text: 
-                    - button "Select" [ref=e250]:
-                      - generic [ref=e252]: 
+                    - button "Select" [ref=e239]:
+                      - generic [ref=e241]: 
   - text:              Select...   
   - text:  Search 
   - complementary:
@@ -187,30 +180,29 @@
           - generic:
             - generic:
               - generic: Welcome to White Label
-              - generic [ref=e253]:
-                - img [ref=e257]
-                - generic [ref=e259]:
-                  - button "Choose language" [ref=e262] [cursor=pointer]:
-                    - generic "English" [ref=e263]:
+              - generic [ref=e242]:
+                - img [ref=e246]
+                - generic [ref=e248]:
+                  - button "Choose language" [ref=e251] [cursor=pointer]:
+                    - generic "English" [ref=e252]:
                       - text: En
-                      - img [ref=e265]
-                  - button "Modules Menu" [ref=e269] [cursor=pointer]:
-                    - img [ref=e271]
-                  - button "close asap" [ref=e273] [cursor=pointer]:
-                    - img [ref=e275]
-              - generic [ref=e277]:
+                      - img [ref=e254]
+                  - button "Modules Menu" [ref=e258] [cursor=pointer]:
+                    - img [ref=e260]
+                  - button "close asap" [ref=e262] [cursor=pointer]:
+                    - img [ref=e264]
+              - generic [ref=e266]:
                 - heading "Hi there!" [level=1]
                 - generic:
                   - paragraph: How can we help? We're here for you!
-            - generic [ref=e278]:
+            - generic [ref=e267]:
               - list:
                 - listitem:
-                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e279] [cursor=pointer]:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e268] [cursor=pointer]:
                     - generic:
-                      - img [ref=e281]:
-                        - img [ref=e282]
+                      - img [ref=e270]:
+                        - img [ref=e271]
                       - heading "Knowledge Base" [level=4]
-                    - generic [ref=e284]:
+                    - generic [ref=e273]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
-  - dialog "Dropdown" [ref=e285]
 ```

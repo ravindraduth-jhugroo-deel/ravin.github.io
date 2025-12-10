@@ -1,0 +1,250 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Basic Settings " [level=1] [ref=e80]:
+              - generic [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]:
+                  - generic [ref=e83]: 
+                  - generic [ref=e84]: Basic Settings
+                - generic [ref=e85]: 
+            - treeitem " Payroll " [level=1] [ref=e86]:
+              - generic [ref=e87] [cursor=pointer]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]: 
+                  - generic [ref=e90]: Payroll
+                - generic [ref=e91]: 
+            - treeitem " Human Resources " [expanded] [level=1] [ref=e92]:
+              - generic [ref=e93] [cursor=pointer]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: 
+                  - generic [ref=e96]: Human Resources
+                - generic [ref=e97]: 
+              - group [ref=e98]:
+                - treeitem "Leave Administration " [level=2] [ref=e99]:
+                  - generic [ref=e100] [cursor=pointer]:
+                    - generic [ref=e102]: Leave Administration
+                    - generic [ref=e103]: 
+                - treeitem "Organisation Structure " [level=2] [ref=e104]:
+                  - generic [ref=e105] [cursor=pointer]:
+                    - generic [ref=e107]: Organisation Structure
+                    - generic [ref=e108]: 
+                - treeitem "Performance Management " [expanded] [level=2] [ref=e109]:
+                  - generic [ref=e110] [cursor=pointer]:
+                    - generic [ref=e112]: Performance Management
+                    - generic [ref=e113]: 
+                  - group [ref=e114]:
+                    - treeitem "Evaluation Process Types C" [level=3] [ref=e115]:
+                      - generic [ref=e117] [cursor=pointer]:
+                        - generic [ref=e118]: Evaluation Process Types
+                        - generic [ref=e119]: C
+                    - treeitem "Scale Definitions C" [level=3] [ref=e121]:
+                      - generic [ref=e123] [cursor=pointer]:
+                        - generic [ref=e124]: Scale Definitions
+                        - generic [ref=e125]: C
+                    - treeitem "Evaluation Processes C" [level=3] [ref=e127]:
+                      - generic [ref=e129] [cursor=pointer]:
+                        - generic [ref=e130]: Evaluation Processes
+                        - generic [ref=e131]: C
+                    - treeitem "Scale Options C" [level=3] [ref=e133]:
+                      - generic [ref=e135] [cursor=pointer]:
+                        - generic [ref=e136]: Scale Options
+                        - generic [ref=e137]: C
+                    - treeitem "Template Definition C" [level=3] [ref=e139]:
+                      - generic [ref=e141] [cursor=pointer]:
+                        - generic [ref=e142]: Template Definition
+                        - generic [ref=e143]: C
+                    - treeitem "KPI Setup C" [level=3] [ref=e145]:
+                      - generic [ref=e147] [cursor=pointer]:
+                        - generic [ref=e148]: KPI Setup
+                        - generic [ref=e149]: C
+                    - treeitem "KPI Targets C" [level=3] [ref=e151]:
+                      - generic [ref=e153] [cursor=pointer]:
+                        - generic [ref=e154]: KPI Targets
+                        - generic [ref=e155]: C
+                    - treeitem "KPI Scorecard C" [level=3] [ref=e157]:
+                      - generic [ref=e159] [cursor=pointer]:
+                        - generic [ref=e160]: KPI Scorecard
+                        - generic [ref=e161]: C
+                    - treeitem "Employee KPA Definitions C" [level=3] [ref=e163]:
+                      - generic [ref=e165] [cursor=pointer]:
+                        - generic [ref=e166]: Employee KPA Definitions
+                        - generic [ref=e167]: C
+                    - treeitem "Succession Planning Configuration C" [level=3] [ref=e169]:
+                      - generic [ref=e171] [cursor=pointer]:
+                        - generic [ref=e172]: Succession Planning Configuration
+                        - generic [ref=e173]: C
+                    - treeitem "Mass Template Attachment Utility C" [level=3] [ref=e175]:
+                      - generic [ref=e177] [cursor=pointer]:
+                        - generic [ref=e178]: Mass Template Attachment Utility
+                        - generic [ref=e179]: C
+                    - treeitem "Performance Management Settings" [level=3] [selected] [ref=e181]:
+                      - generic [ref=e184] [cursor=pointer]: Performance Management Settings
+                - treeitem "Upskilling " [level=2] [ref=e186]:
+                  - generic [ref=e187] [cursor=pointer]:
+                    - generic [ref=e189]: Upskilling
+                    - generic [ref=e190]: 
+                - treeitem "Workforce Planning " [level=2] [ref=e191]:
+                  - generic [ref=e192] [cursor=pointer]:
+                    - generic [ref=e194]: Workforce Planning
+                    - generic [ref=e195]: 
+                - treeitem "Workforce Planning Setup " [level=2] [ref=e196]:
+                  - generic [ref=e197] [cursor=pointer]:
+                    - generic [ref=e199]: Workforce Planning Setup
+                    - generic [ref=e200]: 
+                - treeitem "Employment Equity " [level=2] [ref=e201]:
+                  - generic [ref=e202] [cursor=pointer]:
+                    - generic [ref=e204]: Employment Equity
+                    - generic [ref=e205]: 
+            - treeitem " Security " [level=1] [ref=e206]:
+              - generic [ref=e207] [cursor=pointer]:
+                - generic [ref=e208]:
+                  - generic [ref=e209]: 
+                  - generic [ref=e210]: Security
+                - generic [ref=e211]: 
+            - treeitem " Financial " [level=1] [ref=e212]:
+              - generic [ref=e213] [cursor=pointer]:
+                - generic [ref=e214]:
+                  - generic [ref=e215]: 
+                  - generic [ref=e216]: Financial
+                - generic [ref=e217]: 
+      - generic [ref=e221]:
+        - alert [ref=e222]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - banner [ref=e223]:
+          - generic [ref=e224]:
+            - heading "Performance Management Settings" [level=1] [ref=e226]
+            - button "bulletlist" [ref=e228] [cursor=pointer]:
+              - generic [ref=e230]: 
+        - main [ref=e231]:
+          - generic [ref=e232]:
+            - form [ref=e234]:
+              - group "Performance Management Settings" [ref=e242]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]: Performance Management Settings
+                  - button "chevronup" [ref=e245] [cursor=pointer]:
+                    - generic [ref=e247]: 
+                - generic [ref=e251]:
+                  - generic [ref=e256]:
+                    - textbox "Notify email recipient on employee score rejection" [ref=e259]
+                    - generic:
+                      - generic:
+                        - generic: Notify email recipient on employee score rejection
+                  - generic [ref=e263]:
+                    - checkbox "Enable an employee to approve their manager's appraisal score before their score is finalised":
+                      - generic:
+                        - generic: Enable an employee to approve their manager's appraisal score before their score is finalised
+                  - generic [ref=e268]:
+                    - checkbox "Enable the capability to add a second scale to KPA Sections":
+                      - generic:
+                        - generic: Enable the capability to add a second scale to KPA Sections
+                  - generic [ref=e273]:
+                    - checkbox "Enable employees to be able to maintain their own KPA's - all changes must be approved by their manager":
+                      - generic:
+                        - generic: Enable employees to be able to maintain their own KPA's - all changes must be approved by their manager
+                  - generic [ref=e278]:
+                    - checkbox "Enable individual weightings to be set on KPA Sections in Employee Evaluation KPA's":
+                      - generic:
+                        - generic: Enable individual weightings to be set on KPA Sections in Employee Evaluation KPA's
+                  - generic [ref=e283]:
+                    - checkbox "Require that employees approve any KPA changes made by their manager":
+                      - generic:
+                        - generic: Require that employees approve any KPA changes made by their manager
+                  - generic [ref=e288]:
+                    - checkbox "Hide all reference to weightings for sections and results":
+                      - generic:
+                        - generic: Hide all reference to weightings for sections and results
+            - button "Save" [ref=e292] [cursor=pointer]:
+              - generic [ref=e294]: Save
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e295]:
+                - img [ref=e299]
+                - generic [ref=e301]:
+                  - button "Choose language" [ref=e304] [cursor=pointer]:
+                    - generic "English" [ref=e305]:
+                      - text: En
+                      - img [ref=e307]
+                  - button "Modules Menu" [ref=e311] [cursor=pointer]:
+                    - img [ref=e313]
+                  - button "close asap" [ref=e315] [cursor=pointer]:
+                    - img [ref=e317]
+              - generic [ref=e319]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e320]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e321] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e323]:
+                        - img [ref=e324]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e326]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+  - text:  Search 
+```

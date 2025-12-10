@@ -72,28 +72,29 @@
               - generic [ref=e94] [cursor=pointer]:
                 - generic [ref=e95]: 
                 - generic [ref=e96]: Terminate / Reinstate
-            - treeitem " Transfer C" [level=1] [ref=e98]:
+            - treeitem " Transfer" [level=1] [ref=e98]:
               - generic [ref=e100] [cursor=pointer]:
                 - generic [ref=e101]: 
                 - generic [ref=e102]: Transfer
-                - generic [ref=e103]: C
-            - treeitem " Transfer History C" [level=1] [ref=e105]:
-              - generic [ref=e107] [cursor=pointer]:
-                - generic [ref=e108]: 
-                - generic [ref=e109]: Transfer History
-                - generic [ref=e110]: C
-            - treeitem " Suspension" [level=1] [ref=e112]:
-              - generic [ref=e114] [cursor=pointer]:
-                - generic [ref=e115]: 
-                - generic [ref=e116]: Suspension
-            - treeitem " Create A Mock Payslip C" [level=1] [ref=e118]:
-              - generic [ref=e120] [cursor=pointer]:
-                - generic [ref=e121]: 
-                - generic [ref=e122]: Create A Mock Payslip
-                - generic [ref=e123]: C
-      - generic [ref=e125]:
-        - alert [ref=e126]: This environment is not a live environment, it is a backup from 2025/12/07
-        - text: 
+            - treeitem " Transfer History" [level=1] [ref=e104]:
+              - generic [ref=e106] [cursor=pointer]:
+                - generic [ref=e107]: 
+                - generic [ref=e108]: Transfer History
+            - treeitem " Suspension" [level=1] [ref=e110]:
+              - generic [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]: 
+                - generic [ref=e114]: Suspension
+            - treeitem " Create A Mock Payslip" [level=1] [ref=e116]:
+              - generic [ref=e118] [cursor=pointer]:
+                - generic [ref=e119]: 
+                - generic [ref=e120]: Create A Mock Payslip
+      - generic [ref=e122]:
+        - alert [ref=e123]: This environment is not a live environment, it is a backup from 2025/12/07
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e126]: 
+            - text: Calculations are currently in progress.
+          - text: View Details
         - main [ref=e127]:
           - generic [ref=e128]:
             - generic [ref=e131]:
@@ -108,8 +109,8 @@
                     - generic [ref=e150]: 
                     - generic [ref=e151]: 
                   - generic [ref=e153]: Active Employees
-                  - heading "102 fas fa-download" [level=4] [ref=e155]:
-                    - text: "102"
+                  - heading "128 fas fa-download" [level=4] [ref=e155]:
+                    - text: "128"
                     - button "fas fa-download" [ref=e156] [cursor=pointer]:
                       - generic [ref=e158]: 
                 - generic [ref=e160]:
@@ -126,7 +127,7 @@
                       - generic [ref=e178]: 
                       - generic [ref=e179]: 
                     - generic [ref=e181]: Bank Detail Changes
-                    - heading "47" [level=4] [ref=e183]
+                    - heading "62" [level=4] [ref=e183]
                   - generic [ref=e186]:
                     - generic [ref=e188]:
                       - generic [ref=e189]: 
@@ -150,7 +151,7 @@
                       - generic [ref=e222]: 
                       - generic [ref=e223]: 
                     - generic [ref=e225]: Active Employees Not Paid
-                    - heading "53" [level=4] [ref=e227]
+                    - heading "64" [level=4] [ref=e227]
                   - generic [ref=e230]:
                     - generic [ref=e232]:
                       - generic [ref=e233]: 
@@ -180,28 +181,34 @@
                   - generic [ref=e276]:
                     - generic [ref=e277]:
                       - generic [ref=e278]: "0"
-                      - generic [ref=e279]: "25"
-                      - generic [ref=e280]: "50"
-                      - generic [ref=e281]: "75"
-                      - generic [ref=e282]: "100"
-                    - generic [ref=e284]: December
-                  - generic [ref=e287]:
-                    - generic [ref=e291]: Terminations
-                    - generic [ref=e295]: New Engagements
-                - generic [ref=e296]:
-                  - generic [ref=e297]:
-                    - generic [ref=e298]: Termination Reason
-                    - img [ref=e301]
-                    - generic [ref=e308]:
-                      - img [ref=e310]
+                      - generic [ref=e279]: "50"
+                      - generic [ref=e280]: "100"
+                      - generic [ref=e281]: "150"
+                    - generic [ref=e283]: December
+                  - generic [ref=e286]:
+                    - generic [ref=e290]: Terminations
+                    - generic [ref=e294]: New Engagements
+                - generic [ref=e295]:
+                  - generic [ref=e296]:
+                    - generic [ref=e297]: Termination Reason
+                    - img [ref=e300]
+                    - generic [ref=e307]:
+                      - img [ref=e309]
                       - text: Contract Expired
-                  - generic [ref=e312]:
-                    - generic [ref=e313]: Leaver's Length of Service
-                    - img [ref=e316]
-                    - generic [ref=e323]:
-                      - img [ref=e325]
+                  - generic [ref=e311]:
+                    - generic [ref=e312]: Leaver's Length of Service
+                    - img [ref=e315]
+                    - generic [ref=e322]:
+                      - img [ref=e324]
                       - text: < 1
   - text:  Search 
+  - alert [ref=e327]:
+    - generic [ref=e328]:
+      - generic [ref=e330]: 
+      - strong [ref=e331]: Success
+      - generic [ref=e332]: 13:12
+      - button [ref=e333] [cursor=pointer]
+    - generic [ref=e334]: Create Successful.
   - complementary:
     - generic:
       - generic:
@@ -209,29 +216,29 @@
           - generic:
             - generic:
               - generic: Welcome to White Label
-              - generic [ref=e327]:
-                - img [ref=e331]
-                - generic [ref=e333]:
-                  - button "Choose language" [ref=e336] [cursor=pointer]:
-                    - generic "English" [ref=e337]:
+              - generic [ref=e335]:
+                - img [ref=e339]
+                - generic [ref=e341]:
+                  - button "Choose language" [ref=e344] [cursor=pointer]:
+                    - generic "English" [ref=e345]:
                       - text: En
-                      - img [ref=e339]
-                  - button "Modules Menu" [ref=e343] [cursor=pointer]:
-                    - img [ref=e345]
-                  - button "close asap" [ref=e347] [cursor=pointer]:
-                    - img [ref=e349]
-              - generic [ref=e351]:
+                      - img [ref=e347]
+                  - button "Modules Menu" [ref=e351] [cursor=pointer]:
+                    - img [ref=e353]
+                  - button "close asap" [ref=e355] [cursor=pointer]:
+                    - img [ref=e357]
+              - generic [ref=e359]:
                 - heading "Hi there!" [level=1]
                 - generic:
                   - paragraph: How can we help? We're here for you!
-            - generic [ref=e352]:
+            - generic [ref=e360]:
               - list:
                 - listitem:
-                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e353] [cursor=pointer]:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e361] [cursor=pointer]:
                     - generic:
-                      - img [ref=e355]:
-                        - img [ref=e356]
+                      - img [ref=e363]:
+                        - img [ref=e364]
                       - heading "Knowledge Base" [level=4]
-                    - generic [ref=e358]:
+                    - generic [ref=e366]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
 ```

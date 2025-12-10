@@ -1,0 +1,215 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Basic Settings " [level=1] [ref=e80]:
+              - generic [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]:
+                  - generic [ref=e83]: 
+                  - generic [ref=e84]: Basic Settings
+                - generic [ref=e85]: 
+            - treeitem " Payroll " [level=1] [ref=e86]:
+              - generic [ref=e87] [cursor=pointer]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]: 
+                  - generic [ref=e90]: Payroll
+                - generic [ref=e91]: 
+            - treeitem " Human Resources " [expanded] [level=1] [ref=e92]:
+              - generic [ref=e93] [cursor=pointer]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: 
+                  - generic [ref=e96]: Human Resources
+                - generic [ref=e97]: 
+              - group [ref=e98]:
+                - treeitem "Leave Administration " [level=2] [ref=e99]:
+                  - generic [ref=e100] [cursor=pointer]:
+                    - generic [ref=e102]: Leave Administration
+                    - generic [ref=e103]: 
+                - treeitem "Organisation Structure " [level=2] [ref=e104]:
+                  - generic [ref=e105] [cursor=pointer]:
+                    - generic [ref=e107]: Organisation Structure
+                    - generic [ref=e108]: 
+                - treeitem "Performance Management " [level=2] [ref=e109]:
+                  - generic [ref=e110] [cursor=pointer]:
+                    - generic [ref=e112]: Performance Management
+                    - generic [ref=e113]: 
+                - treeitem "Upskilling " [expanded] [level=2] [ref=e114]:
+                  - generic [ref=e115] [cursor=pointer]:
+                    - generic [ref=e117]: Upskilling
+                    - generic [ref=e118]: 
+                  - group [ref=e119]:
+                    - treeitem "Training Courses" [level=3] [ref=e120]:
+                      - generic [ref=e123] [cursor=pointer]: Training Courses
+                    - treeitem "Skills Categories" [level=3] [selected] [ref=e125]:
+                      - generic [ref=e128] [cursor=pointer]: Skills Categories
+                    - treeitem "Skills" [level=3] [ref=e130]:
+                      - generic [ref=e133] [cursor=pointer]: Skills
+                    - treeitem "Qualifications" [level=3] [ref=e135]:
+                      - generic [ref=e138] [cursor=pointer]: Qualifications
+                - treeitem "Workforce Planning " [level=2] [ref=e140]:
+                  - generic [ref=e141] [cursor=pointer]:
+                    - generic [ref=e143]: Workforce Planning
+                    - generic [ref=e144]: 
+                - treeitem "Workforce Planning Setup " [level=2] [ref=e145]:
+                  - generic [ref=e146] [cursor=pointer]:
+                    - generic [ref=e148]: Workforce Planning Setup
+                    - generic [ref=e149]: 
+                - treeitem "Employment Equity " [level=2] [ref=e150]:
+                  - generic [ref=e151] [cursor=pointer]:
+                    - generic [ref=e153]: Employment Equity
+                    - generic [ref=e154]: 
+            - treeitem " Security " [level=1] [ref=e155]:
+              - generic [ref=e156] [cursor=pointer]:
+                - generic [ref=e157]:
+                  - generic [ref=e158]: 
+                  - generic [ref=e159]: Security
+                - generic [ref=e160]: 
+            - treeitem " Financial " [level=1] [ref=e161]:
+              - generic [ref=e162] [cursor=pointer]:
+                - generic [ref=e163]:
+                  - generic [ref=e164]: 
+                  - generic [ref=e165]: Financial
+                - generic [ref=e166]: 
+      - generic [ref=e167]:
+        - alert [ref=e168]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - banner [ref=e169]:
+          - generic [ref=e170]:
+            - heading "Skills Categories" [level=1] [ref=e172]
+            - button "bulletlist" [ref=e174] [cursor=pointer]:
+              - generic [ref=e176]: 
+        - main [ref=e177]:
+          - group "Data grid with 1 rows and 3 columns" [ref=e181]:
+            - status [ref=e182]: Data grid with 1 rows and 3 columns
+            - toolbar "Data grid toolbar" [ref=e184]:
+              - generic [ref=e185]:
+                - button "edit-button-addrow" [ref=e188] [cursor=pointer]:
+                  - generic [ref=e190]: 
+                - text: 
+            - row "Column Code" [ref=e195]:
+              - columnheader "Column Code" [ref=e196] [cursor=pointer]: Code
+              - columnheader [ref=e197] [cursor=pointer]:
+                - text: Description
+                - generic [ref=e198]: 
+              - gridcell [ref=e199] [cursor=pointer]
+            - row "Filter cell" [ref=e200]:
+              - gridcell "Filter cell" [ref=e201]:
+                - generic [ref=e202]:
+                  - menubar:
+                    - menuitem "Search box" [ref=e203] [cursor=pointer]:
+                      - generic [ref=e204]:
+                        - generic [ref=e205]: 
+                        - text: 
+                  - textbox "Filter cell" [ref=e210]: AT
+              - gridcell [ref=e211]:
+                - generic [ref=e212]:
+                  - menuitem [ref=e213] [cursor=pointer]:
+                    - generic [ref=e214]:
+                      - generic [ref=e215]: 
+                      - text: 
+                  - textbox [ref=e220]
+              - gridcell [ref=e221]
+            - grid [ref=e225]:
+              - row "AT Automation Test Edit Delete" [ref=e230]:
+                - gridcell "AT" [ref=e231]
+                - gridcell "Automation Test" [ref=e232]
+                - gridcell "Edit Delete" [ref=e233]:
+                  - link "Edit" [ref=e234] [cursor=pointer]:
+                    - /url: "#"
+                    - text: 
+                  - link "Delete" [ref=e235] [cursor=pointer]:
+                    - /url: "#"
+                    - text: 
+                - generic [ref=e236] [cursor=pointer]: 
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e237]:
+                - img [ref=e241]
+                - generic [ref=e243]:
+                  - button "Choose language" [ref=e246] [cursor=pointer]:
+                    - generic "English" [ref=e247]:
+                      - text: En
+                      - img [ref=e249]
+                  - button "Modules Menu" [ref=e253] [cursor=pointer]:
+                    - img [ref=e255]
+                  - button "close asap" [ref=e257] [cursor=pointer]:
+                    - img [ref=e259]
+              - generic [ref=e261]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e262]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e263] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e265]:
+                        - img [ref=e266]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e268]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

@@ -1,7 +1,7 @@
 # Page snapshot
 
 ```yaml
-- generic [active] [ref=e1]:
+- generic [ref=e1]:
   - generic [ref=e2]:
     - navigation [ref=e3]:
       - generic [ref=e4]:
@@ -155,8 +155,8 @@
                     - generic:
                       - generic: Budget Period
               - group [ref=e210]:
-                - group "Data grid with 2 rows and 9 columns" [ref=e212]:
-                  - status [ref=e213]: Data grid with 2 rows and 9 columns
+                - group "Data grid with 1 rows and 9 columns" [ref=e212]:
+                  - status [ref=e213]: Data grid with 1 rows and 9 columns
                   - toolbar "Data grid toolbar" [ref=e215]:
                     - generic [ref=e216]:
                       - button "xlsxfile" [ref=e219] [cursor=pointer]:
@@ -182,7 +182,7 @@
                             - generic [ref=e251]:
                               - generic [ref=e252]: 
                               - text: 
-                        - textbox [ref=e257]
+                        - textbox [active] [ref=e257]: JM01
                     - gridcell "Filter cell" [ref=e258]:
                       - generic [ref=e259]:
                         - menubar:
@@ -236,13 +236,13 @@
                     - gridcell [ref=e325]
                     - gridcell [ref=e326]
                   - grid [ref=e330]:
-                    - row "A1 Automation Active Playwright Integration Demo 927401 Dwight Pagac 0  Edit" [ref=e341]:
-                      - gridcell "A1" [ref=e342] [cursor=pointer]
-                      - gridcell "Automation" [ref=e343] [cursor=pointer]
-                      - gridcell "Active" [ref=e344] [cursor=pointer]
+                    - row "JM01 Integration Test Job Vacant Playwright Integration Demo JM01 vacant job 0  Edit" [ref=e341]:
+                      - gridcell "JM01" [ref=e342] [cursor=pointer]
+                      - gridcell "Integration Test Job" [ref=e343] [cursor=pointer]
+                      - gridcell "Vacant" [ref=e344] [cursor=pointer]
                       - gridcell "Playwright Integration Demo" [ref=e345] [cursor=pointer]
-                      - gridcell "927401" [ref=e346] [cursor=pointer]
-                      - gridcell "Dwight Pagac" [ref=e347] [cursor=pointer]
+                      - gridcell "JM01" [ref=e346] [cursor=pointer]
+                      - gridcell "vacant job" [ref=e347] [cursor=pointer]
                       - gridcell [ref=e348] [cursor=pointer]
                       - gridcell "0" [ref=e349] [cursor=pointer]:
                         - spinbutton [ref=e353]: "0"
@@ -250,22 +250,6 @@
                         - link "" [ref=e355]:
                           - /url: "#"
                         - link "Edit" [ref=e356]:
-                          - /url: "#"
-                          - text: 
-                    - row "J1 Cook Active Playwright Integration Demo 000234 Automation Employee 0  Edit" [ref=e357]:
-                      - gridcell "J1" [ref=e358] [cursor=pointer]
-                      - gridcell "Cook" [ref=e359] [cursor=pointer]
-                      - gridcell "Active" [ref=e360] [cursor=pointer]
-                      - gridcell "Playwright Integration Demo" [ref=e361] [cursor=pointer]
-                      - gridcell "000234" [ref=e362] [cursor=pointer]
-                      - gridcell "Automation Employee" [ref=e363] [cursor=pointer]
-                      - gridcell [ref=e364] [cursor=pointer]
-                      - gridcell "0" [ref=e365] [cursor=pointer]:
-                        - spinbutton [ref=e369]: "0"
-                      - gridcell " Edit" [ref=e370] [cursor=pointer]:
-                        - link "" [ref=e371]:
-                          - /url: "#"
-                        - link "Edit" [ref=e372]:
                           - /url: "#"
                           - text: 
   - text:  Search 
@@ -276,29 +260,29 @@
           - generic:
             - generic:
               - generic: Welcome to White Label
-              - generic [ref=e373]:
-                - img [ref=e377]
-                - generic [ref=e379]:
-                  - button "Choose language" [ref=e382] [cursor=pointer]:
-                    - generic "English" [ref=e383]:
+              - generic [ref=e357]:
+                - img [ref=e361]
+                - generic [ref=e363]:
+                  - button "Choose language" [ref=e366] [cursor=pointer]:
+                    - generic "English" [ref=e367]:
                       - text: En
-                      - img [ref=e385]
-                  - button "Modules Menu" [ref=e389] [cursor=pointer]:
-                    - img [ref=e391]
-                  - button "close asap" [ref=e393] [cursor=pointer]:
-                    - img [ref=e395]
-              - generic [ref=e397]:
+                      - img [ref=e369]
+                  - button "Modules Menu" [ref=e373] [cursor=pointer]:
+                    - img [ref=e375]
+                  - button "close asap" [ref=e377] [cursor=pointer]:
+                    - img [ref=e379]
+              - generic [ref=e381]:
                 - heading "Hi there!" [level=1]
                 - generic:
                   - paragraph: How can we help? We're here for you!
-            - generic [ref=e398]:
+            - generic [ref=e382]:
               - list:
                 - listitem:
-                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e399] [cursor=pointer]:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e383] [cursor=pointer]:
                     - generic:
-                      - img [ref=e401]:
-                        - img [ref=e402]
+                      - img [ref=e385]:
+                        - img [ref=e386]
                       - heading "Knowledge Base" [level=4]
-                    - generic [ref=e404]:
+                    - generic [ref=e388]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
 ```

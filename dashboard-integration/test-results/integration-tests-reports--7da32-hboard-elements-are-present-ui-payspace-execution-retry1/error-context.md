@@ -189,5 +189,36 @@
                                                 - generic [ref=e304]: View personal details
                                                 - generic [ref=e308]: View tax certificates
   - text:  Search 
-  - complementary
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e309]:
+                - img [ref=e313]
+                - generic [ref=e315]:
+                  - button "Choose language" [ref=e318] [cursor=pointer]:
+                    - generic "English" [ref=e319]:
+                      - text: En
+                      - img [ref=e321]
+                  - button "Modules Menu" [ref=e325] [cursor=pointer]:
+                    - img [ref=e327]
+                  - button "close asap" [ref=e329] [cursor=pointer]:
+                    - img [ref=e331]
+              - generic [ref=e333]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e334]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e335] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e337]:
+                        - img [ref=e338]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e340]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
 ```

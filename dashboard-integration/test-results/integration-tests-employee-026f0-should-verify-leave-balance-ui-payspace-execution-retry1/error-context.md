@@ -53,20 +53,20 @@
           - text:  Search  _  Search  _
           - generic [ref=e60]:
             - generic [ref=e61]:
-              - link "General Rutherford":
-                - /url: /employees/5153176/contact
-                - img "General Rutherford" [ref=e62] [cursor=pointer]
+              - link "Valentin Gusikowski":
+                - /url: /employees/5153424/contact
+                - img "Valentin Gusikowski" [ref=e62] [cursor=pointer]
             - generic [ref=e63]:
               - generic [ref=e64]: Playwright Integration Demo
               - generic [ref=e65]: Monthly
             - separator [ref=e66]
-            - generic [ref=e68]: General Rutherford
+            - generic [ref=e68]: Valentin Gusikowski
             - generic [ref=e69]:
               - link "" [ref=e70] [cursor=pointer]:
-                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=5153176&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153176%2F108658%2Fleave-adjustment
-              - button "081600" [ref=e71] [cursor=pointer]
+                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=5153424&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153424%2F108658%2Fleave-adjustment
+              - button "084425" [ref=e71] [cursor=pointer]
               - link "" [ref=e72] [cursor=pointer]:
-                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=5153176&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153176%2F108658%2Fleave-adjustment
+                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=5153424&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153424%2F108658%2Fleave-adjustment
         - tree [ref=e75]:
           - group [ref=e80]:
             - treeitem " Basic Information " [level=1] [ref=e81]:
@@ -87,151 +87,103 @@
                   - generic [ref=e96]: 
                   - generic [ref=e97]: Payroll Results
                 - generic [ref=e98]: 
-            - treeitem " Leave " [level=1] [ref=e99]:
+            - treeitem " Leave " [expanded] [level=1] [ref=e99]:
               - generic [ref=e100] [cursor=pointer]:
                 - generic [ref=e101]:
                   - generic [ref=e102]: 
                   - generic [ref=e103]: Leave
-                - generic [ref=e104]: 
-            - treeitem " Performance " [level=1] [ref=e105]:
-              - generic [ref=e106] [cursor=pointer]:
-                - generic [ref=e107]:
-                  - generic [ref=e108]: 
-                  - generic [ref=e109]: Performance
-                - generic [ref=e110]: 
-            - treeitem " Skills " [level=1] [ref=e111]:
-              - generic [ref=e112] [cursor=pointer]:
-                - generic [ref=e113]:
-                  - generic [ref=e114]: 
-                  - generic [ref=e115]: Skills
-                - generic [ref=e116]: 
-            - treeitem " Costing " [level=1] [ref=e117]:
-              - generic [ref=e118] [cursor=pointer]:
-                - generic [ref=e119]:
-                  - generic [ref=e120]: 
-                  - generic [ref=e121]: Costing
-                - generic [ref=e122]: 
-            - treeitem " Other " [level=1] [ref=e123]:
-              - generic [ref=e124] [cursor=pointer]:
-                - generic [ref=e125]:
-                  - generic [ref=e126]: 
-                  - generic [ref=e127]: Other
-                - generic [ref=e128]: 
-      - generic [ref=e129]:
-        - alert [ref=e130]: This environment is not a live environment, it is a backup from 2025/12/07
+                - generic [ref=e104]: 
+              - group [ref=e105]:
+                - treeitem "Leave Adjustments" [level=2] [selected] [ref=e106]:
+                  - generic [ref=e109] [cursor=pointer]: Leave Adjustments
+                - treeitem "Setup" [level=2] [ref=e111]:
+                  - generic [ref=e114] [cursor=pointer]: Setup
+                - treeitem "Leave Application" [level=2] [ref=e116]:
+                  - generic [ref=e119] [cursor=pointer]: Leave Application
+                - treeitem "Leave Balances" [level=2] [ref=e121]:
+                  - generic [ref=e124] [cursor=pointer]: Leave Balances
+                - treeitem "Calendar" [level=2] [ref=e126]:
+                  - generic [ref=e129] [cursor=pointer]: Calendar
+            - treeitem " Performance " [level=1] [ref=e131]:
+              - generic [ref=e132] [cursor=pointer]:
+                - generic [ref=e133]:
+                  - generic [ref=e134]: 
+                  - generic [ref=e135]: Performance
+                - generic [ref=e136]: 
+            - treeitem " Skills " [level=1] [ref=e137]:
+              - generic [ref=e138] [cursor=pointer]:
+                - generic [ref=e139]:
+                  - generic [ref=e140]: 
+                  - generic [ref=e141]: Skills
+                - generic [ref=e142]: 
+            - treeitem " Costing " [level=1] [ref=e143]:
+              - generic [ref=e144] [cursor=pointer]:
+                - generic [ref=e145]:
+                  - generic [ref=e146]: 
+                  - generic [ref=e147]: Costing
+                - generic [ref=e148]: 
+            - treeitem " Other " [level=1] [ref=e149]:
+              - generic [ref=e150] [cursor=pointer]:
+                - generic [ref=e151]:
+                  - generic [ref=e152]: 
+                  - generic [ref=e153]: Other
+                - generic [ref=e154]: 
+      - generic [ref=e155]:
+        - alert [ref=e156]: This environment is not a live environment, it is a backup from 2025/12/07
         - text: 
-        - banner [ref=e131]:
-          - generic [ref=e132]:
-            - heading "Leave Adjustment" [level=1] [ref=e134]
-            - generic [ref=e135]:
-              - button "Adjustment" [ref=e136] [cursor=pointer]:
-                - generic [ref=e137]:
-                  - generic [ref=e138]: 
-                  - generic [ref=e139]: Adjustment
-              - button "bulletlist" [ref=e140] [cursor=pointer]:
-                - generic [ref=e142]: 
-        - main [ref=e143]:
-          - generic [ref=e144]:
-            - generic [ref=e145]:
-              - heading "Adjustment" [level=6] [ref=e147]
-              - generic [ref=e150]:
-                - form [ref=e151]:
-                  - generic [ref=e154]:
-                    - group [ref=e159]:
-                      - generic [ref=e163]:
-                        - generic [ref=e165]:
-                          - generic [ref=e170] [cursor=pointer]:
-                            - generic [ref=e171]:
-                              - combobox [ref=e172]:
-                                - text: .
-                                - generic: Run
-                              - generic: 
-                            - generic:
-                              - generic:
-                                - generic: Run *
-                          - generic [ref=e177] [cursor=pointer]:
-                            - generic [ref=e178]:
-                              - combobox [ref=e179]:
-                                - text: .
-                                - generic: Leave Type
-                              - generic: 
-                            - generic:
-                              - generic:
-                                - generic: Leave Type *
-                        - generic [ref=e181]:
-                          - generic [ref=e186]:
-                            - generic [ref=e188]:
-                              - spinbutton "No. Of Days *" [ref=e189]: 0,00
-                              - text: No. Of Days
-                            - generic:
-                              - generic:
-                                - generic: No. Of Days *
+        - banner [ref=e157]:
+          - generic [ref=e158]:
+            - heading "Leave Adjustment" [level=1] [ref=e160]
+            - button "bulletlist" [ref=e162] [cursor=pointer]:
+              - generic [ref=e164]: 
+        - main [ref=e165]:
+          - generic [ref=e166]:
+            - alert [ref=e167]: Employee not linked to a leave scheme.
+            - generic [ref=e168]:
+              - heading "Adjustment" [level=6] [ref=e170]
+              - form [ref=e174]:
+                - generic [ref=e177]:
+                  - group [ref=e182]:
+                    - generic [ref=e186]:
+                      - generic [ref=e188]:
+                        - generic [ref=e193] [cursor=pointer]:
                           - generic [ref=e194]:
-                            - generic [ref=e196]:
-                              - textbox "Comments" [ref=e197]
-                              - generic: Comments
+                            - combobox [ref=e195]: . December - 2025
+                            - generic: 
+                          - generic:
                             - generic:
-                              - generic:
-                                - generic: Comments
-                    - tablist [ref=e202]:
-                      - tab " Additional fields" [ref=e204]:
-                        - generic [ref=e205] [cursor=pointer]:
-                          - text: 
-                          - generic [ref=e206]: Additional fields
-                - button "Save" [ref=e208] [cursor=pointer]:
-                  - generic [ref=e210]: Save
-            - tablist [ref=e211]:
-              - tab " History Data grid with 1 rows and 4 columns" [selected] [ref=e213]:
-                - generic [ref=e214] [cursor=pointer]:
-                  - text: 
-                  - generic [ref=e215]: History
-                - group "Data grid with 1 rows and 4 columns" [ref=e217]:
-                  - status [ref=e218]: Data grid with 1 rows and 4 columns
-                  - row "Column Run description Column Leave Type Column No. Of Days" [ref=e224]:
-                    - columnheader "Column Run description" [ref=e225] [cursor=pointer]: Run description
-                    - columnheader "Column Leave Type" [ref=e226]: Leave Type
-                    - columnheader "Column No. Of Days" [ref=e227] [cursor=pointer]: No. Of Days
-                    - gridcell [ref=e228]
-                  - row "Filter cell Filter cell Filter cell" [ref=e229]:
-                    - gridcell "Filter cell" [ref=e230]:
-                      - generic [ref=e231]:
-                        - menubar:
-                          - menuitem "Search box" [ref=e232] [cursor=pointer]:
-                            - generic [ref=e233]:
-                              - generic [ref=e234]: 
-                              - text: 
-                        - textbox "Filter cell" [ref=e239]
-                    - gridcell "Filter cell" [ref=e240]:
-                      - generic [ref=e245] [cursor=pointer]:
-                        - generic [ref=e246]:
-                          - combobox "Filter cell" [ref=e247]: (All)
-                          - text: Select...
-                        - button "Select" [ref=e249]:
-                          - generic [ref=e251]: 
-                    - gridcell "Filter cell" [ref=e252]:
-                      - generic [ref=e253]:
-                        - menubar:
-                          - menuitem "Search box" [ref=e254] [cursor=pointer]:
-                            - generic [ref=e255]:
-                              - generic [ref=e256]: 
-                              - text: 
-                        - spinbutton "Filter cell" [ref=e261]
-                    - gridcell [ref=e262]
-                  - grid [ref=e263]:
-                    - row "December - 2025 Special Special Leave 10,00 Edit Delete" [ref=e269]:
-                      - gridcell "December - 2025" [ref=e270]
-                      - gridcell "Special Special Leave" [ref=e271]:
-                        - text: Special
-                        - text: Special Leave
-                      - gridcell "10,00" [ref=e272]
-                      - gridcell "Edit Delete" [ref=e273]:
-                        - link "Edit" [ref=e274] [cursor=pointer]:
-                          - /url: "#"
-                          - text: 
-                        - link "Delete" [ref=e275] [cursor=pointer]:
-                          - /url: "#"
-                          - text: 
-                      - generic [ref=e276] [cursor=pointer]: 
+                              - generic: Run *
+                        - generic [ref=e200] [cursor=pointer]:
+                          - generic [ref=e201]:
+                            - combobox [ref=e202]:
+                              - text: .
+                              - generic: Leave Type
+                              - text:  Search 
+                            - generic: 
+                          - generic:
+                            - generic:
+                              - generic: Leave Type *
+                      - generic [ref=e204]:
+                        - generic [ref=e209]:
+                          - generic [ref=e211]:
+                            - spinbutton "No. Of Days *" [ref=e212]: 0,00
+                            - text: No. Of Days
+                          - generic:
+                            - generic:
+                              - generic: No. Of Days *
+                        - generic [ref=e217]:
+                          - generic [ref=e219]:
+                            - textbox "Comments" [ref=e220]
+                            - generic: Comments
+                          - generic:
+                            - generic:
+                              - generic: Comments
+                  - tablist [ref=e225]:
+                    - tab " Additional fields" [ref=e227]:
+                      - generic [ref=e228] [cursor=pointer]:
+                        - text: 
+                        - generic [ref=e229]: Additional fields
+            - text:    Select...   
   - text:  Search 
   - complementary:
     - generic:
@@ -240,29 +192,29 @@
           - generic:
             - generic:
               - generic: Welcome to White Label
-              - generic [ref=e277]:
-                - img [ref=e281]
-                - generic [ref=e283]:
-                  - button "Choose language" [ref=e286] [cursor=pointer]:
-                    - generic "English" [ref=e287]:
+              - generic [ref=e230]:
+                - img [ref=e234]
+                - generic [ref=e236]:
+                  - button "Choose language" [ref=e239] [cursor=pointer]:
+                    - generic "English" [ref=e240]:
                       - text: En
-                      - img [ref=e289]
-                  - button "Modules Menu" [ref=e293] [cursor=pointer]:
-                    - img [ref=e295]
-                  - button "close asap" [ref=e297] [cursor=pointer]:
-                    - img [ref=e299]
-              - generic [ref=e301]:
+                      - img [ref=e242]
+                  - button "Modules Menu" [ref=e246] [cursor=pointer]:
+                    - img [ref=e248]
+                  - button "close asap" [ref=e250] [cursor=pointer]:
+                    - img [ref=e252]
+              - generic [ref=e254]:
                 - heading "Hi there!" [level=1]
                 - generic:
                   - paragraph: How can we help? We're here for you!
-            - generic [ref=e302]:
+            - generic [ref=e255]:
               - list:
                 - listitem:
-                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e303] [cursor=pointer]:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e256] [cursor=pointer]:
                     - generic:
-                      - img [ref=e305]:
-                        - img [ref=e306]
+                      - img [ref=e258]:
+                        - img [ref=e259]
                       - heading "Knowledge Base" [level=4]
-                    - generic [ref=e308]:
+                    - generic [ref=e261]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
 ```

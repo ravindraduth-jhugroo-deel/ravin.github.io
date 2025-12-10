@@ -131,7 +131,7 @@
             - generic [ref=e163]:
               - button "Run Test" [ref=e164] [cursor=pointer]:
                 - generic [ref=e166]: Run Test
-              - button "far fa-list-alt" [ref=e168] [cursor=pointer]:
+              - button "far fa-list-alt" [active] [ref=e168] [cursor=pointer]:
                 - generic [ref=e170]: 
         - main [ref=e171]:
           - generic [ref=e173]:
@@ -339,7 +339,7 @@
     - generic [ref=e421]:
       - generic [ref=e422]:
         - generic [ref=e423]: Audit
-        - button [active] [ref=e424] [cursor=pointer]
+        - button [ref=e424] [cursor=pointer]
       - group "Data grid with 0 rows and 5 columns" [ref=e426]:
         - status [ref=e427]: Data grid with 0 rows and 5 columns
         - row "Column User Column Form Name Column Details Column Date Occurred Column Action" [ref=e434]:

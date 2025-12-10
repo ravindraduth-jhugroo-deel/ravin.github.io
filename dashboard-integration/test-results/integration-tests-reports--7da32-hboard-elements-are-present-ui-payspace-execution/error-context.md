@@ -188,7 +188,6 @@
                                                 - generic [ref=e300]: View leave balances
                                                 - generic [ref=e304]: View personal details
                                                 - generic [ref=e308]: View tax certificates
-  - text:  Search 
   - complementary:
     - generic:
       - generic:
@@ -221,4 +220,5 @@
                       - heading "Knowledge Base" [level=4]
                     - generic [ref=e340]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
+  - text:  Search 
 ```

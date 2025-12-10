@@ -1,7 +1,7 @@
 # Page snapshot
 
 ```yaml
-- generic [active] [ref=e1]:
+- generic [ref=e1]:
   - generic [ref=e2]:
     - navigation [ref=e3]:
       - generic [ref=e4]:
@@ -144,183 +144,33 @@
                 - generic [ref=e194]: 
       - generic [ref=e195]:
         - alert [ref=e196]: This environment is not a live environment, it is a backup from 2025/12/07
-        - generic [ref=e197]:
+        - text: 
+        - banner [ref=e197]:
           - generic [ref=e198]:
-            - generic [ref=e199]: 
-            - text: Calculations are currently in progress.
-          - text: View Details
-        - banner [ref=e200]:
-          - generic [ref=e201]:
-            - heading "Integrations" [level=1] [ref=e203]
-            - button "bulletlist" [ref=e205] [cursor=pointer]:
-              - generic [ref=e207]: 
-        - main [ref=e208]:
-          - tabpanel [ref=e209]:
-            - tablist [ref=e211]:
-              - generic [ref=e212]:
-                - tab "Webhooks" [ref=e213] [cursor=pointer]:
-                  - generic [ref=e216]: Webhooks
-                - tab "Single Sign-On" [ref=e217] [cursor=pointer]:
-                  - generic [ref=e220]: Single Sign-On
-                - tab "API Credentials" [selected] [ref=e221] [cursor=pointer]:
-                  - generic [ref=e224]: API Credentials
-            - generic [ref=e227]:
-              - text: _ _
-              - tabpanel [ref=e228]:
-                - generic [ref=e231]:
-                  - text:  
-                  - group "Data grid with 7 rows and 6 columns" [ref=e232]:
-                    - status [ref=e233]: Data grid with 7 rows and 6 columns
-                    - toolbar "Data grid toolbar" [ref=e235]:
-                      - generic [ref=e236]:
-                        - button "far fa-plus" [ref=e239] [cursor=pointer]:
-                          - generic [ref=e241]: +
-                        - text: 
-                    - row "Column Name Column Client Id Column User (for permission and audit purposes) Column Scope Column Development Mode" [ref=e249]:
-                      - columnheader "Column Name" [ref=e250] [cursor=pointer]:
-                        - text: Name
-                        - generic [ref=e251]: 
-                      - columnheader "Column Client Id" [ref=e252] [cursor=pointer]: Client Id
-                      - columnheader "Column User (for permission and audit purposes)" [ref=e253] [cursor=pointer]: User (for permission and audit purposes)
-                      - columnheader "Column Scope" [ref=e254] [cursor=pointer]: Scope
-                      - columnheader "Column Development Mode" [ref=e255] [cursor=pointer]: Development Mode
-                      - gridcell [ref=e256]
-                    - row "Filter cell Filter cell Filter cell Filter cell Filter cell" [ref=e257]:
-                      - gridcell "Filter cell" [ref=e258]:
-                        - generic [ref=e259]:
-                          - menubar:
-                            - menuitem "Search box" [ref=e260] [cursor=pointer]:
-                              - generic [ref=e261]:
-                                - generic [ref=e262]: 
-                                - text: 
-                          - textbox "Filter cell" [ref=e267]
-                      - gridcell "Filter cell" [ref=e268]:
-                        - generic [ref=e269]:
-                          - menubar:
-                            - menuitem "Search box" [ref=e270] [cursor=pointer]:
-                              - generic [ref=e271]:
-                                - generic [ref=e272]: 
-                                - text: 
-                          - textbox "Filter cell" [ref=e277]
-                      - gridcell "Filter cell" [ref=e278]:
-                        - generic [ref=e282] [cursor=pointer]:
-                          - combobox "Filter cell" [ref=e283]:
-                            - text: .
-                            - generic: Select...
-                          - generic: 
-                      - gridcell "Filter cell" [ref=e284]:
-                        - generic [ref=e285]:
-                          - menubar:
-                            - menuitem "Search box" [ref=e286] [cursor=pointer]:
-                              - generic [ref=e287]:
-                                - generic [ref=e288]: 
-                                - text: 
-                          - textbox "Filter cell" [ref=e293]
-                      - gridcell "Filter cell" [ref=e294]:
-                        - generic [ref=e299] [cursor=pointer]:
-                          - generic [ref=e300]:
-                            - combobox "Filter cell" [ref=e301]: (All)
-                            - text: Select...
-                          - button "Select" [ref=e303]:
-                            - generic [ref=e305]: 
-                      - gridcell [ref=e306]
-                    - generic [ref=e307]:
-                      - row "Add Company User 70c614df-d1d2-42b4-ad30-3e07c0bf8c76 Full Access Edit Delete" [ref=e315]:
-                        - gridcell "Add Company User" [ref=e316]
-                        - gridcell "70c614df-d1d2-42b4-ad30-3e07c0bf8c76" [ref=e317]
-                        - gridcell [ref=e318]
-                        - gridcell "Full Access" [ref=e319]
-                        - gridcell [ref=e320]
-                        - gridcell "Edit Delete" [ref=e321]:
-                          - link "Edit" [ref=e322] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                          - link "Delete" [ref=e323] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                      - row "AutoTest 6f266ac8-a595-4fc5-a89b-bc44665e6fbc Read-only Access Edit Delete" [ref=e324]:
-                        - gridcell "AutoTest" [ref=e325]
-                        - gridcell "6f266ac8-a595-4fc5-a89b-bc44665e6fbc" [ref=e326]
-                        - gridcell [ref=e327]
-                        - gridcell "Read-only Access" [ref=e328]
-                        - gridcell [ref=e329]
-                        - gridcell "Edit Delete" [ref=e330]:
-                          - link "Edit" [ref=e331] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                          - link "Delete" [ref=e332] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                      - row "Business Partner df19fbcb-fb95-477d-a15b-7adf8d34f426 Company User Full Access  Edit Delete" [ref=e333]:
-                        - gridcell "Business Partner" [ref=e334]
-                        - gridcell "df19fbcb-fb95-477d-a15b-7adf8d34f426" [ref=e335]
-                        - gridcell "Company User" [ref=e336]
-                        - gridcell "Full Access" [ref=e337]
-                        - gridcell "" [ref=e338]:
-                          - emphasis [ref=e339]: 
-                        - gridcell "Edit Delete" [ref=e340]:
-                          - link "Edit" [ref=e341] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                          - link "Delete" [ref=e342] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                      - row "Company User 77e4d53e-c910-4931-bcda-13e833605c38 Company User Full Access  Edit Delete" [ref=e343]:
-                        - gridcell "Company User" [ref=e344]
-                        - gridcell "77e4d53e-c910-4931-bcda-13e833605c38" [ref=e345]
-                        - gridcell "Company User" [ref=e346]
-                        - gridcell "Full Access" [ref=e347]
-                        - gridcell "" [ref=e348]:
-                          - emphasis [ref=e349]: 
-                        - gridcell "Edit Delete" [ref=e350]:
-                          - link "Edit" [ref=e351] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                          - link "Delete" [ref=e352] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                      - row "Deny Test 3092b28e-041a-49d3-aed2-7dd03260701e Deny Test Full Access  Edit Delete" [ref=e353]:
-                        - gridcell "Deny Test" [ref=e354]
-                        - gridcell "3092b28e-041a-49d3-aed2-7dd03260701e" [ref=e355]
-                        - gridcell "Deny Test" [ref=e356]
-                        - gridcell "Full Access" [ref=e357]
-                        - gridcell "" [ref=e358]:
-                          - emphasis [ref=e359]: 
-                        - gridcell "Edit Delete" [ref=e360]:
-                          - link "Edit" [ref=e361] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                          - link "Delete" [ref=e362] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                      - row "MSS User a0ae17ca-bbf4-43b0-b42a-c18061e4bec5 MSS User Full Access  Edit Delete" [ref=e363]:
-                        - gridcell "MSS User" [ref=e364]
-                        - gridcell "a0ae17ca-bbf4-43b0-b42a-c18061e4bec5" [ref=e365]
-                        - gridcell "MSS User" [ref=e366]
-                        - gridcell "Full Access" [ref=e367]
-                        - gridcell "" [ref=e368]:
-                          - emphasis [ref=e369]: 
-                        - gridcell "Edit Delete" [ref=e370]:
-                          - link "Edit" [ref=e371] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                          - link "Delete" [ref=e372] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                      - row "Read Test 2d3a8170-39b8-4a41-9e82-08fed3209e76 Read Test Full Access  Edit Delete" [ref=e373]:
-                        - gridcell "Read Test" [ref=e374]
-                        - gridcell "2d3a8170-39b8-4a41-9e82-08fed3209e76" [ref=e375]
-                        - gridcell "Read Test" [ref=e376]
-                        - gridcell "Full Access" [ref=e377]
-                        - gridcell "" [ref=e378]:
-                          - emphasis [ref=e379]: 
-                        - gridcell "Edit Delete" [ref=e380]:
-                          - link "Edit" [ref=e381] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
-                          - link "Delete" [ref=e382] [cursor=pointer]:
-                            - /url: "#"
-                            - text: 
+            - heading "Integrations" [level=1] [ref=e200]
+            - button "bulletlist" [ref=e202] [cursor=pointer]:
+              - generic [ref=e204]: 
+        - main [ref=e205]:
+          - tabpanel [ref=e206]:
+            - tablist [active] [ref=e208]:
+              - generic [ref=e209]:
+                - tab "Webhooks" [ref=e210] [cursor=pointer]:
+                  - generic [ref=e213]: Webhooks
+                - tab "Single Sign-On" [selected] [ref=e214] [cursor=pointer]:
+                  - generic [ref=e217]: Single Sign-On
+                - tab "API Credentials" [ref=e218] [cursor=pointer]:
+                  - generic [ref=e221]: API Credentials
+            - tabpanel [ref=e225]:
+              - generic [ref=e227]:
+                - heading "External Identity Provider" [level=6] [ref=e229]
+                - generic [ref=e235] [cursor=pointer]:
+                  - generic [ref=e236]:
+                    - combobox "Select..." [ref=e237]
+                    - generic: Select...
+                  - generic [ref=e238]:
+                    - text: 
+                    - button "Select" [ref=e239]:
+                      - generic [ref=e241]: 
   - text:              Select...   
   - text:  Search 
   - complementary:
@@ -330,29 +180,29 @@
           - generic:
             - generic:
               - generic: Welcome to White Label
-              - generic [ref=e383]:
-                - img [ref=e387]
-                - generic [ref=e389]:
-                  - button "Choose language" [ref=e392] [cursor=pointer]:
-                    - generic "English" [ref=e393]:
+              - generic [ref=e242]:
+                - img [ref=e246]
+                - generic [ref=e248]:
+                  - button "Choose language" [ref=e251] [cursor=pointer]:
+                    - generic "English" [ref=e252]:
                       - text: En
-                      - img [ref=e395]
-                  - button "Modules Menu" [ref=e399] [cursor=pointer]:
-                    - img [ref=e401]
-                  - button "close asap" [ref=e403] [cursor=pointer]:
-                    - img [ref=e405]
-              - generic [ref=e407]:
+                      - img [ref=e254]
+                  - button "Modules Menu" [ref=e258] [cursor=pointer]:
+                    - img [ref=e260]
+                  - button "close asap" [ref=e262] [cursor=pointer]:
+                    - img [ref=e264]
+              - generic [ref=e266]:
                 - heading "Hi there!" [level=1]
                 - generic:
                   - paragraph: How can we help? We're here for you!
-            - generic [ref=e408]:
+            - generic [ref=e267]:
               - list:
                 - listitem:
-                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e409] [cursor=pointer]:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e268] [cursor=pointer]:
                     - generic:
-                      - img [ref=e411]:
-                        - img [ref=e412]
+                      - img [ref=e270]:
+                        - img [ref=e271]
                       - heading "Knowledge Base" [level=4]
-                    - generic [ref=e414]:
+                    - generic [ref=e273]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
 ```
