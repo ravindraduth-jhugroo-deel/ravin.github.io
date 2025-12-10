@@ -1,0 +1,373 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Add New Employee" [level=1] [ref=e80]:
+              - generic [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]: 
+                - generic [ref=e84]: Add New Employee
+            - treeitem " E-Onboarding" [level=1] [ref=e86]:
+              - generic [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]: 
+                - generic [ref=e90]: E-Onboarding
+            - treeitem " Terminate / Reinstate" [level=1] [ref=e92]:
+              - generic [ref=e94] [cursor=pointer]:
+                - generic [ref=e95]: 
+                - generic [ref=e96]: Terminate / Reinstate
+            - treeitem " Transfer" [level=1] [ref=e98]:
+              - generic [ref=e100] [cursor=pointer]:
+                - generic [ref=e101]: 
+                - generic [ref=e102]: Transfer
+            - treeitem " Transfer History" [level=1] [ref=e104]:
+              - generic [ref=e106] [cursor=pointer]:
+                - generic [ref=e107]: 
+                - generic [ref=e108]: Transfer History
+            - treeitem " Suspension" [level=1] [ref=e110]:
+              - generic [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]: 
+                - generic [ref=e114]: Suspension
+            - treeitem " Create A Mock Payslip" [level=1] [ref=e116]:
+              - generic [ref=e118] [cursor=pointer]:
+                - generic [ref=e119]: 
+                - generic [ref=e120]: Create A Mock Payslip
+      - generic [ref=e122]:
+        - alert [ref=e123]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - main [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e128]:
+              - heading "Stats" [level=6] [ref=e130]
+              - generic [ref=e131]:
+                - generic [ref=e136] [cursor=pointer]:
+                  - combobox [ref=e138]: December 2025
+                  - button "Select" [ref=e140]:
+                    - generic [ref=e142]: 
+                - generic [ref=e144]:
+                  - generic [ref=e146]:
+                    - generic [ref=e147]: 
+                    - generic [ref=e148]: 
+                  - generic [ref=e150]: Active Employees
+                  - heading "102 fas fa-download" [level=4] [ref=e152]:
+                    - text: "102"
+                    - button "fas fa-download" [ref=e153] [cursor=pointer]:
+                      - generic [ref=e155]: 
+                - generic [ref=e157]:
+                  - generic [ref=e159]:
+                    - generic [ref=e160]: 
+                    - generic [ref=e161]: 
+                  - generic [ref=e163]: Other Statistics
+                  - heading "fas fa-download" [level=4] [ref=e165]:
+                    - button "fas fa-download" [ref=e166] [cursor=pointer]:
+                      - generic [ref=e168]: 
+                - generic [ref=e169]:
+                  - generic [ref=e172]:
+                    - generic [ref=e174]:
+                      - generic [ref=e175]: 
+                      - generic [ref=e176]: 
+                    - generic [ref=e178]: Bank Detail Changes
+                    - heading "47" [level=4] [ref=e180]
+                  - generic [ref=e183]:
+                    - generic [ref=e185]:
+                      - generic [ref=e186]: 
+                      - generic [ref=e187]: 
+                    - generic [ref=e189]: Reporting Line Changes
+                    - heading "0" [level=4] [ref=e191]
+                  - generic [ref=e194]:
+                    - generic [ref=e196]:
+                      - generic [ref=e197]: 
+                      - generic [ref=e198]: 
+                    - generic [ref=e200]: Position Changes
+                    - heading "0" [level=4] [ref=e202]
+                  - generic [ref=e205]:
+                    - generic [ref=e207]:
+                      - generic [ref=e208]: 
+                      - generic [ref=e209]: 
+                    - generic [ref=e211]: Pay Rate Changes
+                    - heading "0" [level=4] [ref=e213]
+                  - generic [ref=e216]:
+                    - generic [ref=e218]:
+                      - generic [ref=e219]: 
+                      - generic [ref=e220]: 
+                    - generic [ref=e222]: Active Employees Not Paid
+                    - heading "53" [level=4] [ref=e224]
+                  - generic [ref=e227]:
+                    - generic [ref=e229]:
+                      - generic [ref=e230]: 
+                      - generic [ref=e231]: 
+                    - generic [ref=e233]: Org Unit Changes
+                    - heading "0" [level=4] [ref=e235]
+            - generic [ref=e238]:
+              - heading "Employee Movement" [level=6] [ref=e240]
+              - generic [ref=e241]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - combobox [disabled]: October 2025
+                          - generic:
+                            - button "Select":
+                              - generic:
+                                - generic: 
+                  - generic [ref=e246]: to
+                  - generic [ref=e250] [cursor=pointer]:
+                    - combobox [ref=e252]: December 2025
+                    - button "Select" [ref=e254]:
+                      - generic [ref=e256]: 
+                - img [ref=e259]:
+                  - generic [ref=e273]:
+                    - generic [ref=e274]:
+                      - generic [ref=e275]: "0"
+                      - generic [ref=e276]: "25"
+                      - generic [ref=e277]: "50"
+                      - generic [ref=e278]: "75"
+                      - generic [ref=e279]: "100"
+                    - generic [ref=e281]: December
+                  - generic [ref=e284]:
+                    - generic [ref=e288]: Terminations
+                    - generic [ref=e292]: New Engagements
+                - generic [ref=e293]:
+                  - generic [ref=e294]:
+                    - generic [ref=e295]: Termination Reason
+                    - img [ref=e298]
+                    - generic [ref=e305]:
+                      - img [ref=e307]
+                      - text: Contract Expired
+                  - generic [ref=e309]:
+                    - generic [ref=e310]: Leaver's Length of Service
+                    - img [ref=e313]
+                    - generic [ref=e320]:
+                      - img [ref=e322]
+                      - text: < 1
+  - text:  Search 
+  - dialog [ref=e324]:
+    - generic [ref=e325]:
+      - heading "Configuration menu" [level=5] [ref=e326]
+      - link "Company" [ref=e327] [cursor=pointer]:
+        - /url: /company/company-profile/create
+        - button "Company" [ref=e328]:
+          - generic [ref=e329]:
+            - generic [ref=e330]: +
+            - generic [ref=e331]: Company
+      - button "refresh" [ref=e333] [cursor=pointer]:
+        - generic [ref=e335]: 
+      - button [ref=e336] [cursor=pointer]
+    - generic [ref=e341]:
+      - tablist [ref=e342]:
+        - generic [ref=e343]:
+          - tab "Basic Settings" [ref=e344] [cursor=pointer]:
+            - generic [ref=e347]: Basic Settings
+          - tab "Payroll" [ref=e348] [cursor=pointer]:
+            - generic [ref=e351]: Payroll
+          - tab "Human Resources" [selected] [ref=e352] [cursor=pointer]:
+            - generic [ref=e355]: Human Resources
+          - tab "Security" [ref=e356] [cursor=pointer]:
+            - generic [ref=e359]: Security
+          - tab "Financial" [ref=e360] [cursor=pointer]:
+            - generic [ref=e363]: Financial
+      - group [ref=e364]:
+        - application [ref=e368]:
+          - listbox "Items" [ref=e369]:
+            - group "Leave Administration" [ref=e370]:
+              - heading "Leave Administration" [level=6] [ref=e372]
+              - generic [ref=e373]:
+                - option "_ Leave Scheme Setup" [ref=e374] [cursor=pointer]:
+                  - generic [ref=e375]: _ Leave Scheme Setup
+                - option "_ Leave Scheme Parameters" [ref=e376] [cursor=pointer]:
+                  - generic [ref=e377]: _ Leave Scheme Parameters
+                - option "_ Leave Scheme Parameters" [ref=e378] [cursor=pointer]:
+                  - generic [ref=e379]: _ Leave Scheme Parameters
+                - option "_ Leave Averaging Income Setup" [ref=e380] [cursor=pointer]:
+                  - generic [ref=e381]: _ Leave Averaging Income Setup
+                - option "_ Leave Averaging Income Setup" [ref=e382] [cursor=pointer]:
+                  - generic [ref=e383]: _ Leave Averaging Income Setup
+                - option "_ Leave Bucket Mapping" [ref=e384] [cursor=pointer]:
+                  - generic [ref=e385]: _ Leave Bucket Mapping
+                - option "_ Leave Bucket Mapping" [ref=e386] [cursor=pointer]:
+                  - generic [ref=e387]: _ Leave Bucket Mapping
+                - option "_ Public Holidays" [ref=e388] [cursor=pointer]:
+                  - generic [ref=e389]: _ Public Holidays
+                - option "_ Leave Settings" [ref=e390] [cursor=pointer]:
+                  - generic [ref=e391]: _ Leave Settings
+            - group "Organisation Structure" [ref=e392]:
+              - heading "Organisation Structure" [level=6] [ref=e394]
+              - generic [ref=e395]:
+                - option "_ Organisation Hierarchy Levels" [ref=e396] [cursor=pointer]:
+                  - generic [ref=e397]: _ Organisation Hierarchy Levels
+                - option "_ Organisation Hierarchy Units" [ref=e398] [cursor=pointer]:
+                  - generic [ref=e399]: _ Organisation Hierarchy Units
+                - option "_ Grades" [ref=e400] [cursor=pointer]:
+                  - generic [ref=e401]: _ Grades
+                - option "_ Position Management" [ref=e402] [cursor=pointer]:
+                  - generic [ref=e403]: _ Position Management
+                - option "_ Onboarding / Termination Notifications" [ref=e404] [cursor=pointer]:
+                  - generic [ref=e405]: _ Onboarding / Termination Notifications
+                - option "_ Bulk Reporting Changes" [ref=e406] [cursor=pointer]:
+                  - generic [ref=e407]: _ Bulk Reporting Changes
+                - option "_ Org and Position Settings" [ref=e408] [cursor=pointer]:
+                  - generic [ref=e409]: _ Org and Position Settings
+            - group "Performance Management" [ref=e410]:
+              - heading "Performance Management" [level=6] [ref=e412]
+              - generic [ref=e413]:
+                - option "_ Evaluation Process Types" [ref=e414] [cursor=pointer]:
+                  - generic [ref=e415]: _ Evaluation Process Types
+                - option "_ Scale Definitions" [ref=e416] [cursor=pointer]:
+                  - generic [ref=e417]: _ Scale Definitions
+                - option "_ Evaluation Processes" [ref=e418] [cursor=pointer]:
+                  - generic [ref=e419]: _ Evaluation Processes
+                - option "_ Scale Options" [ref=e420] [cursor=pointer]:
+                  - generic [ref=e421]: _ Scale Options
+                - option "_ Template Definition" [ref=e422] [cursor=pointer]:
+                  - generic [ref=e423]: _ Template Definition
+                - option "_ KPI Setup" [ref=e424] [cursor=pointer]:
+                  - generic [ref=e425]: _ KPI Setup
+                - option "_ KPI Targets" [ref=e426] [cursor=pointer]:
+                  - generic [ref=e427]: _ KPI Targets
+                - option "_ KPI Scorecard" [ref=e428] [cursor=pointer]:
+                  - generic [ref=e429]: _ KPI Scorecard
+                - option "_ Employee KPA Definitions" [ref=e430] [cursor=pointer]:
+                  - generic [ref=e431]: _ Employee KPA Definitions
+                - option "_ Succession Planning Configuration" [ref=e432] [cursor=pointer]:
+                  - generic [ref=e433]: _ Succession Planning Configuration
+                - option "_ Mass Template Attachment Utility" [ref=e434] [cursor=pointer]:
+                  - generic [ref=e435]: _ Mass Template Attachment Utility
+                - option "_ Performance Management Settings" [ref=e436] [cursor=pointer]:
+                  - generic [ref=e437]: _ Performance Management Settings
+            - group "Upskilling" [ref=e438]:
+              - heading "Upskilling" [level=6] [ref=e440]
+              - generic [ref=e441]:
+                - option "_ Training Courses" [ref=e442] [cursor=pointer]:
+                  - generic [ref=e443]: _ Training Courses
+                - option "_ Skills Categories" [ref=e444] [cursor=pointer]:
+                  - generic [ref=e445]: _ Skills Categories
+                - option "_ Skills" [ref=e446] [cursor=pointer]:
+                  - generic [ref=e447]: _ Skills
+                - option "_ Qualifications" [ref=e448] [cursor=pointer]:
+                  - generic [ref=e449]: _ Qualifications
+            - group "Workforce Planning" [ref=e450]:
+              - heading "Workforce Planning" [level=6] [ref=e452]
+              - generic [ref=e453]:
+                - option "_ Job Management" [ref=e454] [cursor=pointer]:
+                  - generic [ref=e455]: _ Job Management
+                - option "_ Workforce Snapshot" [ref=e456] [cursor=pointer]:
+                  - generic [ref=e457]: _ Workforce Snapshot
+                - option "_ Archive Workforce Snapshot" [ref=e458] [cursor=pointer]:
+                  - generic [ref=e459]: _ Archive Workforce Snapshot
+            - group "Workforce Planning Setup" [ref=e460]:
+              - heading "Workforce Planning Setup" [level=6] [ref=e462]
+              - generic [ref=e463]:
+                - option "_ Budget Cost Groups" [ref=e464] [cursor=pointer]:
+                  - generic [ref=e465]: _ Budget Cost Groups
+                - option "_ Cost Group Allocation" [ref=e466] [cursor=pointer]:
+                  - generic [ref=e467]: _ Cost Group Allocation
+                - option "_ Budget Period Process" [ref=e468] [cursor=pointer]:
+                  - generic [ref=e469]: _ Budget Period Process
+                - option "_ Budget Increase Amounts" [ref=e470] [cursor=pointer]:
+                  - generic [ref=e471]: _ Budget Increase Amounts
+                - option "_ Grade Costing Setup" [ref=e472] [cursor=pointer]:
+                  - generic [ref=e473]: _ Grade Costing Setup
+                - option "_ User Org Management" [ref=e474] [cursor=pointer]:
+                  - generic [ref=e475]: _ User Org Management
+                - option "_ Workforce Planning Settings" [ref=e476] [cursor=pointer]:
+                  - generic [ref=e477]: _ Workforce Planning Settings
+            - group "Employment Equity" [ref=e478]:
+              - heading "Employment Equity" [level=6] [ref=e480]
+              - generic [ref=e481]:
+                - option "_ Employment Equity Setup" [ref=e482] [cursor=pointer]:
+                  - generic [ref=e483]: _ Employment Equity Setup
+                - option "_ Employment Equity Plan" [ref=e484] [cursor=pointer]:
+                  - generic [ref=e485]: _ Employment Equity Plan
+                - option "_ Employment Equity Config" [ref=e486] [cursor=pointer]:
+                  - generic [ref=e487]: _ Employment Equity Config
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e488]:
+                - img [ref=e492]
+                - generic [ref=e494]:
+                  - button "Choose language" [ref=e497] [cursor=pointer]:
+                    - generic "English" [ref=e498]:
+                      - text: En
+                      - img [ref=e500]
+                  - button "Modules Menu" [ref=e504] [cursor=pointer]:
+                    - img [ref=e506]
+                  - button "close asap" [ref=e508] [cursor=pointer]:
+                    - img [ref=e510]
+              - generic [ref=e512]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e513]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e514] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e516]:
+                        - img [ref=e517]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e519]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

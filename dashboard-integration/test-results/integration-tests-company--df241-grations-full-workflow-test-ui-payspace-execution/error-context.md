@@ -1,0 +1,358 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Basic Settings " [expanded] [level=1] [ref=e80]:
+              - generic [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]:
+                  - generic [ref=e83]: 
+                  - generic [ref=e84]: Basic Settings
+                - generic [ref=e85]: 
+              - group [ref=e86]:
+                - treeitem "Company Settings " [level=2] [ref=e87]:
+                  - generic [ref=e88] [cursor=pointer]:
+                    - generic [ref=e90]: Company Settings
+                    - generic [ref=e91]: 
+                - treeitem "General Company " [expanded] [level=2] [ref=e92]:
+                  - generic [ref=e93] [cursor=pointer]:
+                    - generic [ref=e95]: General Company
+                    - generic [ref=e96]: 
+                  - group [ref=e97]:
+                    - treeitem "Integrations" [level=3] [selected] [ref=e98]:
+                      - generic [ref=e101] [cursor=pointer]: Integrations
+                    - treeitem "EFT Outbox File Settings C" [level=3] [ref=e103]:
+                      - generic [ref=e105] [cursor=pointer]:
+                        - generic [ref=e106]: EFT Outbox File Settings
+                        - generic [ref=e107]: C
+                    - treeitem "Company Documents C" [level=3] [ref=e109]:
+                      - generic [ref=e111] [cursor=pointer]:
+                        - generic [ref=e112]: Company Documents
+                        - generic [ref=e113]: C
+                    - treeitem "Company Roster Schedules" [level=3] [ref=e115]:
+                      - generic [ref=e118] [cursor=pointer]: Company Roster Schedules
+                    - treeitem "External Quick Links" [level=3] [ref=e120]:
+                      - generic [ref=e123] [cursor=pointer]: External Quick Links
+                    - treeitem "Employee Birthday Email C" [level=3] [ref=e125]:
+                      - generic [ref=e127] [cursor=pointer]:
+                        - generic [ref=e128]: Employee Birthday Email
+                        - generic [ref=e129]: C
+                    - treeitem "Custom Forms" [level=3] [ref=e131]:
+                      - generic [ref=e134] [cursor=pointer]: Custom Forms
+                    - treeitem "MSCOA" [level=3] [ref=e136]:
+                      - generic [ref=e139] [cursor=pointer]: MSCOA
+                    - treeitem "Template Setup" [level=3] [ref=e141]:
+                      - generic [ref=e144] [cursor=pointer]: Template Setup
+                    - treeitem "Template Configuration" [level=3] [ref=e146]:
+                      - generic [ref=e149] [cursor=pointer]: Template Configuration
+                - treeitem "Custom Screens & Fields " [level=2] [ref=e151]:
+                  - generic [ref=e152] [cursor=pointer]:
+                    - generic [ref=e154]: Custom Screens & Fields
+                    - generic [ref=e155]: 
+                - treeitem "Dropdown Management " [level=2] [ref=e156]:
+                  - generic [ref=e157] [cursor=pointer]:
+                    - generic [ref=e159]: Dropdown Management
+                    - generic [ref=e160]: 
+                - treeitem "Payroll Cycle Setup " [level=2] [ref=e161]:
+                  - generic [ref=e162] [cursor=pointer]:
+                    - generic [ref=e164]: Payroll Cycle Setup
+                    - generic [ref=e165]: 
+                - treeitem "Legislative Configurations " [level=2] [ref=e166]:
+                  - generic [ref=e167] [cursor=pointer]:
+                    - generic [ref=e169]: Legislative Configurations
+                    - generic [ref=e170]: 
+            - treeitem " Payroll " [level=1] [ref=e171]:
+              - generic [ref=e172] [cursor=pointer]:
+                - generic [ref=e173]:
+                  - generic [ref=e174]: 
+                  - generic [ref=e175]: Payroll
+                - generic [ref=e176]: 
+            - treeitem " Human Resources " [level=1] [ref=e177]:
+              - generic [ref=e178] [cursor=pointer]:
+                - generic [ref=e179]:
+                  - generic [ref=e180]: 
+                  - generic [ref=e181]: Human Resources
+                - generic [ref=e182]: 
+            - treeitem " Security " [level=1] [ref=e183]:
+              - generic [ref=e184] [cursor=pointer]:
+                - generic [ref=e185]:
+                  - generic [ref=e186]: 
+                  - generic [ref=e187]: Security
+                - generic [ref=e188]: 
+            - treeitem " Financial " [level=1] [ref=e189]:
+              - generic [ref=e190] [cursor=pointer]:
+                - generic [ref=e191]:
+                  - generic [ref=e192]: 
+                  - generic [ref=e193]: Financial
+                - generic [ref=e194]: 
+      - generic [ref=e195]:
+        - alert [ref=e196]: This environment is not a live environment, it is a backup from 2025/12/07
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - generic [ref=e199]: 
+            - text: Calculations are currently in progress.
+          - text: View Details
+        - banner [ref=e200]:
+          - generic [ref=e201]:
+            - heading "Integrations" [level=1] [ref=e203]
+            - button "bulletlist" [ref=e205] [cursor=pointer]:
+              - generic [ref=e207]: 
+        - main [ref=e208]:
+          - tabpanel [ref=e209]:
+            - tablist [ref=e211]:
+              - generic [ref=e212]:
+                - tab "Webhooks" [ref=e213] [cursor=pointer]:
+                  - generic [ref=e216]: Webhooks
+                - tab "Single Sign-On" [ref=e217] [cursor=pointer]:
+                  - generic [ref=e220]: Single Sign-On
+                - tab "API Credentials" [selected] [ref=e221] [cursor=pointer]:
+                  - generic [ref=e224]: API Credentials
+            - generic [ref=e227]:
+              - text: _ _
+              - tabpanel [ref=e228]:
+                - generic [ref=e231]:
+                  - text:  
+                  - group "Data grid with 7 rows and 6 columns" [ref=e232]:
+                    - status [ref=e233]: Data grid with 7 rows and 6 columns
+                    - toolbar "Data grid toolbar" [ref=e235]:
+                      - generic [ref=e236]:
+                        - button "far fa-plus" [ref=e239] [cursor=pointer]:
+                          - generic [ref=e241]: +
+                        - text: 
+                    - row "Column Name Column Client Id Column User (for permission and audit purposes) Column Scope Column Development Mode" [ref=e249]:
+                      - columnheader "Column Name" [ref=e250] [cursor=pointer]:
+                        - text: Name
+                        - generic [ref=e251]: 
+                      - columnheader "Column Client Id" [ref=e252] [cursor=pointer]: Client Id
+                      - columnheader "Column User (for permission and audit purposes)" [ref=e253] [cursor=pointer]: User (for permission and audit purposes)
+                      - columnheader "Column Scope" [ref=e254] [cursor=pointer]: Scope
+                      - columnheader "Column Development Mode" [ref=e255] [cursor=pointer]: Development Mode
+                      - gridcell [ref=e256]
+                    - row "Filter cell Filter cell Filter cell Filter cell Filter cell" [ref=e257]:
+                      - gridcell "Filter cell" [ref=e258]:
+                        - generic [ref=e259]:
+                          - menubar:
+                            - menuitem "Search box" [ref=e260] [cursor=pointer]:
+                              - generic [ref=e261]:
+                                - generic [ref=e262]: 
+                                - text: 
+                          - textbox "Filter cell" [ref=e267]
+                      - gridcell "Filter cell" [ref=e268]:
+                        - generic [ref=e269]:
+                          - menubar:
+                            - menuitem "Search box" [ref=e270] [cursor=pointer]:
+                              - generic [ref=e271]:
+                                - generic [ref=e272]: 
+                                - text: 
+                          - textbox "Filter cell" [ref=e277]
+                      - gridcell "Filter cell" [ref=e278]:
+                        - generic [ref=e282] [cursor=pointer]:
+                          - combobox "Filter cell" [ref=e283]:
+                            - text: .
+                            - generic: Select...
+                          - generic: 
+                      - gridcell "Filter cell" [ref=e284]:
+                        - generic [ref=e285]:
+                          - menubar:
+                            - menuitem "Search box" [ref=e286] [cursor=pointer]:
+                              - generic [ref=e287]:
+                                - generic [ref=e288]: 
+                                - text: 
+                          - textbox "Filter cell" [ref=e293]
+                      - gridcell "Filter cell" [ref=e294]:
+                        - generic [ref=e299] [cursor=pointer]:
+                          - generic [ref=e300]:
+                            - combobox "Filter cell" [ref=e301]: (All)
+                            - text: Select...
+                          - button "Select" [ref=e303]:
+                            - generic [ref=e305]: 
+                      - gridcell [ref=e306]
+                    - generic [ref=e307]:
+                      - row "Add Company User 70c614df-d1d2-42b4-ad30-3e07c0bf8c76 Full Access Edit Delete" [ref=e315]:
+                        - gridcell "Add Company User" [ref=e316]
+                        - gridcell "70c614df-d1d2-42b4-ad30-3e07c0bf8c76" [ref=e317]
+                        - gridcell [ref=e318]
+                        - gridcell "Full Access" [ref=e319]
+                        - gridcell [ref=e320]
+                        - gridcell "Edit Delete" [ref=e321]:
+                          - link "Edit" [ref=e322] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                          - link "Delete" [ref=e323] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                      - row "AutoTest 6f266ac8-a595-4fc5-a89b-bc44665e6fbc Read-only Access Edit Delete" [ref=e324]:
+                        - gridcell "AutoTest" [ref=e325]
+                        - gridcell "6f266ac8-a595-4fc5-a89b-bc44665e6fbc" [ref=e326]
+                        - gridcell [ref=e327]
+                        - gridcell "Read-only Access" [ref=e328]
+                        - gridcell [ref=e329]
+                        - gridcell "Edit Delete" [ref=e330]:
+                          - link "Edit" [ref=e331] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                          - link "Delete" [ref=e332] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                      - row "Business Partner df19fbcb-fb95-477d-a15b-7adf8d34f426 Company User Full Access  Edit Delete" [ref=e333]:
+                        - gridcell "Business Partner" [ref=e334]
+                        - gridcell "df19fbcb-fb95-477d-a15b-7adf8d34f426" [ref=e335]
+                        - gridcell "Company User" [ref=e336]
+                        - gridcell "Full Access" [ref=e337]
+                        - gridcell "" [ref=e338]:
+                          - emphasis [ref=e339]: 
+                        - gridcell "Edit Delete" [ref=e340]:
+                          - link "Edit" [ref=e341] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                          - link "Delete" [ref=e342] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                      - row "Company User 77e4d53e-c910-4931-bcda-13e833605c38 Company User Full Access  Edit Delete" [ref=e343]:
+                        - gridcell "Company User" [ref=e344]
+                        - gridcell "77e4d53e-c910-4931-bcda-13e833605c38" [ref=e345]
+                        - gridcell "Company User" [ref=e346]
+                        - gridcell "Full Access" [ref=e347]
+                        - gridcell "" [ref=e348]:
+                          - emphasis [ref=e349]: 
+                        - gridcell "Edit Delete" [ref=e350]:
+                          - link "Edit" [ref=e351] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                          - link "Delete" [ref=e352] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                      - row "Deny Test 3092b28e-041a-49d3-aed2-7dd03260701e Deny Test Full Access  Edit Delete" [ref=e353]:
+                        - gridcell "Deny Test" [ref=e354]
+                        - gridcell "3092b28e-041a-49d3-aed2-7dd03260701e" [ref=e355]
+                        - gridcell "Deny Test" [ref=e356]
+                        - gridcell "Full Access" [ref=e357]
+                        - gridcell "" [ref=e358]:
+                          - emphasis [ref=e359]: 
+                        - gridcell "Edit Delete" [ref=e360]:
+                          - link "Edit" [ref=e361] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                          - link "Delete" [ref=e362] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                      - row "MSS User a0ae17ca-bbf4-43b0-b42a-c18061e4bec5 MSS User Full Access  Edit Delete" [ref=e363]:
+                        - gridcell "MSS User" [ref=e364]
+                        - gridcell "a0ae17ca-bbf4-43b0-b42a-c18061e4bec5" [ref=e365]
+                        - gridcell "MSS User" [ref=e366]
+                        - gridcell "Full Access" [ref=e367]
+                        - gridcell "" [ref=e368]:
+                          - emphasis [ref=e369]: 
+                        - gridcell "Edit Delete" [ref=e370]:
+                          - link "Edit" [ref=e371] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                          - link "Delete" [ref=e372] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                      - row "Read Test 2d3a8170-39b8-4a41-9e82-08fed3209e76 Read Test Full Access  Edit Delete" [ref=e373]:
+                        - gridcell "Read Test" [ref=e374]
+                        - gridcell "2d3a8170-39b8-4a41-9e82-08fed3209e76" [ref=e375]
+                        - gridcell "Read Test" [ref=e376]
+                        - gridcell "Full Access" [ref=e377]
+                        - gridcell "" [ref=e378]:
+                          - emphasis [ref=e379]: 
+                        - gridcell "Edit Delete" [ref=e380]:
+                          - link "Edit" [ref=e381] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+                          - link "Delete" [ref=e382] [cursor=pointer]:
+                            - /url: "#"
+                            - text: 
+  - text:              Select...   
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e383]:
+                - img [ref=e387]
+                - generic [ref=e389]:
+                  - button "Choose language" [ref=e392] [cursor=pointer]:
+                    - generic "English" [ref=e393]:
+                      - text: En
+                      - img [ref=e395]
+                  - button "Modules Menu" [ref=e399] [cursor=pointer]:
+                    - img [ref=e401]
+                  - button "close asap" [ref=e403] [cursor=pointer]:
+                    - img [ref=e405]
+              - generic [ref=e407]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e408]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e409] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e411]:
+                        - img [ref=e412]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e414]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

@@ -1,0 +1,245 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - text:  Search  _  Search  _
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - link "Bluey Heeler":
+                - /url: /employees/4850144/contact
+                - img "Bluey Heeler" [ref=e62] [cursor=pointer]
+            - generic [ref=e63]:
+              - generic [ref=e64]: Playwright Integration Demo
+              - generic [ref=e65]: Monthly
+            - separator [ref=e66]
+            - generic [ref=e68]: Bluey Heeler
+            - generic [ref=e69]:
+              - link "" [ref=e70] [cursor=pointer]:
+                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=4850144&frequencyId=108658&returnUrl=%2Femployees%2F4850144%2Fcontact
+              - button "PW001" [ref=e71] [cursor=pointer]
+              - link "" [ref=e72] [cursor=pointer]:
+                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=4850144&frequencyId=108658&returnUrl=%2Femployees%2F4850144%2Fcontact
+        - tree [ref=e75]:
+          - group [ref=e80]:
+            - treeitem " Basic Information " [level=1] [ref=e81]:
+              - generic [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: 
+                  - generic [ref=e85]: Basic Information
+                - generic [ref=e86]: 
+            - treeitem " Payroll Processing " [expanded] [level=1] [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]:
+                  - generic [ref=e90]: 
+                  - generic [ref=e91]: Payroll Processing
+                - generic [ref=e92]: 
+              - group [ref=e93]:
+                - treeitem "Pay Rate Details" [level=2] [ref=e94]:
+                  - generic [ref=e97] [cursor=pointer]: Pay Rate Details
+                - treeitem "Edit Payslip" [level=2] [ref=e99]:
+                  - generic [ref=e102] [cursor=pointer]: Edit Payslip
+                - treeitem "Recurring Payroll Components" [level=2] [ref=e104]:
+                  - generic [ref=e107] [cursor=pointer]: Recurring Payroll Components
+                - treeitem "Take On Year To Date Figures" [level=2] [ref=e109]:
+                  - generic [ref=e112] [cursor=pointer]: Take On Year To Date Figures
+                - treeitem "Claims" [level=2] [ref=e114]:
+                  - generic [ref=e117] [cursor=pointer]: Claims
+                - treeitem "Change Request" [level=2] [ref=e119]:
+                  - generic [ref=e122] [cursor=pointer]: Change Request
+            - treeitem " Payroll Results " [level=1] [ref=e124]:
+              - generic [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]:
+                  - generic [ref=e127]: 
+                  - generic [ref=e128]: Payroll Results
+                - generic [ref=e129]: 
+            - treeitem " Leave " [level=1] [ref=e130]:
+              - generic [ref=e131] [cursor=pointer]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]: 
+                  - generic [ref=e134]: Leave
+                - generic [ref=e135]: 
+            - treeitem " Performance " [level=1] [ref=e136]:
+              - generic [ref=e137] [cursor=pointer]:
+                - generic [ref=e138]:
+                  - generic [ref=e139]: 
+                  - generic [ref=e140]: Performance
+                - generic [ref=e141]: 
+            - treeitem " Skills " [level=1] [ref=e142]:
+              - generic [ref=e143] [cursor=pointer]:
+                - generic [ref=e144]:
+                  - generic [ref=e145]: 
+                  - generic [ref=e146]: Skills
+                - generic [ref=e147]: 
+            - treeitem " Costing " [level=1] [ref=e148]:
+              - generic [ref=e149] [cursor=pointer]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]: 
+                  - generic [ref=e152]: Costing
+                - generic [ref=e153]: 
+            - treeitem " Other " [level=1] [ref=e154]:
+              - generic [ref=e155] [cursor=pointer]:
+                - generic [ref=e156]:
+                  - generic [ref=e157]: 
+                  - generic [ref=e158]: Other
+                - generic [ref=e159]: 
+      - generic [ref=e160]:
+        - alert [ref=e161]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - main [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e166]:
+              - heading "About" [level=6] [ref=e168]
+              - generic [ref=e169]:
+                - generic [ref=e170]:
+                  - img "Bluey Heeler" [ref=e171]
+                  - generic [ref=e172]:
+                    - heading "Bluey Heeler" [level=4] [ref=e173]
+                    - generic [ref=e174]: Cook
+                - generic [ref=e175]:
+                  - generic [ref=e176]:
+                    - heading "Personal" [level=6] [ref=e177]
+                    - list [ref=e178]:
+                      - listitem [ref=e179]:
+                        - strong [ref=e180]: Email
+                        - generic [ref=e181]: essblueypwint@payspaceteam633061.testinator.com
+                      - listitem [ref=e182]:
+                        - strong [ref=e183]: Birth Date
+                        - generic [ref=e184]: 01 February
+                      - listitem [ref=e185]:
+                        - strong [ref=e186]: Group Join Date
+                        - generic [ref=e187]: 01 March 2025
+                      - listitem [ref=e188]:
+                        - strong [ref=e189]: Full Name
+                        - generic [ref=e190]: Bluey Heeler
+                  - generic [ref=e192]:
+                    - heading "Company" [level=6] [ref=e193]
+                    - list [ref=e194]:
+                      - listitem [ref=e195]:
+                        - strong [ref=e196]: Company
+                        - generic [ref=e197]: Playwright Integration Demo
+                      - listitem [ref=e198]:
+                        - strong [ref=e199]: Employee Number
+                        - generic [ref=e200]: PW001
+                      - listitem [ref=e201]:
+                        - strong [ref=e202]: Frequency Name
+                        - generic [ref=e203]: Monthly
+                      - listitem [ref=e204]:
+                        - strong [ref=e205]: Position
+                        - generic [ref=e206]: Cook
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - heading "Peers" [level=6] [ref=e211]
+                - generic [ref=e212]: "1"
+              - generic [ref=e213]:
+                - heading "Also reporting to Bingo Heeler" [level=6] [ref=e214]
+                - group "Data grid with 1 rows and 1 columns" [ref=e215]:
+                  - status [ref=e216]: Data grid with 1 rows and 1 columns
+                  - grid [ref=e217]:
+                    - row "Muffin Heeler Muffin Heeler" [ref=e220]:
+                      - gridcell "Muffin Heeler Muffin Heeler" [ref=e221]:
+                        - generic [ref=e222]:
+                          - link "Muffin Heeler" [ref=e224] [cursor=pointer]:
+                            - /url: /employees/4850148/contact
+                            - img "Muffin Heeler" [ref=e225]
+                          - paragraph [ref=e227]: Muffin Heeler
+            - generic [ref=e230]:
+              - generic [ref=e231]:
+                - heading "Managers" [level=6] [ref=e232]
+                - generic [ref=e233]: "1"
+              - group "Data grid with 1 rows and 1 columns" [ref=e235]:
+                - status [ref=e236]: Data grid with 1 rows and 1 columns
+                - grid [ref=e237]:
+                  - row "Bingo Heeler Bingo Heeler Manager 2 " [ref=e240]:
+                    - gridcell "Bingo Heeler Bingo Heeler Manager 2 " [ref=e241]:
+                      - generic [ref=e242]:
+                        - link "Bingo Heeler" [ref=e244] [cursor=pointer]:
+                          - /url: /employees/4850145/contact
+                          - img "Bingo Heeler" [ref=e245]
+                        - generic [ref=e246]:
+                          - paragraph [ref=e247]: Bingo Heeler
+                          - text: Manager
+                        - generic [ref=e249]:
+                          - text: "2"
+                          - generic [ref=e250]: 
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e251]:
+                - img [ref=e255]
+                - generic [ref=e257]:
+                  - button "Choose language" [ref=e260] [cursor=pointer]:
+                    - generic "English" [ref=e261]:
+                      - text: En
+                      - img [ref=e263]
+                  - button "Modules Menu" [ref=e267] [cursor=pointer]:
+                    - img [ref=e269]
+                  - button "close asap" [ref=e271] [cursor=pointer]:
+                    - img [ref=e273]
+              - generic [ref=e275]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e276]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e277] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e279]:
+                        - img [ref=e280]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e282]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

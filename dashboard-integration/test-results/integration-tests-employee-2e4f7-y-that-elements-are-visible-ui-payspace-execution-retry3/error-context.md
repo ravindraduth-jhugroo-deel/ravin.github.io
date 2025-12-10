@@ -1,0 +1,227 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - text:  Search  _  Search  _
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - link "Fay Cummings":
+                - /url: /employees/5153178/contact
+                - img "Fay Cummings" [ref=e62] [cursor=pointer]
+            - generic [ref=e63]:
+              - generic [ref=e64]: Playwright Integration Demo
+              - generic [ref=e65]: Monthly
+            - separator [ref=e66]
+            - generic [ref=e68]: Fay Cummings
+            - generic [ref=e69]:
+              - link "" [ref=e70] [cursor=pointer]:
+                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=5153178&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153178%2F108658%2Fchange-request
+              - button "322965" [ref=e71] [cursor=pointer]
+              - link "" [ref=e72] [cursor=pointer]:
+                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=5153178&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153178%2F108658%2Fchange-request
+        - tree [ref=e75]:
+          - group [ref=e80]:
+            - treeitem " Basic Information " [level=1] [ref=e81]:
+              - generic [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: 
+                  - generic [ref=e85]: Basic Information
+                - generic [ref=e86]: 
+            - treeitem " Payroll Processing " [expanded] [level=1] [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]:
+                  - generic [ref=e90]: 
+                  - generic [ref=e91]: Payroll Processing
+                - generic [ref=e92]: 
+              - group [ref=e93]:
+                - treeitem "Pay Rate Details" [level=2] [ref=e94]:
+                  - generic [ref=e97] [cursor=pointer]: Pay Rate Details
+                - treeitem "Edit Payslip" [level=2] [ref=e99]:
+                  - generic [ref=e102] [cursor=pointer]: Edit Payslip
+                - treeitem "Recurring Payroll Components" [level=2] [ref=e104]:
+                  - generic [ref=e107] [cursor=pointer]: Recurring Payroll Components
+                - treeitem "Take On Year To Date Figures" [level=2] [ref=e109]:
+                  - generic [ref=e112] [cursor=pointer]: Take On Year To Date Figures
+                - treeitem "Claims" [level=2] [ref=e114]:
+                  - generic [ref=e117] [cursor=pointer]: Claims
+                - treeitem "Change Request" [level=2] [selected] [ref=e119]:
+                  - generic [ref=e122] [cursor=pointer]: Change Request
+            - treeitem " Payroll Results " [level=1] [ref=e124]:
+              - generic [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]:
+                  - generic [ref=e127]: 
+                  - generic [ref=e128]: Payroll Results
+                - generic [ref=e129]: 
+            - treeitem " Leave " [level=1] [ref=e130]:
+              - generic [ref=e131] [cursor=pointer]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]: 
+                  - generic [ref=e134]: Leave
+                - generic [ref=e135]: 
+            - treeitem " Performance " [level=1] [ref=e136]:
+              - generic [ref=e137] [cursor=pointer]:
+                - generic [ref=e138]:
+                  - generic [ref=e139]: 
+                  - generic [ref=e140]: Performance
+                - generic [ref=e141]: 
+            - treeitem " Skills " [level=1] [ref=e142]:
+              - generic [ref=e143] [cursor=pointer]:
+                - generic [ref=e144]:
+                  - generic [ref=e145]: 
+                  - generic [ref=e146]: Skills
+                - generic [ref=e147]: 
+            - treeitem " Costing " [level=1] [ref=e148]:
+              - generic [ref=e149] [cursor=pointer]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]: 
+                  - generic [ref=e152]: Costing
+                - generic [ref=e153]: 
+            - treeitem " Other " [level=1] [ref=e154]:
+              - generic [ref=e155] [cursor=pointer]:
+                - generic [ref=e156]:
+                  - generic [ref=e157]: 
+                  - generic [ref=e158]: Other
+                - generic [ref=e159]: 
+      - generic [ref=e160]:
+        - alert [ref=e161]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - banner [ref=e162]:
+          - heading "Change Request" [level=1] [ref=e165]
+        - main [ref=e166]:
+          - tabpanel [ref=e167]:
+            - tablist [ref=e169]:
+              - generic [ref=e170]:
+                - tab "Edit Request" [selected] [ref=e171] [cursor=pointer]:
+                  - generic [ref=e174]: Edit Request
+                - tab "View history" [ref=e175] [cursor=pointer]:
+                  - generic [ref=e178]: View history
+            - tabpanel [ref=e182]:
+              - generic [ref=e184]:
+                - heading "Details" [level=6] [ref=e186]
+                - generic [ref=e190]:
+                  - generic [ref=e192] [cursor=pointer]:
+                    - generic [ref=e194]:
+                      - generic [ref=e195]:
+                        - combobox "Request Type *" [ref=e196]: test _
+                        - text: Request Type
+                      - button "Select" [ref=e198]:
+                        - generic [ref=e200]: 
+                    - generic:
+                      - generic:
+                        - generic: Request Type *
+                  - generic [ref=e201]:
+                    - generic [ref=e203] [cursor=pointer]:
+                      - generic [ref=e205]:
+                        - generic [ref=e206]:
+                          - combobox "Effective Date" [ref=e207]: 2025/12/10
+                          - text: Effective Date
+                        - button "Select" [ref=e209]:
+                          - generic [ref=e211]: 
+                      - generic:
+                        - generic:
+                          - generic: Effective Date
+                    - generic [ref=e214]:
+                      - generic [ref=e216]:
+                        - textbox "Notes *" [active] [ref=e217]:
+                          - /placeholder: Notes
+                          - text: test
+                        - text: Notes
+                      - generic:
+                        - generic:
+                          - generic: Notes *
+                    - generic [ref=e219]:
+                      - heading "Attachments" [level=6] [ref=e220]
+                      - generic [ref=e227]:
+                        - button "Select a file" [ref=e228] [cursor=pointer]:
+                          - generic [ref=e230]: Select a file
+                        - generic [ref=e231]:
+                          - button "or Drop a file here" [ref=e232]
+                          - generic: or Drop a file here
+                    - generic [ref=e236]:
+                      - textbox "Reference" [ref=e239]
+                      - generic:
+                        - generic:
+                          - generic: Reference
+                    - alert [ref=e242]: No workflow found.
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e244]:
+                - img [ref=e248]
+                - generic [ref=e250]:
+                  - button "Choose language" [ref=e253] [cursor=pointer]:
+                    - generic "English" [ref=e254]:
+                      - text: En
+                      - img [ref=e256]
+                  - button "Modules Menu" [ref=e260] [cursor=pointer]:
+                    - img [ref=e262]
+                  - button "close asap" [ref=e264] [cursor=pointer]:
+                    - img [ref=e266]
+              - generic [ref=e268]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e269]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e270] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e272]:
+                        - img [ref=e273]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e275]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```
