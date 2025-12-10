@@ -1,0 +1,14 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="27.183874">
+<testsuite name="UI/integration-tests/dashboard/force-recalc-test.spec.ts" timestamp="2025-12-10T09:21:54.499Z" hostname="ui-payspace-execution" tests="1" failures="0" skipped="0" time="24.713" errors="0">
+<testcase name="Force Recalc integration test for Company user @integration @releasepipeline @re-calc @Ravin › Force Recalc button test" classname="UI/integration-tests/dashboard/force-recalc-test.spec.ts" time="24.713">
+<system-out>
+<![CDATA[🚀 Starting test: Force Recalc button test
+✅ Completed test: Force Recalc button test
+📊 Test 1 completed. Global setup will run after 19 more tests.
+
+[[ATTACHMENT|integration-tests-dashboar-15fe0-in-Force-Recalc-button-test-ui-payspace-execution/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
