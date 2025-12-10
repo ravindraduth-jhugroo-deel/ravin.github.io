@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="118.402796">
-<testsuite name="UI/integration-tests/dashboard/force-recalc-test.spec.ts" timestamp="2025-12-10T18:52:46.889Z" hostname="ui-payspace-execution" tests="1" failures="1" skipped="0" time="111.645" errors="0">
-<testcase name="Force Recalc integration test for Company user @integration @releasepipeline @re-calc @Ravin › Force Recalc button test" classname="UI/integration-tests/dashboard/force-recalc-test.spec.ts" time="111.645">
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="119.35138799999999">
+<testsuite name="UI/integration-tests/dashboard/force-recalc-test.spec.ts" timestamp="2025-12-10T18:59:19.498Z" hostname="ui-payspace-execution" tests="1" failures="1" skipped="0" time="112.157" errors="0">
+<testcase name="Force Recalc integration test for Company user @integration @releasepipeline @re-calc @Ravin › Force Recalc button test" classname="UI/integration-tests/dashboard/force-recalc-test.spec.ts" time="112.157">
 <failure message="force-recalc-test.spec.ts:7:9 Force Recalc button test" type="FAILURE">
 <![CDATA[  [ui-payspace-execution] › UI/integration-tests/dashboard/force-recalc-test.spec.ts:7:9 › Force Recalc integration test for Company user @integration @releasepipeline @re-calc @Ravin › Force Recalc button test 
 
