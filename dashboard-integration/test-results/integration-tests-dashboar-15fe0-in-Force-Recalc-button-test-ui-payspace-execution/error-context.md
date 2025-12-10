@@ -351,13 +351,4 @@
                       - heading "Knowledge Base" [level=4]
                     - generic [ref=e509]:
                       - paragraph: Browse through our collection of articles, user guides and FAQs.
-  - dialog [ref=e510]:
-    - generic [ref=e511]:
-      - generic [ref=e513]:
-        - heading "Company Calculations Stuck In Progress" [level=1] [ref=e514]:
-          - generic [ref=e515]: Company Calculations Stuck In Progress
-        - paragraph [ref=e516]:
-          - generic [ref=e517]: We're aware of calculations that are still stuck in progress, which may cause screens to load updated figures more slowly than usual. Our team is actively investigating and working to resolve the problem.
-          - generic [ref=e519]: We apologise for the inconvenience.
-      - button [ref=e520] [cursor=pointer]
 ```
