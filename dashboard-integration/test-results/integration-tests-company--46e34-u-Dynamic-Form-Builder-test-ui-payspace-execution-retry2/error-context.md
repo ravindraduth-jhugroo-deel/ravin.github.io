@@ -1,0 +1,391 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Basic Settings " [expanded] [level=1] [ref=e80]:
+              - generic [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]:
+                  - generic [ref=e83]: 
+                  - generic [ref=e84]: Basic Settings
+                - generic [ref=e85]: 
+              - group [ref=e86]:
+                - treeitem "Company Settings " [level=2] [ref=e87]:
+                  - generic [ref=e88] [cursor=pointer]:
+                    - generic [ref=e90]: Company Settings
+                    - generic [ref=e91]: 
+                - treeitem "General Company " [level=2] [ref=e92]:
+                  - generic [ref=e93] [cursor=pointer]:
+                    - generic [ref=e95]: General Company
+                    - generic [ref=e96]: 
+                - treeitem "Custom Screens & Fields " [expanded] [level=2] [ref=e97]:
+                  - generic [ref=e98] [cursor=pointer]:
+                    - generic [ref=e100]: Custom Screens & Fields
+                    - generic [ref=e101]: 
+                  - group [ref=e102]:
+                    - treeitem "Custom Form Configuration" [level=3] [ref=e103]:
+                      - generic [ref=e106] [cursor=pointer]: Custom Form Configuration
+                    - treeitem "Custom Fields" [level=3] [ref=e108]:
+                      - generic [ref=e111] [cursor=pointer]: Custom Fields
+                    - treeitem "Dynamic Form Builder" [level=3] [selected] [ref=e113]:
+                      - generic [ref=e116] [cursor=pointer]: Dynamic Form Builder
+                - treeitem "Dropdown Management " [level=2] [ref=e118]:
+                  - generic [ref=e119] [cursor=pointer]:
+                    - generic [ref=e121]: Dropdown Management
+                    - generic [ref=e122]: 
+                - treeitem "Payroll Cycle Setup " [level=2] [ref=e123]:
+                  - generic [ref=e124] [cursor=pointer]:
+                    - generic [ref=e126]: Payroll Cycle Setup
+                    - generic [ref=e127]: 
+                - treeitem "Legislative Configurations " [level=2] [ref=e128]:
+                  - generic [ref=e129] [cursor=pointer]:
+                    - generic [ref=e131]: Legislative Configurations
+                    - generic [ref=e132]: 
+            - treeitem " Payroll " [level=1] [ref=e133]:
+              - generic [ref=e134] [cursor=pointer]:
+                - generic [ref=e135]:
+                  - generic [ref=e136]: 
+                  - generic [ref=e137]: Payroll
+                - generic [ref=e138]: 
+            - treeitem " Human Resources " [level=1] [ref=e139]:
+              - generic [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]:
+                  - generic [ref=e142]: 
+                  - generic [ref=e143]: Human Resources
+                - generic [ref=e144]: 
+            - treeitem " Security " [level=1] [ref=e145]:
+              - generic [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - generic [ref=e148]: 
+                  - generic [ref=e149]: Security
+                - generic [ref=e150]: 
+            - treeitem " Financial " [level=1] [ref=e151]:
+              - generic [ref=e152] [cursor=pointer]:
+                - generic [ref=e153]:
+                  - generic [ref=e154]: 
+                  - generic [ref=e155]: Financial
+                - generic [ref=e156]: 
+      - generic [ref=e157]:
+        - alert [ref=e158]: This environment is not a live environment, it is a backup from 2025/12/07
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e161]: 
+            - text: Calculations are currently in progress.
+          - text: View Details
+        - banner [ref=e162]:
+          - generic [ref=e163]:
+            - heading "Dynamic Form Builder" [level=1] [ref=e165]
+            - generic [ref=e166]:
+              - button "Run Test" [ref=e167] [cursor=pointer]:
+                - generic [ref=e169]: Run Test
+              - button "far fa-list-alt" [active] [ref=e171] [cursor=pointer]:
+                - generic [ref=e173]: 
+        - main [ref=e174]:
+          - generic [ref=e176]:
+            - form [ref=e180]:
+              - group "Form details" [ref=e188]:
+                - generic [ref=e189]: Form details
+                - generic [ref=e195]:
+                  - generic [ref=e200] [cursor=pointer]:
+                    - generic [ref=e202]:
+                      - generic [ref=e203]:
+                        - combobox "Module type *" [ref=e204]: Add New Employee _ _ _
+                        - text: Select...
+                      - button "Select" [ref=e206]:
+                        - generic [ref=e208]: 
+                    - generic:
+                      - generic:
+                        - generic: Module type *
+                  - generic [ref=e213] [cursor=pointer]:
+                    - generic [ref=e215]:
+                      - generic [ref=e216]:
+                        - combobox "Default templates" [ref=e217]: Add new employee _ _ _ _ _ _ _
+                        - text: Select...
+                      - button "Select" [ref=e219]:
+                        - generic [ref=e221]: 
+                    - generic:
+                      - generic:
+                        - generic: Default templates
+                  - generic [ref=e226]:
+                    - textbox "Form name *" [ref=e229]: Test
+                    - generic:
+                      - generic:
+                        - generic: Form name *
+            - tablist [ref=e230]:
+              - generic [ref=e231]:
+                - tab "Entities" [selected] [ref=e232] [cursor=pointer]:
+                  - generic [ref=e235]: Entities
+                - tab "Designer" [ref=e236] [cursor=pointer]:
+                  - generic [ref=e239]: Designer
+            - generic [ref=e240]:
+              - group "Tree list with 10 rows and 5 columns. Press Ctrl + right arrow to expand the focused node and Ctrl + left arrow to collapse it" [ref=e242]:
+                - status [ref=e243]: Tree list with 10 rows and 5 columns
+                - toolbar "Tree list toolbar" [ref=e245]:
+                  - generic [ref=e250]:
+                    - generic [ref=e251]:
+                      - generic: 
+                      - textbox "Search in the tree list" [ref=e252]:
+                        - /placeholder: Search...
+                      - generic: Search...
+                    - generic: 
+                - row "Column Employee entity Column Field type Column Optional Column Required Column Edit" [ref=e259]:
+                  - columnheader "Column Employee entity" [ref=e260]: Employee entity
+                  - columnheader "Column Field type" [ref=e261]: Field type
+                  - columnheader "Column Optional" [ref=e262]: Optional
+                  - columnheader "Column Required" [ref=e263]: Required
+                  - columnheader "Column Edit" [ref=e264]: Edit
+                - treegrid [ref=e268]:
+                  - row "  Basic Profile" [level=1] [ref=e275]:
+                    - gridcell "  Basic Profile" [ref=e276]:
+                      - generic [ref=e278]:
+                        - generic: 
+                      - generic [ref=e279]:
+                        - generic [ref=e280]:
+                          - checkbox "" [checked]:
+                            - generic [ref=e281] [cursor=pointer]: 
+                        - text: Basic Profile
+                    - gridcell [ref=e282]
+                    - gridcell [ref=e283]:
+                      - checkbox [ref=e284] [cursor=pointer]
+                    - gridcell [ref=e287]
+                    - gridcell [ref=e288]
+                  - row "  Employee Address" [level=1] [ref=e289]:
+                    - gridcell "  Employee Address" [ref=e290]:
+                      - generic [ref=e292]:
+                        - generic: 
+                      - generic [ref=e293]:
+                        - generic [ref=e294]:
+                          - checkbox "" [checked]:
+                            - generic [ref=e295] [cursor=pointer]: 
+                        - text: Employee Address
+                    - gridcell [ref=e296]
+                    - gridcell [ref=e297]:
+                      - checkbox [ref=e298] [cursor=pointer]
+                    - gridcell [ref=e301]
+                    - gridcell [ref=e302]
+                  - row "  Dependants " [level=1] [ref=e303]:
+                    - gridcell "  Dependants" [ref=e304]:
+                      - generic [ref=e306]:
+                        - generic: 
+                      - generic [ref=e307]:
+                        - generic [ref=e308]:
+                          - checkbox "" [checked]:
+                            - generic [ref=e309] [cursor=pointer]: 
+                        - text: Dependants
+                    - gridcell [ref=e310]
+                    - gridcell "" [ref=e311]:
+                      - checkbox "" [checked] [ref=e312] [cursor=pointer]:
+                        - generic [ref=e314]: 
+                    - gridcell [ref=e315]
+                    - gridcell [ref=e316]
+                  - row "  Position " [level=1] [ref=e317]:
+                    - gridcell "  Position" [ref=e318]:
+                      - generic [ref=e320]:
+                        - generic: 
+                      - generic [ref=e321]:
+                        - generic [ref=e322]:
+                          - checkbox "" [checked]:
+                            - generic [ref=e323] [cursor=pointer]: 
+                        - text: Position
+                    - gridcell [ref=e324]
+                    - gridcell "" [ref=e325]:
+                      - checkbox "" [checked] [ref=e326] [cursor=pointer]:
+                        - generic [ref=e328]: 
+                    - gridcell [ref=e329]
+                    - gridcell [ref=e330]
+                  - row " Attachments" [level=1] [ref=e331]:
+                    - gridcell " Attachments" [ref=e332]:
+                      - generic [ref=e334]:
+                        - generic: 
+                      - generic [ref=e335]:
+                        - generic [ref=e336]:
+                          - checkbox
+                        - text: Attachments
+                    - gridcell [ref=e338]
+                    - gridcell [ref=e339]:
+                      - checkbox [ref=e340] [cursor=pointer]
+                    - gridcell [ref=e343]
+                    - gridcell [ref=e344]
+                  - row "  Banking Details" [level=1] [ref=e345]:
+                    - gridcell "  Banking Details" [ref=e346]:
+                      - generic [ref=e348]:
+                        - generic: 
+                      - generic [ref=e349]:
+                        - generic [ref=e350]:
+                          - checkbox "" [checked]:
+                            - generic [ref=e351] [cursor=pointer]: 
+                        - text: Banking Details
+                    - gridcell [ref=e352]
+                    - gridcell [ref=e353]:
+                      - checkbox [ref=e354] [cursor=pointer]
+                    - gridcell [ref=e357]
+                    - gridcell [ref=e358]
+                  - row "  Tax Profile" [level=1] [ref=e359]:
+                    - gridcell "  Tax Profile" [ref=e360]:
+                      - generic [ref=e362]:
+                        - generic: 
+                      - generic [ref=e363]:
+                        - generic [ref=e364]:
+                          - checkbox "" [checked]:
+                            - generic [ref=e365] [cursor=pointer]: 
+                        - text: Tax Profile
+                    - gridcell [ref=e366]
+                    - gridcell [ref=e367]:
+                      - checkbox [ref=e368] [cursor=pointer]
+                    - gridcell [ref=e371]
+                    - gridcell [ref=e372]
+                  - row "  Leave Setup " [level=1] [ref=e373]:
+                    - gridcell "  Leave Setup" [ref=e374]:
+                      - generic [ref=e376]:
+                        - generic: 
+                      - generic [ref=e377]:
+                        - generic [ref=e378]:
+                          - checkbox "" [checked]:
+                            - generic [ref=e379] [cursor=pointer]: 
+                        - text: Leave Setup
+                    - gridcell [ref=e380]
+                    - gridcell "" [ref=e381]:
+                      - checkbox "" [checked] [ref=e382] [cursor=pointer]:
+                        - generic [ref=e384]: 
+                    - gridcell [ref=e385]
+                    - gridcell [ref=e386]
+                  - row "  Pay Rate Details" [level=1] [ref=e387]:
+                    - gridcell "  Pay Rate Details" [ref=e388]:
+                      - generic [ref=e390]:
+                        - generic: 
+                      - generic [ref=e391]:
+                        - generic [ref=e392]:
+                          - checkbox "" [checked]:
+                            - generic [ref=e393] [cursor=pointer]: 
+                        - text: Pay Rate Details
+                    - gridcell [ref=e394]
+                    - gridcell [ref=e395]:
+                      - checkbox [ref=e396] [cursor=pointer]
+                    - gridcell [ref=e399]
+                    - gridcell [ref=e400]
+                  - row " Project Details" [level=1] [ref=e401]:
+                    - gridcell " Project Details" [ref=e402]:
+                      - generic [ref=e404]:
+                        - generic: 
+                      - generic [ref=e405]:
+                        - generic [ref=e406]:
+                          - checkbox
+                        - text: Project Details
+                    - gridcell [ref=e408]
+                    - gridcell [ref=e409]:
+                      - checkbox [ref=e410] [cursor=pointer]
+                    - gridcell [ref=e413]
+                    - gridcell [ref=e414]
+              - text:                  
+            - generic [ref=e416]:
+              - button "Cancel" [ref=e417] [cursor=pointer]:
+                - generic [ref=e419]: Cancel
+              - button "Save" [ref=e420] [cursor=pointer]:
+                - generic [ref=e422]: Save
+  - dialog [ref=e423]:
+    - generic [ref=e424]:
+      - generic [ref=e425]:
+        - generic [ref=e426]: Audit
+        - button [ref=e427] [cursor=pointer]
+      - group "Data grid with 0 rows and 5 columns" [ref=e429]:
+        - status [ref=e430]: Data grid with 0 rows and 5 columns
+        - row "Column User Column Form Name Column Details Column Date Occurred Column Action" [ref=e437]:
+          - columnheader "Column User" [ref=e438]: User
+          - columnheader "Column Form Name" [ref=e439]: Form Name
+          - columnheader "Column Details" [ref=e440]: Details
+          - columnheader "Column Date Occurred" [ref=e441]:
+            - text: Date Occurred
+            - generic [ref=e442]: 
+          - columnheader "Column Action" [ref=e443]: Action
+        - generic [ref=e449]: No data
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e450]:
+                - img [ref=e454]
+                - generic [ref=e456]:
+                  - button "Choose language" [ref=e459] [cursor=pointer]:
+                    - generic "English" [ref=e460]:
+                      - text: En
+                      - img [ref=e462]
+                  - button "Modules Menu" [ref=e466] [cursor=pointer]:
+                    - img [ref=e468]
+                  - button "close asap" [ref=e470] [cursor=pointer]:
+                    - img [ref=e472]
+              - generic [ref=e474]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e475]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e476] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e478]:
+                        - img [ref=e479]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e481]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

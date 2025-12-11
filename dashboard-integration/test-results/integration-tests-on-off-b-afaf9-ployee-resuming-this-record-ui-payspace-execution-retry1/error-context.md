@@ -1,0 +1,317 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - text:  Search  _  Search  _
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - link "Hector Labadie":
+                - /url: /employees/5153700/contact
+                - img "Hector Labadie" [ref=e62] [cursor=pointer]
+            - generic [ref=e63]:
+              - generic [ref=e64]: Playwright Integration Demo
+              - generic [ref=e65]: Monthly
+            - separator [ref=e66]
+            - generic [ref=e68]: Hector Labadie
+            - generic [ref=e69]:
+              - link "" [ref=e70] [cursor=pointer]:
+                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=5153700&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153700%2F108658%2Ftax-profile%2F5335107
+              - button "694363" [ref=e71] [cursor=pointer]
+              - link "" [ref=e72] [cursor=pointer]:
+                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=5153700&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153700%2F108658%2Ftax-profile%2F5335107
+        - tree [ref=e75]:
+          - group [ref=e80]:
+            - treeitem " Basic Information " [level=1] [ref=e81]:
+              - generic [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: 
+                  - generic [ref=e85]: Basic Information
+                - generic [ref=e86]: 
+            - treeitem " Payroll Processing " [level=1] [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]:
+                  - generic [ref=e90]: 
+                  - generic [ref=e91]: Payroll Processing
+                - generic [ref=e92]: 
+            - treeitem " Payroll Results " [level=1] [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]:
+                - generic [ref=e95]:
+                  - generic [ref=e96]: 
+                  - generic [ref=e97]: Payroll Results
+                - generic [ref=e98]: 
+            - treeitem " Leave " [level=1] [ref=e99]:
+              - generic [ref=e100] [cursor=pointer]:
+                - generic [ref=e101]:
+                  - generic [ref=e102]: 
+                  - generic [ref=e103]: Leave
+                - generic [ref=e104]: 
+            - treeitem " Performance " [level=1] [ref=e105]:
+              - generic [ref=e106] [cursor=pointer]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: 
+                  - generic [ref=e109]: Performance
+                - generic [ref=e110]: 
+            - treeitem " Skills " [level=1] [ref=e111]:
+              - generic [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]:
+                  - generic [ref=e114]: 
+                  - generic [ref=e115]: Skills
+                - generic [ref=e116]: 
+            - treeitem " Costing " [level=1] [ref=e117]:
+              - generic [ref=e118] [cursor=pointer]:
+                - generic [ref=e119]:
+                  - generic [ref=e120]: 
+                  - generic [ref=e121]: Costing
+                - generic [ref=e122]: 
+            - treeitem " Other " [level=1] [ref=e123]:
+              - generic [ref=e124] [cursor=pointer]:
+                - generic [ref=e125]:
+                  - generic [ref=e126]: 
+                  - generic [ref=e127]: Other
+                - generic [ref=e128]: 
+      - generic [ref=e129]:
+        - alert [ref=e130]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - banner [ref=e131]:
+          - generic [ref=e132]:
+            - heading "Tax Profile" [level=1] [ref=e134]
+            - generic [ref=e135]:
+              - text: 
+              - button "bulletlist" [ref=e136] [cursor=pointer]:
+                - generic [ref=e138]: 
+        - main [ref=e139]:
+          - form [ref=e140]:
+            - tabpanel [ref=e148]:
+              - tablist [ref=e150]:
+                - tab "Tax Profile" [selected] [ref=e152] [cursor=pointer]:
+                  - generic [ref=e155]: Tax Profile
+              - tabpanel [ref=e159]:
+                - form [ref=e162]:
+                  - generic [ref=e165]:
+                    - group "Employment" [ref=e170]:
+                      - generic [ref=e171]: Employment
+                      - generic [ref=e175]:
+                        - generic [ref=e179]:
+                          - checkbox "Terminate employee":
+                            - generic:
+                              - generic: Terminate employee
+                        - group [ref=e188]:
+                          - generic [ref=e194]:
+                            - generic "Refers to the employee's original start date within the group." [ref=e198]:
+                              - generic "Refers to the employee's original start date within the group." [ref=e200] [cursor=pointer]:
+                                - generic [ref=e202]:
+                                  - generic [ref=e203]:
+                                    - combobox "Group join date  *" [ref=e204]: 2025/12/09
+                                    - text: Group join date
+                                  - button "Select" [ref=e206]:
+                                    - generic [ref=e208]: 
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: Group join date
+                                      - generic: 
+                                      - text: "*"
+                            - generic "Refers to the employee's start date within the company. This is the employee's most recent start date." [ref=e212]:
+                              - generic "Refers to the employee's start date within the company. This is the employee's most recent start date." [ref=e214] [cursor=pointer]:
+                                - generic [ref=e216]:
+                                  - generic [ref=e217]:
+                                    - combobox "Employment date  *" [ref=e218]: 2025/12/09
+                                    - text: Employment date
+                                  - button "Select" [ref=e220]:
+                                    - generic [ref=e222]: 
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - text: Employment date
+                                      - generic: 
+                                      - text: "*"
+                            - generic [ref=e226]:
+                              - checkbox "Not re-employable":
+                                - generic:
+                                  - generic: Not re-employable
+                    - group "Identification" [ref=e232]:
+                      - generic [ref=e233]: Identification
+                      - generic [ref=e244] [cursor=pointer]:
+                        - generic [ref=e245]:
+                          - combobox [ref=e246]: . B - Individual without ID number or Passport no
+                          - generic: 
+                        - generic:
+                          - generic:
+                            - generic: Nature of person *
+                    - group "Tax" [ref=e255]:
+                      - generic [ref=e256]: Tax
+                      - generic [ref=e262]:
+                        - generic [ref=e267] [cursor=pointer]:
+                          - generic [ref=e268]:
+                            - combobox [ref=e269]: . Standard Employment (Normal)
+                            - generic: 
+                          - generic:
+                            - generic:
+                              - generic: Tax status *
+                        - generic "SARS requires a valid Income Tax Reference Number (TRN) for employees with a tax value greater than zero, or earnings above the tax threshold. Records without a valid TRN won’t be accepted on e@syfile." [ref=e273]:
+                          - generic "SARS requires a valid Income Tax Reference Number (TRN) for employees with a tax value greater than zero, or earnings above the tax threshold. Records without a valid TRN won’t be accepted on e@syfile." [ref=e275]:
+                            - generic [ref=e277]:
+                              - textbox "Tax Ref. Number " [ref=e278]:
+                                - /placeholder: Tax Ref. Number
+                                - text: "0000000000"
+                              - text: Tax Ref. Number
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: Tax Ref. Number
+                                  - generic: 
+                        - generic [ref=e283]:
+                          - generic [ref=e285]:
+                            - textbox "Reference number" [ref=e286]
+                            - generic: Reference number
+                          - generic:
+                            - generic:
+                              - generic: Reference number
+                    - group [ref=e291]:
+                      - form [ref=e301]:
+                        - group [ref=e309]:
+                          - group [ref=e318]:
+                            - group "Statutory Fields" [ref=e327]:
+                              - generic [ref=e328]:
+                                - generic [ref=e329]: Statutory Fields
+                                - button "chevronup" [ref=e330] [cursor=pointer]:
+                                  - generic [ref=e332]: 
+                              - generic [ref=e336]:
+                                - generic [ref=e338]:
+                                  - generic [ref=e342]:
+                                    - checkbox "Voluntary over deduction":
+                                      - generic:
+                                        - generic: Voluntary over deduction
+                                  - generic [ref=e348] [cursor=pointer]:
+                                    - generic [ref=e350]:
+                                      - combobox "Statutory employment date override" [ref=e352]
+                                      - button "Select" [ref=e354]:
+                                        - generic [ref=e356]: 
+                                    - generic:
+                                      - generic:
+                                        - generic: Statutory employment date override
+                                  - generic [ref=e360]:
+                                    - checkbox "Apply 27% tax for Personal Service Provider?":
+                                      - generic:
+                                        - generic: Apply 27% tax for Personal Service Provider?
+                                - generic [ref=e363]:
+                                  - generic [ref=e367]:
+                                    - checkbox "Annuitant with multiple income sources Par 2(2B)":
+                                      - generic:
+                                        - generic: Annuitant with multiple income sources Par 2(2B)
+                                  - generic [ref=e372]:
+                                    - checkbox "Par 11A(5) Fourth Schedule notification - no PAYE":
+                                      - generic:
+                                        - generic: Par 11A(5) Fourth Schedule notification - no PAYE
+          - button "Save" [ref=e378] [cursor=pointer]:
+            - generic [ref=e380]: Save
+          - tablist [ref=e381]:
+            - tab " History Data grid with 1 rows and 6 columns" [selected] [ref=e383]:
+              - generic [ref=e384] [cursor=pointer]:
+                - text: 
+                - generic [ref=e385]: History
+              - group "Data grid with 1 rows and 6 columns" [ref=e387]:
+                - status [ref=e388]: Data grid with 1 rows and 6 columns
+                - row "Column Employment date Column Termination date Column Termination reason Column Tax status Column undefined" [ref=e396]:
+                  - columnheader "Column Employment date" [ref=e397] [cursor=pointer]:
+                    - text: Employment date
+                    - generic [ref=e398]: 
+                  - columnheader "Column Termination date" [ref=e399] [cursor=pointer]: Termination date
+                  - columnheader "Column Termination reason" [ref=e400] [cursor=pointer]: Termination reason
+                  - columnheader "Column Tax status" [ref=e401] [cursor=pointer]: Tax status
+                  - columnheader "Column undefined" [ref=e402]: Company run
+                  - gridcell [ref=e403]
+                - grid [ref=e407]:
+                  - row "2025/12/09 Standard Employment (Normal) Delete" [ref=e415]:
+                    - gridcell "2025/12/09" [ref=e416]
+                    - gridcell [ref=e417]
+                    - gridcell [ref=e418]
+                    - gridcell "Standard Employment (Normal)" [ref=e419]
+                    - gridcell [ref=e420]
+                    - gridcell "Delete" [ref=e421]:
+                      - link "Delete" [ref=e422] [cursor=pointer]:
+                        - /url: "#"
+                        - text: 
+                    - generic [ref=e423] [cursor=pointer]: 
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e424]:
+                - img [ref=e428]
+                - generic [ref=e430]:
+                  - button "Choose language" [ref=e433] [cursor=pointer]:
+                    - generic "English" [ref=e434]:
+                      - text: En
+                      - img [ref=e436]
+                  - button "Modules Menu" [ref=e440] [cursor=pointer]:
+                    - img [ref=e442]
+                  - button "close asap" [ref=e444] [cursor=pointer]:
+                    - img [ref=e446]
+              - generic [ref=e448]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e449]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e450] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e452]:
+                        - img [ref=e453]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e455]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

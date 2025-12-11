@@ -1,0 +1,299 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Basic Settings " [level=1] [ref=e80]:
+              - generic [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]:
+                  - generic [ref=e83]: 
+                  - generic [ref=e84]: Basic Settings
+                - generic [ref=e85]: 
+            - treeitem " Payroll " [level=1] [ref=e86]:
+              - generic [ref=e87] [cursor=pointer]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]: 
+                  - generic [ref=e90]: Payroll
+                - generic [ref=e91]: 
+            - treeitem " Human Resources " [level=1] [ref=e92]:
+              - generic [ref=e93] [cursor=pointer]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: 
+                  - generic [ref=e96]: Human Resources
+                - generic [ref=e97]: 
+            - treeitem " Security " [expanded] [level=1] [ref=e98]:
+              - generic [ref=e99] [cursor=pointer]:
+                - generic [ref=e100]:
+                  - generic [ref=e101]: 
+                  - generic [ref=e102]: Security
+                - generic [ref=e103]: 
+              - group [ref=e104]:
+                - treeitem "Security " [expanded] [level=2] [ref=e105]:
+                  - generic [ref=e106] [cursor=pointer]:
+                    - generic [ref=e108]: Security
+                    - generic [ref=e109]: 
+                  - group [ref=e110]:
+                    - treeitem "User Profiles" [level=3] [selected] [ref=e111]:
+                      - generic [ref=e114] [cursor=pointer]: User Profiles
+                    - treeitem "Security Roles" [level=3] [ref=e116]:
+                      - generic [ref=e119] [cursor=pointer]: Security Roles
+                    - treeitem "User Organisation Permissions" [level=3] [ref=e121]:
+                      - generic [ref=e124] [cursor=pointer]: User Organisation Permissions
+                    - treeitem "Activate Users" [level=3] [ref=e126]:
+                      - generic [ref=e129] [cursor=pointer]: Activate Users
+                    - treeitem "Security Settings" [level=3] [ref=e131]:
+                      - generic [ref=e134] [cursor=pointer]: Security Settings
+            - treeitem " Financial " [level=1] [ref=e136]:
+              - generic [ref=e137] [cursor=pointer]:
+                - generic [ref=e138]:
+                  - generic [ref=e139]: 
+                  - generic [ref=e140]: Financial
+                - generic [ref=e141]: 
+      - generic [ref=e142]:
+        - alert [ref=e143]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - banner [ref=e144]:
+          - generic [ref=e145]:
+            - heading "User Profile" [level=1] [ref=e147]
+            - button "bulletlist" [ref=e149] [cursor=pointer]:
+              - generic [ref=e151]: 
+        - main [ref=e152]:
+          - group "Data grid with 5 rows and 8 columns" [ref=e156]:
+            - status [ref=e157]: Data grid with 5 rows and 8 columns
+            - toolbar "Data grid toolbar" [ref=e159]:
+              - generic [ref=e160]:
+                - button "edit-button-addrow" [ref=e163] [cursor=pointer]:
+                  - generic [ref=e165]: 
+                - button "xlsxfile" [ref=e168] [cursor=pointer]:
+                  - generic [ref=e170]: 
+                - button "column-chooser" [ref=e173] [cursor=pointer]:
+                  - generic [ref=e175]: 
+                - text: 
+            - row "Column User Type Column Employee number Column First Name Column Last Name Column Email Column Status Column Last login date" [ref=e185]:
+              - columnheader "Column User Type" [ref=e186] [cursor=pointer]: User Type
+              - columnheader "Column Employee number" [ref=e187] [cursor=pointer]: Employee number
+              - columnheader "Column First Name" [ref=e188] [cursor=pointer]: First Name
+              - columnheader "Column Last Name" [ref=e189] [cursor=pointer]:
+                - text: Last Name
+                - generic [ref=e190]: 2
+              - columnheader "Column Email" [ref=e191] [cursor=pointer]: Email
+              - columnheader "Column Status" [ref=e192] [cursor=pointer]:
+                - text: Status
+                - generic [ref=e193]: 1
+              - columnheader "Column Last login date" [ref=e194] [cursor=pointer]: Last login date
+              - gridcell [ref=e195]
+            - row "Filter cell Filter cell Filter cell Filter cell Filter cell Filter cell Filter cell" [ref=e196]:
+              - gridcell "Filter cell" [ref=e197]:
+                - generic [ref=e202] [cursor=pointer]:
+                  - generic [ref=e203]:
+                    - combobox "Filter cell" [ref=e204]: Company
+                    - text: Select...
+                  - button "Select" [ref=e206]:
+                    - generic [ref=e208]: 
+              - gridcell "Filter cell" [ref=e209]:
+                - generic [ref=e210]:
+                  - menubar:
+                    - menuitem "Search box" [ref=e211] [cursor=pointer]:
+                      - generic [ref=e212]:
+                        - generic [ref=e213]: 
+                        - text: 
+                  - textbox "Filter cell" [ref=e218]
+              - gridcell "Filter cell" [ref=e219]:
+                - generic [ref=e220]:
+                  - menubar:
+                    - menuitem "Search box" [ref=e221] [cursor=pointer]:
+                      - generic [ref=e222]:
+                        - generic [ref=e223]: 
+                        - text: 
+                  - textbox "Filter cell" [ref=e228]
+              - gridcell "Filter cell" [ref=e229]:
+                - generic [ref=e230]:
+                  - menubar:
+                    - menuitem "Search box" [ref=e231] [cursor=pointer]:
+                      - generic [ref=e232]:
+                        - generic [ref=e233]: 
+                        - text: 
+                  - textbox "Filter cell" [ref=e238]
+              - gridcell "Filter cell" [ref=e239]:
+                - generic [ref=e240]:
+                  - menubar:
+                    - menuitem "Search box" [ref=e241] [cursor=pointer]:
+                      - generic [ref=e242]:
+                        - generic [ref=e243]: 
+                        - text: 
+                  - textbox "Filter cell" [ref=e248]
+              - gridcell "Filter cell" [ref=e249]:
+                - generic [ref=e254] [cursor=pointer]:
+                  - generic [ref=e255]:
+                    - combobox "Filter cell" [ref=e256]: (All)
+                    - text: Select...
+                  - button "Select" [ref=e258]:
+                    - generic [ref=e260]: 
+              - gridcell "Filter cell" [ref=e261]:
+                - generic [ref=e262]:
+                  - menubar:
+                    - menuitem "Search box" [ref=e263] [cursor=pointer]:
+                      - generic [ref=e264]:
+                        - generic [ref=e265]: 
+                        - text: 
+                  - generic [ref=e269] [cursor=pointer]:
+                    - combobox "Filter cell" [ref=e271]
+                    - button "Select" [ref=e273]:
+                      - generic [ref=e275]: 
+              - gridcell [ref=e276]
+            - grid [ref=e280]:
+              - row "Company Add Company addco@mailinator.com Active 2025/08/28 Edit" [ref=e290]:
+                - gridcell "Company" [ref=e291]
+                - gridcell [ref=e292]
+                - gridcell "Add" [ref=e293]
+                - gridcell "Company" [ref=e294]
+                - gridcell "addco@mailinator.com" [ref=e295]
+                - gridcell "Active" [ref=e296]
+                - gridcell "2025/08/28" [ref=e297]
+                - gridcell "Edit" [ref=e298]:
+                  - link "Edit" [ref=e299] [cursor=pointer]:
+                    - /url: "#"
+                    - text: 
+              - row "Company Read Test readpwint@payspaceteam633061.testinator.com Active 2025/07/29 Edit" [ref=e300]:
+                - gridcell "Company" [ref=e301]
+                - gridcell [ref=e302]
+                - gridcell "Read" [ref=e303]
+                - gridcell "Test" [ref=e304]
+                - gridcell "readpwint@payspaceteam633061.testinator.com" [ref=e305]
+                - gridcell "Active" [ref=e306]
+                - gridcell "2025/07/29" [ref=e307]
+                - gridcell "Edit" [ref=e308]:
+                  - link "Edit" [ref=e309] [cursor=pointer]:
+                    - /url: "#"
+                    - text: 
+              - row "Company Deny Test denypintw@payspaceteam633061.testinator.com Active 2025/07/29 Edit" [ref=e310]:
+                - gridcell "Company" [ref=e311]
+                - gridcell [ref=e312]
+                - gridcell "Deny" [ref=e313]
+                - gridcell "Test" [ref=e314]
+                - gridcell "denypintw@payspaceteam633061.testinator.com" [ref=e315]
+                - gridcell "Active" [ref=e316]
+                - gridcell "2025/07/29" [ref=e317]
+                - gridcell "Edit" [ref=e318]:
+                  - link "Edit" [ref=e319] [cursor=pointer]:
+                    - /url: "#"
+                    - text: 
+              - row "Company Company User copwint@payspaceteam633061.testinator.com Active 2025/12/09 Edit" [ref=e320]:
+                - gridcell "Company" [ref=e321]
+                - gridcell [ref=e322]
+                - gridcell "Company" [ref=e323]
+                - gridcell "User" [ref=e324]
+                - gridcell "copwint@payspaceteam633061.testinator.com" [ref=e325]
+                - gridcell "Active" [ref=e326]
+                - gridcell "2025/12/09" [ref=e327]
+                - gridcell "Edit" [ref=e328]:
+                  - link "Edit" [ref=e329] [cursor=pointer]:
+                    - /url: "#"
+                    - text: 
+              - row "Company PW002 MSS User mssbingopwint@payspaceteam633061.testinator.com Active 2025/12/09 Edit" [ref=e330]:
+                - gridcell "Company" [ref=e331]
+                - gridcell "PW002" [ref=e332]
+                - gridcell "MSS" [ref=e333]
+                - gridcell "User" [ref=e334]
+                - gridcell "mssbingopwint@payspaceteam633061.testinator.com" [ref=e335]
+                - gridcell "Active" [ref=e336]
+                - gridcell "2025/12/09" [ref=e337]
+                - gridcell "Edit" [ref=e338]:
+                  - link "Edit" [ref=e339] [cursor=pointer]:
+                    - /url: "#"
+                    - text: 
+            - generic [ref=e341]:
+              - generic [ref=e342] [cursor=pointer]: 
+              - generic [ref=e343]: Create Filter
+            - alert "Loading..." [ref=e346]
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e356]:
+                - img [ref=e360]
+                - generic [ref=e362]:
+                  - button "Choose language" [ref=e365] [cursor=pointer]:
+                    - generic "English" [ref=e366]:
+                      - text: En
+                      - img [ref=e368]
+                  - button "Modules Menu" [ref=e372] [cursor=pointer]:
+                    - img [ref=e374]
+                  - button "close asap" [ref=e376] [cursor=pointer]:
+                    - img [ref=e378]
+              - generic [ref=e380]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e381]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e382] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e384]:
+                        - img [ref=e385]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e387]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+  - text:  Search 
+```

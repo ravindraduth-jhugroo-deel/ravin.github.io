@@ -1,0 +1,430 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - text:  Search  _  Search  _
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - link "Bluey Heeler":
+                - /url: /employees/4850144/contact
+                - img "Bluey Heeler" [ref=e62] [cursor=pointer]
+            - generic [ref=e63]:
+              - generic [ref=e64]: Playwright Integration Demo
+              - generic [ref=e65]: Monthly
+            - separator [ref=e66]
+            - generic [ref=e68]: Bluey Heeler
+            - generic [ref=e69]:
+              - link "" [ref=e70] [cursor=pointer]:
+                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=4850144&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F4850144%2F108658%2Fchange-request
+              - button "PW001" [ref=e71] [cursor=pointer]
+              - link "" [ref=e72] [cursor=pointer]:
+                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=4850144&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F4850144%2F108658%2Fchange-request
+        - tree [ref=e75]:
+          - group [ref=e80]:
+            - treeitem " Basic Information " [level=1] [ref=e81]:
+              - generic [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: 
+                  - generic [ref=e85]: Basic Information
+                - generic [ref=e86]: 
+            - treeitem " Payroll Processing " [expanded] [level=1] [ref=e87]:
+              - generic [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]:
+                  - generic [ref=e90]: 
+                  - generic [ref=e91]: Payroll Processing
+                - generic [ref=e92]: 
+              - group [ref=e93]:
+                - treeitem "Pay Rate Details" [level=2] [ref=e94]:
+                  - generic [ref=e97] [cursor=pointer]: Pay Rate Details
+                - treeitem "Edit Payslip" [level=2] [ref=e99]:
+                  - generic [ref=e102] [cursor=pointer]: Edit Payslip
+                - treeitem "Recurring Payroll Components" [level=2] [ref=e104]:
+                  - generic [ref=e107] [cursor=pointer]: Recurring Payroll Components
+                - treeitem "Take On Year To Date Figures" [level=2] [ref=e109]:
+                  - generic [ref=e112] [cursor=pointer]: Take On Year To Date Figures
+                - treeitem "Claims" [level=2] [ref=e114]:
+                  - generic [ref=e117] [cursor=pointer]: Claims
+                - treeitem "Change Request" [level=2] [selected] [ref=e119]:
+                  - generic [ref=e122] [cursor=pointer]: Change Request
+            - treeitem " Payroll Results " [level=1] [ref=e124]:
+              - generic [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]:
+                  - generic [ref=e127]: 
+                  - generic [ref=e128]: Payroll Results
+                - generic [ref=e129]: 
+            - treeitem " Leave " [level=1] [ref=e130]:
+              - generic [ref=e131] [cursor=pointer]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]: 
+                  - generic [ref=e134]: Leave
+                - generic [ref=e135]: 
+            - treeitem " Performance " [level=1] [ref=e136]:
+              - generic [ref=e137] [cursor=pointer]:
+                - generic [ref=e138]:
+                  - generic [ref=e139]: 
+                  - generic [ref=e140]: Performance
+                - generic [ref=e141]: 
+            - treeitem " Skills " [level=1] [ref=e142]:
+              - generic [ref=e143] [cursor=pointer]:
+                - generic [ref=e144]:
+                  - generic [ref=e145]: 
+                  - generic [ref=e146]: Skills
+                - generic [ref=e147]: 
+            - treeitem " Costing " [level=1] [ref=e148]:
+              - generic [ref=e149] [cursor=pointer]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]: 
+                  - generic [ref=e152]: Costing
+                - generic [ref=e153]: 
+            - treeitem " Other " [level=1] [ref=e154]:
+              - generic [ref=e155] [cursor=pointer]:
+                - generic [ref=e156]:
+                  - generic [ref=e157]: 
+                  - generic [ref=e158]: Other
+                - generic [ref=e159]: 
+      - generic [ref=e160]:
+        - alert [ref=e161]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - banner [ref=e162]:
+          - heading "Change Request" [level=1] [ref=e165]
+        - main [ref=e166]:
+          - tabpanel [ref=e167]:
+            - tablist [ref=e169]:
+              - generic [ref=e170]:
+                - tab "Edit Request" [ref=e171] [cursor=pointer]:
+                  - generic [ref=e174]: Edit Request
+                - tab "View history" [selected] [ref=e175] [cursor=pointer]:
+                  - generic [ref=e178]: View history
+            - tabpanel [ref=e182]:
+              - group "Data grid with 21 rows and 5 columns" [ref=e186]:
+                - status [ref=e187]: Data grid with 21 rows and 5 columns
+                - row "Column Request Type Column Effective Date Column Status Column Reference Column undefined" [ref=e194]:
+                  - columnheader "Column Request Type" [ref=e195] [cursor=pointer]: Request Type
+                  - columnheader "Column Effective Date" [ref=e196] [cursor=pointer]:
+                    - text: Effective Date
+                    - generic [ref=e197]: 
+                  - columnheader "Column Status" [ref=e198] [cursor=pointer]: Status
+                  - columnheader "Column Reference" [ref=e199] [cursor=pointer]: Reference
+                  - columnheader "Column undefined" [ref=e200]
+                - row "Filter cell Filter cell Filter cell Filter cell" [ref=e201]:
+                  - gridcell "Filter cell" [ref=e202]:
+                    - generic [ref=e207] [cursor=pointer]:
+                      - generic [ref=e208]:
+                        - combobox "Filter cell" [ref=e209]: (All)
+                        - text: Select...
+                      - button "Select" [ref=e211]:
+                        - generic [ref=e213]: 
+                  - gridcell "Filter cell" [ref=e214]:
+                    - generic [ref=e215]:
+                      - menubar:
+                        - menuitem "Search box" [ref=e216] [cursor=pointer]:
+                          - generic [ref=e217]:
+                            - generic [ref=e218]: 
+                            - text: 
+                      - generic [ref=e222] [cursor=pointer]:
+                        - combobox "Filter cell" [ref=e224]
+                        - button "Select" [ref=e226]:
+                          - generic [ref=e228]: 
+                  - gridcell "Filter cell" [ref=e229]:
+                    - generic [ref=e234] [cursor=pointer]:
+                      - generic [ref=e235]:
+                        - combobox "Filter cell" [ref=e236]: (All)
+                        - text: Select...
+                      - button "Select" [ref=e238]:
+                        - generic [ref=e240]: 
+                  - gridcell "Filter cell" [ref=e241]:
+                    - generic [ref=e242]:
+                      - menubar:
+                        - menuitem "Search box" [ref=e243] [cursor=pointer]:
+                          - generic [ref=e244]:
+                            - generic [ref=e245]: 
+                            - text: 
+                      - textbox "Filter cell" [ref=e250]
+                  - gridcell [ref=e251]
+                - grid [ref=e252]:
+                  - row "test 2025/12/10 In Workflow " [ref=e259]:
+                    - gridcell "test" [ref=e260]
+                    - gridcell "2025/12/10" [ref=e261]
+                    - gridcell "In Workflow" [ref=e262]:
+                      - generic [ref=e263]: In Workflow
+                    - gridcell [ref=e264]
+                    - gridcell "" [ref=e265]:
+                      - link "" [ref=e266] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289051/view
+                    - generic [ref=e267] [cursor=pointer]: 
+                  - row "test 2025/12/10 In Workflow " [ref=e268]:
+                    - gridcell "test" [ref=e269]
+                    - gridcell "2025/12/10" [ref=e270]
+                    - gridcell "In Workflow" [ref=e271]:
+                      - generic [ref=e272]: In Workflow
+                    - gridcell [ref=e273]
+                    - gridcell "" [ref=e274]:
+                      - link "" [ref=e275] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289052/view
+                    - generic [ref=e276] [cursor=pointer]: 
+                  - row "test 2025/12/10 In Workflow " [ref=e277]:
+                    - gridcell "test" [ref=e278]
+                    - gridcell "2025/12/10" [ref=e279]
+                    - gridcell "In Workflow" [ref=e280]:
+                      - generic [ref=e281]: In Workflow
+                    - gridcell [ref=e282]
+                    - gridcell "" [ref=e283]:
+                      - link "" [ref=e284] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289053/view
+                    - generic [ref=e285] [cursor=pointer]: 
+                  - row "test 2025/12/10 In Workflow " [ref=e286]:
+                    - gridcell "test" [ref=e287]
+                    - gridcell "2025/12/10" [ref=e288]
+                    - gridcell "In Workflow" [ref=e289]:
+                      - generic [ref=e290]: In Workflow
+                    - gridcell [ref=e291]
+                    - gridcell "" [ref=e292]:
+                      - link "" [ref=e293] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289056/view
+                    - generic [ref=e294] [cursor=pointer]: 
+                  - row "test 2025/12/10 In Workflow " [ref=e295]:
+                    - gridcell "test" [ref=e296]
+                    - gridcell "2025/12/10" [ref=e297]
+                    - gridcell "In Workflow" [ref=e298]:
+                      - generic [ref=e299]: In Workflow
+                    - gridcell [ref=e300]
+                    - gridcell "" [ref=e301]:
+                      - link "" [ref=e302] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289057/view
+                    - generic [ref=e303] [cursor=pointer]: 
+                  - row "test 2025/12/09 In Workflow " [ref=e304]:
+                    - gridcell "test" [ref=e305]
+                    - gridcell "2025/12/09" [ref=e306]
+                    - gridcell "In Workflow" [ref=e307]:
+                      - generic [ref=e308]: In Workflow
+                    - gridcell [ref=e309]
+                    - gridcell "" [ref=e310]:
+                      - link "" [ref=e311] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289041/view
+                    - generic [ref=e312] [cursor=pointer]: 
+                  - row "test 2025/12/09 In Workflow " [ref=e313]:
+                    - gridcell "test" [ref=e314]
+                    - gridcell "2025/12/09" [ref=e315]
+                    - gridcell "In Workflow" [ref=e316]:
+                      - generic [ref=e317]: In Workflow
+                    - gridcell [ref=e318]
+                    - gridcell "" [ref=e319]:
+                      - link "" [ref=e320] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289042/view
+                    - generic [ref=e321] [cursor=pointer]: 
+                  - row "test 2025/12/09 In Workflow " [ref=e322]:
+                    - gridcell "test" [ref=e323]
+                    - gridcell "2025/12/09" [ref=e324]
+                    - gridcell "In Workflow" [ref=e325]:
+                      - generic [ref=e326]: In Workflow
+                    - gridcell [ref=e327]
+                    - gridcell "" [ref=e328]:
+                      - link "" [ref=e329] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289043/view
+                    - generic [ref=e330] [cursor=pointer]: 
+                  - row "test 2025/12/09 In Workflow " [ref=e331]:
+                    - gridcell "test" [ref=e332]
+                    - gridcell "2025/12/09" [ref=e333]
+                    - gridcell "In Workflow" [ref=e334]:
+                      - generic [ref=e335]: In Workflow
+                    - gridcell [ref=e336]
+                    - gridcell "" [ref=e337]:
+                      - link "" [ref=e338] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289044/view
+                    - generic [ref=e339] [cursor=pointer]: 
+                  - row "test 2025/12/09 In Workflow " [ref=e340]:
+                    - gridcell "test" [ref=e341]
+                    - gridcell "2025/12/09" [ref=e342]
+                    - gridcell "In Workflow" [ref=e343]:
+                      - generic [ref=e344]: In Workflow
+                    - gridcell [ref=e345]
+                    - gridcell "" [ref=e346]:
+                      - link "" [ref=e347] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289045/view
+                    - generic [ref=e348] [cursor=pointer]: 
+                  - row "test 2025/12/09 In Workflow " [ref=e349]:
+                    - gridcell "test" [ref=e350]
+                    - gridcell "2025/12/09" [ref=e351]
+                    - gridcell "In Workflow" [ref=e352]:
+                      - generic [ref=e353]: In Workflow
+                    - gridcell [ref=e354]
+                    - gridcell "" [ref=e355]:
+                      - link "" [ref=e356] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289046/view
+                    - generic [ref=e357] [cursor=pointer]: 
+                  - row "test 2025/12/09 In Workflow " [ref=e358]:
+                    - gridcell "test" [ref=e359]
+                    - gridcell "2025/12/09" [ref=e360]
+                    - gridcell "In Workflow" [ref=e361]:
+                      - generic [ref=e362]: In Workflow
+                    - gridcell [ref=e363]
+                    - gridcell "" [ref=e364]:
+                      - link "" [ref=e365] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289047/view
+                    - generic [ref=e366] [cursor=pointer]: 
+                  - row "test 2025/12/09 In Workflow " [ref=e367]:
+                    - gridcell "test" [ref=e368]
+                    - gridcell "2025/12/09" [ref=e369]
+                    - gridcell "In Workflow" [ref=e370]:
+                      - generic [ref=e371]: In Workflow
+                    - gridcell [ref=e372]
+                    - gridcell "" [ref=e373]:
+                      - link "" [ref=e374] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289048/view
+                    - generic [ref=e375] [cursor=pointer]: 
+                  - row "test 2025/12/09 In Workflow " [ref=e376]:
+                    - gridcell "test" [ref=e377]
+                    - gridcell "2025/12/09" [ref=e378]
+                    - gridcell "In Workflow" [ref=e379]:
+                      - generic [ref=e380]: In Workflow
+                    - gridcell [ref=e381]
+                    - gridcell "" [ref=e382]:
+                      - link "" [ref=e383] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289049/view
+                    - generic [ref=e384] [cursor=pointer]: 
+                  - row "test 2025/12/09 In Workflow " [ref=e385]:
+                    - gridcell "test" [ref=e386]
+                    - gridcell "2025/12/09" [ref=e387]
+                    - gridcell "In Workflow" [ref=e388]:
+                      - generic [ref=e389]: In Workflow
+                    - gridcell [ref=e390]
+                    - gridcell "" [ref=e391]:
+                      - link "" [ref=e392] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289050/view
+                    - generic [ref=e393] [cursor=pointer]: 
+                  - row "test 2025/12/08 In Workflow " [ref=e394]:
+                    - gridcell "test" [ref=e395]
+                    - gridcell "2025/12/08" [ref=e396]
+                    - gridcell "In Workflow" [ref=e397]:
+                      - generic [ref=e398]: In Workflow
+                    - gridcell [ref=e399]
+                    - gridcell "" [ref=e400]:
+                      - link "" [ref=e401] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289037/view
+                    - generic [ref=e402] [cursor=pointer]: 
+                  - row "test 2025/12/08 In Workflow " [ref=e403]:
+                    - gridcell "test" [ref=e404]
+                    - gridcell "2025/12/08" [ref=e405]
+                    - gridcell "In Workflow" [ref=e406]:
+                      - generic [ref=e407]: In Workflow
+                    - gridcell [ref=e408]
+                    - gridcell "" [ref=e409]:
+                      - link "" [ref=e410] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289038/view
+                    - generic [ref=e411] [cursor=pointer]: 
+                  - row "test 2025/12/07 In Workflow " [ref=e412]:
+                    - gridcell "test" [ref=e413]
+                    - gridcell "2025/12/07" [ref=e414]
+                    - gridcell "In Workflow" [ref=e415]:
+                      - generic [ref=e416]: In Workflow
+                    - gridcell [ref=e417]
+                    - gridcell "" [ref=e418]:
+                      - link "" [ref=e419] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289030/view
+                    - generic [ref=e420] [cursor=pointer]: 
+                  - row "test 2025/12/07 In Workflow " [ref=e421]:
+                    - gridcell "test" [ref=e422]
+                    - gridcell "2025/12/07" [ref=e423]
+                    - gridcell "In Workflow" [ref=e424]:
+                      - generic [ref=e425]: In Workflow
+                    - gridcell [ref=e426]
+                    - gridcell "" [ref=e427]:
+                      - link "" [ref=e428] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289031/view
+                    - generic [ref=e429] [cursor=pointer]: 
+                  - row "test 2025/12/07 In Workflow " [ref=e430]:
+                    - gridcell "test" [ref=e431]
+                    - gridcell "2025/12/07" [ref=e432]
+                    - gridcell "In Workflow" [ref=e433]:
+                      - generic [ref=e434]: In Workflow
+                    - gridcell [ref=e435]
+                    - gridcell "" [ref=e436]:
+                      - link "" [ref=e437] [cursor=pointer]:
+                        - /url: /50830/employees/4850144/108658/change-request/289032/view
+                    - generic [ref=e438] [cursor=pointer]: 
+                - navigation "Page navigation" [ref=e439]:
+                  - generic [ref=e441]:
+                    - button "Page 1" [ref=e442]: "1"
+                    - button "Page 2" [ref=e443] [cursor=pointer]: "2"
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e444]:
+                - img [ref=e448]
+                - generic [ref=e450]:
+                  - button "Choose language" [ref=e453] [cursor=pointer]:
+                    - generic "English" [ref=e454]:
+                      - text: En
+                      - img [ref=e456]
+                  - button "Modules Menu" [ref=e460] [cursor=pointer]:
+                    - img [ref=e462]
+                  - button "close asap" [ref=e464] [cursor=pointer]:
+                    - img [ref=e466]
+              - generic [ref=e468]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e469]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e470] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e472]:
+                        - img [ref=e473]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e475]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

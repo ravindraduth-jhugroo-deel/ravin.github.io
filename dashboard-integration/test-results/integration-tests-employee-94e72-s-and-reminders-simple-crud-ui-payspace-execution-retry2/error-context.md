@@ -1,0 +1,284 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Add New Employee" [level=1] [ref=e80]:
+              - generic [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]: 
+                - generic [ref=e84]: Add New Employee
+            - treeitem " E-Onboarding" [level=1] [ref=e86]:
+              - generic [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]: 
+                - generic [ref=e90]: E-Onboarding
+            - treeitem " Terminate / Reinstate" [level=1] [ref=e92]:
+              - generic [ref=e94] [cursor=pointer]:
+                - generic [ref=e95]: 
+                - generic [ref=e96]: Terminate / Reinstate
+            - treeitem " Transfer C" [level=1] [ref=e98]:
+              - generic [ref=e100] [cursor=pointer]:
+                - generic [ref=e101]: 
+                - generic [ref=e102]: Transfer
+                - generic [ref=e103]: C
+            - treeitem " Transfer History C" [level=1] [ref=e105]:
+              - generic [ref=e107] [cursor=pointer]:
+                - generic [ref=e108]: 
+                - generic [ref=e109]: Transfer History
+                - generic [ref=e110]: C
+            - treeitem " Suspension" [level=1] [ref=e112]:
+              - generic [ref=e114] [cursor=pointer]:
+                - generic [ref=e115]: 
+                - generic [ref=e116]: Suspension
+            - treeitem " Create A Mock Payslip C" [level=1] [ref=e118]:
+              - generic [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]: 
+                - generic [ref=e122]: Create A Mock Payslip
+                - generic [ref=e123]: C
+      - generic [ref=e125]:
+        - alert [ref=e126]: This environment is not a live environment, it is a backup from 2025/12/07
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - generic [ref=e129]: 
+            - text: Calculations are currently in progress.
+          - text: View Details
+        - main [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e134]:
+              - heading "Stats" [level=6] [ref=e136]
+              - generic [ref=e137]:
+                - generic [ref=e142] [cursor=pointer]:
+                  - combobox [ref=e144]: December 2025
+                  - button "Select" [ref=e146]:
+                    - generic [ref=e148]: 
+                - generic [ref=e150]:
+                  - generic [ref=e152]:
+                    - generic [ref=e153]: 
+                    - generic [ref=e154]: 
+                  - generic [ref=e156]: Active Employees
+                  - heading "172 fas fa-download" [level=4] [ref=e158]:
+                    - text: "172"
+                    - button "fas fa-download" [ref=e159] [cursor=pointer]:
+                      - generic [ref=e161]: 
+                - generic [ref=e163]:
+                  - generic [ref=e165]:
+                    - generic [ref=e166]: 
+                    - generic [ref=e167]: 
+                  - generic [ref=e169]: Other Statistics
+                  - heading "fas fa-download" [level=4] [ref=e171]:
+                    - button "fas fa-download" [ref=e172] [cursor=pointer]:
+                      - generic [ref=e174]: 
+                - generic [ref=e175]:
+                  - generic [ref=e178]:
+                    - generic [ref=e180]:
+                      - generic [ref=e181]: 
+                      - generic [ref=e182]: 
+                    - generic [ref=e184]: Bank Detail Changes
+                    - heading "82" [level=4] [ref=e186]
+                  - generic [ref=e189]:
+                    - generic [ref=e191]:
+                      - generic [ref=e192]: 
+                      - generic [ref=e193]: 
+                    - generic [ref=e195]: Reporting Line Changes
+                    - heading "0" [level=4] [ref=e197]
+                  - generic [ref=e200]:
+                    - generic [ref=e202]:
+                      - generic [ref=e203]: 
+                      - generic [ref=e204]: 
+                    - generic [ref=e206]: Position Changes
+                    - heading "0" [level=4] [ref=e208]
+                  - generic [ref=e211]:
+                    - generic [ref=e213]:
+                      - generic [ref=e214]: 
+                      - generic [ref=e215]: 
+                    - generic [ref=e217]: Pay Rate Changes
+                    - heading "0" [level=4] [ref=e219]
+                  - generic [ref=e222]:
+                    - generic [ref=e224]:
+                      - generic [ref=e225]: 
+                      - generic [ref=e226]: 
+                    - generic [ref=e228]: Active Employees Not Paid
+                    - heading "88" [level=4] [ref=e230]
+                  - generic [ref=e233]:
+                    - generic [ref=e235]:
+                      - generic [ref=e236]: 
+                      - generic [ref=e237]: 
+                    - generic [ref=e239]: Org Unit Changes
+                    - heading "0" [level=4] [ref=e241]
+            - generic [ref=e244]:
+              - heading "Employee Movement" [level=6] [ref=e246]
+              - generic [ref=e247]:
+                - generic [ref=e249]:
+                  - generic [ref=e250]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - combobox [disabled]: October 2025
+                          - generic:
+                            - button "Select":
+                              - generic:
+                                - generic: 
+                  - generic [ref=e252]: to
+                  - generic [ref=e256] [cursor=pointer]:
+                    - combobox [ref=e258]: December 2025
+                    - button "Select" [ref=e260]:
+                      - generic [ref=e262]: 
+                - img [ref=e265]:
+                  - generic [ref=e279]:
+                    - generic [ref=e280]:
+                      - generic [ref=e281]: "0"
+                      - generic [ref=e282]: "50"
+                      - generic [ref=e283]: "100"
+                      - generic [ref=e284]: "150"
+                      - generic [ref=e285]: "200"
+                    - generic [ref=e287]: December
+                  - generic [ref=e290]:
+                    - generic [ref=e294]: Terminations
+                    - generic [ref=e298]: New Engagements
+                - generic [ref=e299]:
+                  - generic [ref=e300]:
+                    - generic [ref=e301]: Termination Reason
+                    - img [ref=e304]
+                    - generic [ref=e311]:
+                      - img [ref=e313]
+                      - text: Contract Expired
+                  - generic [ref=e315]:
+                    - generic [ref=e316]: Leaver's Length of Service
+                    - img [ref=e319]
+                    - generic [ref=e326]:
+                      - img [ref=e328]
+                      - text: < 1
+  - dialog [ref=e330]:
+    - generic [ref=e331]:
+      - heading "Employee search" [level=5] [ref=e332]
+      - button [ref=e333] [cursor=pointer]
+    - generic [ref=e334]:
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - generic [ref=e339]:
+            - generic [ref=e340]:
+              - generic: 
+              - textbox "Employee" [active] [ref=e341]: Janelle Dooley-Batz
+            - generic [ref=e344] [cursor=pointer]: 
+          - generic:
+            - generic:
+              - generic: Employee
+        - checkbox "Incl. Terminated":
+          - generic:
+            - generic: Incl. Terminated
+        - application [ref=e346] [cursor=pointer]:
+          - generic [ref=e349]:
+            - combobox "Company" [ref=e350]
+            - generic: Select...
+          - generic:
+            - generic:
+              - generic: Company
+        - text: Select...
+        - generic [ref=e351]:
+          - button "Clear Filters" [ref=e352] [cursor=pointer]:
+            - generic [ref=e354]: Clear Filters
+          - button "Search" [ref=e355] [cursor=pointer]:
+            - generic [ref=e357]: Search
+      - generic [ref=e358]:
+        - paragraph [ref=e359]: "Results: 0 | Terminated: 0"
+        - group [ref=e360]:
+          - application [ref=e364]:
+            - generic [ref=e365]: No relevant data available
+  - text:  Search 
+  - alert [ref=e367]:
+    - generic [ref=e368]:
+      - generic [ref=e370]: 
+      - strong [ref=e371]: Success
+      - generic [ref=e372]: 03:47
+      - button [ref=e373] [cursor=pointer]
+    - generic [ref=e374]: Create Successful.
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e375]:
+                - img [ref=e379]
+                - generic [ref=e381]:
+                  - button "Choose language" [ref=e384] [cursor=pointer]:
+                    - generic "English" [ref=e385]:
+                      - text: En
+                      - img [ref=e387]
+                  - button "Modules Menu" [ref=e391] [cursor=pointer]:
+                    - img [ref=e393]
+                  - button "close asap" [ref=e395] [cursor=pointer]:
+                    - img [ref=e397]
+              - generic [ref=e399]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e400]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e401] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e403]:
+                        - img [ref=e404]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e406]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

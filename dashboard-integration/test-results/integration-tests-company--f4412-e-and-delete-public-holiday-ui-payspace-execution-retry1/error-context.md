@@ -1,0 +1,252 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Add New Employee" [level=1] [ref=e80]:
+              - generic [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]: 
+                - generic [ref=e84]: Add New Employee
+            - treeitem " E-Onboarding" [level=1] [ref=e86]:
+              - generic [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]: 
+                - generic [ref=e90]: E-Onboarding
+            - treeitem " Terminate / Reinstate" [level=1] [ref=e92]:
+              - generic [ref=e94] [cursor=pointer]:
+                - generic [ref=e95]: 
+                - generic [ref=e96]: Terminate / Reinstate
+            - treeitem " Transfer" [level=1] [ref=e98]:
+              - generic [ref=e100] [cursor=pointer]:
+                - generic [ref=e101]: 
+                - generic [ref=e102]: Transfer
+            - treeitem " Transfer History" [level=1] [ref=e104]:
+              - generic [ref=e106] [cursor=pointer]:
+                - generic [ref=e107]: 
+                - generic [ref=e108]: Transfer History
+            - treeitem " Suspension" [level=1] [ref=e110]:
+              - generic [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]: 
+                - generic [ref=e114]: Suspension
+            - treeitem " Create A Mock Payslip" [level=1] [ref=e116]:
+              - generic [ref=e118] [cursor=pointer]:
+                - generic [ref=e119]: 
+                - generic [ref=e120]: Create A Mock Payslip
+      - generic [ref=e122]:
+        - alert [ref=e123]: This environment is not a live environment, it is a backup from 2025/12/07
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e126]: 
+            - text: Calculations are currently in progress.
+          - text: View Details
+        - banner [ref=e127]:
+          - generic [ref=e128]:
+            - heading "Public Holidays" [level=1] [ref=e130]
+            - button "bulletlist" [ref=e132] [cursor=pointer]:
+              - generic [ref=e134]: 
+        - main [ref=e135]:
+          - group "Data grid with 3 rows and 7 columns" [ref=e139]:
+            - status [ref=e140]: Data grid with 3 rows and 7 columns
+            - toolbar "Data grid toolbar" [ref=e142]:
+              - generic [ref=e143]:
+                - button "edit-button-addrow" [ref=e146] [cursor=pointer]:
+                  - generic [ref=e148]: 
+                - text: 
+            - row "Column Public holiday date Column Description Column Level Column Province Column Category Column Is Active" [ref=e158]:
+              - gridcell [ref=e159]
+              - columnheader "Column Public holiday date" [ref=e160] [cursor=pointer]:
+                - text: Public holiday date
+                - generic [ref=e161]: 1
+              - columnheader "Column Description" [ref=e162] [cursor=pointer]: Description
+              - columnheader "Column Level" [ref=e163] [cursor=pointer]:
+                - text: Level
+                - generic [ref=e164]: 2
+              - columnheader "Column Province" [ref=e165] [cursor=pointer]: Province
+              - columnheader "Column Category" [ref=e166] [cursor=pointer]: Category
+              - columnheader "Column Is Active" [ref=e167] [cursor=pointer]: Is Active
+              - gridcell [ref=e168]
+            - row "Filter cell Filter cell Filter cell Filter cell Filter cell Filter cell" [ref=e169]:
+              - gridcell [ref=e170]
+              - gridcell "Filter cell" [ref=e171]:
+                - generic [ref=e172]:
+                  - menubar:
+                    - menuitem "Search box" [ref=e173] [cursor=pointer]:
+                      - generic [ref=e174]:
+                        - generic [ref=e175]: 
+                        - text: 
+                  - generic [ref=e179] [cursor=pointer]:
+                    - combobox "Filter cell" [ref=e181]
+                    - button "Select" [ref=e183]:
+                      - generic [ref=e185]: 
+              - gridcell "Filter cell" [ref=e186]:
+                - generic [ref=e187]:
+                  - menubar:
+                    - menuitem "Search box" [ref=e188] [cursor=pointer]:
+                      - generic [ref=e189]:
+                        - generic [ref=e190]: 
+                        - text: 
+                  - textbox "Filter cell" [ref=e195]: AutoTest
+              - gridcell "Filter cell" [ref=e196]:
+                - generic [ref=e201] [cursor=pointer]:
+                  - generic [ref=e202]:
+                    - combobox "Filter cell" [ref=e203]: (All)
+                    - text: Select...
+                  - button "Select" [ref=e205]:
+                    - generic [ref=e207]: 
+              - gridcell "Filter cell" [ref=e208]:
+                - generic [ref=e213] [cursor=pointer]:
+                  - generic [ref=e214]:
+                    - combobox "Filter cell" [ref=e215]: (All)
+                    - text: Select...
+                  - generic [ref=e216]:
+                    - generic [ref=e218]: 
+                    - button "Select" [ref=e219]:
+                      - generic [ref=e221]: 
+              - gridcell "Filter cell" [ref=e222]:
+                - generic [ref=e227] [cursor=pointer]:
+                  - generic [ref=e228]:
+                    - combobox "Filter cell" [ref=e229]: (All)
+                    - text: Select...
+                  - generic [ref=e230]:
+                    - generic [ref=e232]: 
+                    - button "Select" [ref=e233]:
+                      - generic [ref=e235]: 
+              - gridcell "Filter cell" [ref=e236]:
+                - generic [ref=e241] [cursor=pointer]:
+                  - generic [ref=e242]:
+                    - combobox "Filter cell" [ref=e243]: (All)
+                    - text: Select...
+                  - button "Select" [ref=e245]:
+                    - generic [ref=e247]: 
+              - gridcell [ref=e248]
+            - grid [ref=e252]:
+              - 'row "Collapse Year: 2025" [ref=e262]':
+                - gridcell "Collapse" [ref=e263]:
+                  - generic [ref=e264] [cursor=pointer]: 
+                - 'gridcell "Year: 2025" [ref=e265]'
+              - row "2025/12/10 AutoTest National ON Edit Delete" [ref=e266]:
+                - gridcell [ref=e267] [cursor=pointer]
+                - gridcell "2025/12/10" [ref=e268] [cursor=pointer]
+                - gridcell "AutoTest" [ref=e269] [cursor=pointer]
+                - gridcell "National" [ref=e270] [cursor=pointer]
+                - gridcell [ref=e271] [cursor=pointer]
+                - gridcell [ref=e272] [cursor=pointer]
+                - gridcell "ON" [ref=e273] [cursor=pointer]:
+                  - switch "ON" [checked] [ref=e274]:
+                    - generic [ref=e278]: "ON"
+                - gridcell "Edit Delete" [ref=e280] [cursor=pointer]:
+                  - link "Edit" [ref=e281]:
+                    - /url: "#"
+                    - text: 
+                  - link "Delete" [ref=e282]:
+                    - /url: "#"
+                    - text: 
+                - generic [ref=e283] [cursor=pointer]: 
+              - row "2025/12/09 AutoTest National ON Edit Delete" [ref=e284]:
+                - gridcell [ref=e285] [cursor=pointer]
+                - gridcell "2025/12/09" [ref=e286] [cursor=pointer]
+                - gridcell "AutoTest" [ref=e287] [cursor=pointer]
+                - gridcell "National" [ref=e288] [cursor=pointer]
+                - gridcell [ref=e289] [cursor=pointer]
+                - gridcell [ref=e290] [cursor=pointer]
+                - gridcell "ON" [ref=e291] [cursor=pointer]:
+                  - switch "ON" [checked] [ref=e292]:
+                    - generic [ref=e296]: "ON"
+                - gridcell "Edit Delete" [ref=e298] [cursor=pointer]:
+                  - link "Edit" [ref=e299]:
+                    - /url: "#"
+                    - text: 
+                  - link "Delete" [ref=e300]:
+                    - /url: "#"
+                    - text: 
+                - generic [ref=e301] [cursor=pointer]: 
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e302]:
+                - img [ref=e306]
+                - generic [ref=e308]:
+                  - button "Choose language" [ref=e311] [cursor=pointer]:
+                    - generic "English" [ref=e312]:
+                      - text: En
+                      - img [ref=e314]
+                  - button "Modules Menu" [ref=e318] [cursor=pointer]:
+                    - img [ref=e320]
+                  - button "close asap" [ref=e322] [cursor=pointer]:
+                    - img [ref=e324]
+              - generic [ref=e326]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e327]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e328] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e330]:
+                        - img [ref=e331]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e333]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

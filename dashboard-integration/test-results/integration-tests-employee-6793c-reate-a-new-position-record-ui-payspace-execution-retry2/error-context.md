@@ -1,0 +1,410 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - text:  Search  _  Search  _
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - link "German Bernhard":
+                - /url: /employees/5153704/contact
+                - img "German Bernhard" [ref=e62] [cursor=pointer]
+            - generic [ref=e63]:
+              - generic [ref=e64]: Playwright Integration Demo
+              - generic [ref=e65]: Monthly
+            - separator [ref=e66]
+            - generic [ref=e68]: German Bernhard
+            - generic [ref=e69]:
+              - link "" [ref=e70] [cursor=pointer]:
+                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=5153704&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153704%2F108658%2Fposition
+              - button "103884" [ref=e71] [cursor=pointer]
+              - link "" [ref=e72] [cursor=pointer]:
+                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=5153704&frequencyId=108658&returnUrl=%2F50830%2Femployees%2F5153704%2F108658%2Fposition
+        - tree [ref=e75]:
+          - group [ref=e80]:
+            - treeitem " Basic Information " [expanded] [level=1] [ref=e81]:
+              - generic [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: 
+                  - generic [ref=e85]: Basic Information
+                - generic [ref=e86]: 
+              - group [ref=e87]:
+                - treeitem "Basic Profile" [level=2] [ref=e88]:
+                  - generic [ref=e91] [cursor=pointer]: Basic Profile
+                - treeitem "Tax Profile" [level=2] [ref=e93]:
+                  - generic [ref=e96] [cursor=pointer]: Tax Profile
+                - treeitem "Position" [level=2] [selected] [ref=e98]:
+                  - generic [ref=e101] [cursor=pointer]: Position
+                - treeitem "Banking Details" [level=2] [ref=e103]:
+                  - generic [ref=e106] [cursor=pointer]: Banking Details
+                - treeitem "Incident Management" [level=2] [ref=e108]:
+                  - generic [ref=e111] [cursor=pointer]: Incident Management
+                - treeitem "Dependants" [level=2] [ref=e113]:
+                  - generic [ref=e116] [cursor=pointer]: Dependants
+                - treeitem "Attachments" [level=2] [ref=e118]:
+                  - generic [ref=e121] [cursor=pointer]: Attachments
+                - treeitem "Asset Register" [level=2] [ref=e123]:
+                  - generic [ref=e126] [cursor=pointer]: Asset Register
+                - treeitem "Custom Forms" [level=2] [ref=e128]:
+                  - generic [ref=e131] [cursor=pointer]: Custom Forms
+                - treeitem "Employee Templates" [level=2] [ref=e133]:
+                  - generic [ref=e136] [cursor=pointer]: Employee Templates
+            - treeitem " Payroll Processing " [level=1] [ref=e138]:
+              - generic [ref=e139] [cursor=pointer]:
+                - generic [ref=e140]:
+                  - generic [ref=e141]: 
+                  - generic [ref=e142]: Payroll Processing
+                - generic [ref=e143]: 
+            - treeitem " Payroll Results " [level=1] [ref=e144]:
+              - generic [ref=e145] [cursor=pointer]:
+                - generic [ref=e146]:
+                  - generic [ref=e147]: 
+                  - generic [ref=e148]: Payroll Results
+                - generic [ref=e149]: 
+            - treeitem " Leave " [level=1] [ref=e150]:
+              - generic [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 
+                  - generic [ref=e154]: Leave
+                - generic [ref=e155]: 
+            - treeitem " Performance " [level=1] [ref=e156]:
+              - generic [ref=e157] [cursor=pointer]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]: 
+                  - generic [ref=e160]: Performance
+                - generic [ref=e161]: 
+            - treeitem " Skills " [level=1] [ref=e162]:
+              - generic [ref=e163] [cursor=pointer]:
+                - generic [ref=e164]:
+                  - generic [ref=e165]: 
+                  - generic [ref=e166]: Skills
+                - generic [ref=e167]: 
+            - treeitem " Costing " [level=1] [ref=e168]:
+              - generic [ref=e169] [cursor=pointer]:
+                - generic [ref=e170]:
+                  - generic [ref=e171]: 
+                  - generic [ref=e172]: Costing
+                - generic [ref=e173]: 
+            - treeitem " Other " [level=1] [ref=e174]:
+              - generic [ref=e175] [cursor=pointer]:
+                - generic [ref=e176]:
+                  - generic [ref=e177]: 
+                  - generic [ref=e178]: Other
+                - generic [ref=e179]: 
+      - generic [ref=e180]:
+        - alert [ref=e181]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - banner [ref=e182]:
+          - generic [ref=e183]:
+            - heading "Position" [level=1] [ref=e185]
+            - generic [ref=e186]:
+              - button "Position" [ref=e187] [cursor=pointer]:
+                - generic [ref=e188]: +
+                - text: Position
+              - button "bulletlist" [ref=e189] [cursor=pointer]:
+                - generic [ref=e191]: 
+        - main [ref=e192]:
+          - generic [ref=e194]:
+            - form [ref=e197]:
+              - generic [ref=e200]:
+                - group "Details" [ref=e205]:
+                  - generic [ref=e206]: Details
+                  - generic [ref=e210]:
+                    - generic [ref=e217] [cursor=pointer]:
+                      - generic [ref=e219]:
+                        - generic [ref=e220]:
+                          - combobox "Effective Date *" [ref=e221]: 2025/12/09
+                          - text: Effective Date
+                        - button "Select" [ref=e223]:
+                          - generic [ref=e225]: 
+                      - generic:
+                        - generic:
+                          - generic: Effective Date *
+                    - generic [ref=e235]:
+                      - form [ref=e236]:
+                        - radiogroup [ref=e244]:
+                          - generic [ref=e245]:
+                            - radio "Keep job" [disabled]:
+                              - generic: Keep job
+                            - radio "Search for specific job":
+                              - generic: Search for specific job
+                            - radio "Select job by org unit and position" [checked]:
+                              - generic: Select job by org unit and position
+                      - separator [ref=e253]
+                    - form [ref=e258]:
+                      - generic [ref=e261]:
+                        - generic [ref=e263]:
+                          - generic [ref=e268] [cursor=pointer]:
+                            - generic [ref=e269]:
+                              - combobox [ref=e270]: . Automation
+                              - generic: 
+                            - generic:
+                              - generic:
+                                - generic: Position *
+                          - generic [ref=e275] [cursor=pointer]:
+                            - generic [ref=e276]:
+                              - combobox [expanded] [ref=e277]:
+                                - text: .
+                                - generic: Job
+                                - generic [ref=e278]:
+                                  - generic [ref=e281]:
+                                    - generic [ref=e282]:
+                                      - generic: 
+                                      - textbox "Search" [active] [ref=e283]
+                                      - generic: Search
+                                    - generic: 
+                                  - group [ref=e284]:
+                                    - application [ref=e288]:
+                                      - generic [ref=e289]: No data to display
+                              - generic: 
+                            - generic:
+                              - generic:
+                                - generic: Job
+                          - generic [ref=e294]:
+                            - textbox "Job comments" [ref=e297]
+                            - generic:
+                              - generic:
+                                - generic: Job comments
+                        - generic [ref=e304] [cursor=pointer]:
+                          - generic [ref=e306]:
+                            - generic [ref=e307]:
+                              - combobox "Organisation unit *" [ref=e308]: Playwright Integration Demo
+                              - text: Organisation unit
+                            - button "Select" [ref=e310]:
+                              - generic [ref=e311]:
+                                - generic: 
+                          - generic:
+                            - generic:
+                              - generic: Organisation unit *
+                - group "Reporting Line" [ref=e320]:
+                  - generic [ref=e321]: Reporting Line
+                  - generic [ref=e325]:
+                    - form [ref=e330]:
+                      - generic [ref=e335]:
+                        - generic [ref=e340] [cursor=pointer]:
+                          - combobox "Default grade" [ref=e344]: T Test
+                          - generic:
+                            - generic:
+                              - generic: Default grade
+                        - generic [ref=e349] [cursor=pointer]:
+                          - generic [ref=e350]:
+                            - combobox [ref=e351]:
+                              - text: .
+                              - generic: Override Grade
+                            - generic: 
+                          - generic:
+                            - generic:
+                              - generic: Override Grade
+                        - generic [ref=e356]:
+                          - generic [ref=e358]:
+                            - generic [ref=e359]:
+                              - combobox "Directly reports to person" [ref=e360]
+                              - generic: Search for employees
+                            - generic: 
+                          - generic:
+                            - generic:
+                              - generic: Directly reports to person
+                    - tablist [ref=e365]:
+                      - tab " Additional" [ref=e367]:
+                        - generic [ref=e368] [cursor=pointer]:
+                          - text: 
+                          - generic [ref=e369]: Additional
+                        - form [ref=e371]:
+                          - generic [ref=e374]:
+                            - generic [ref=e376]:
+                              - generic [ref=e381] [cursor=pointer]:
+                                - generic [ref=e382]:
+                                  - combobox [ref=e383]:
+                                    - text: .
+                                    - generic: Employment status
+                                  - generic: 
+                                - generic:
+                                  - generic:
+                                    - generic: Employment status
+                              - generic [ref=e388] [cursor=pointer]:
+                                - combobox "Directly reports to position" [ref=e392]
+                                - generic:
+                                  - generic:
+                                    - generic: Directly reports to position
+                              - form [ref=e397]:
+                                - generic [ref=e405]:
+                                  - generic [ref=e406]:
+                                    - generic [ref=e407]:
+                                      - generic: 
+                                      - textbox "Override directly reports to position" [ref=e408]:
+                                        - /placeholder: Click to search...
+                                      - generic: Click to search...
+                                    - generic: 
+                                  - generic:
+                                    - generic:
+                                      - generic: Override directly reports to position
+                            - generic [ref=e410]:
+                              - generic [ref=e414]:
+                                - checkbox "Is this a promotion?" [checked=mixed]:
+                                  - generic:
+                                    - generic: Is this a promotion?
+                              - generic [ref=e420] [cursor=pointer]:
+                                - generic [ref=e422]:
+                                  - generic [ref=e423]:
+                                    - combobox "Workflow role" [ref=e424]
+                                    - generic: Workflow role
+                                  - generic [ref=e425]:
+                                    - text: 
+                                    - button "Select" [ref=e426]:
+                                      - generic [ref=e427]:
+                                        - generic: 
+                                - generic:
+                                  - generic:
+                                    - generic: Workflow role
+                              - generic [ref=e432]:
+                                - generic [ref=e434]:
+                                  - generic [ref=e435]:
+                                    - combobox "Administrator" [ref=e436]
+                                    - generic: Search for employees
+                                  - generic: 
+                                - generic:
+                                  - generic:
+                                    - generic: Administrator
+                            - generic [ref=e441]:
+                              - generic [ref=e443]:
+                                - textbox "Comments" [ref=e444]
+                                - generic: Comments
+                              - generic:
+                                - generic:
+                                  - generic: Comments
+            - button "Save" [ref=e447] [cursor=pointer]:
+              - generic [ref=e449]: Save
+          - tablist [ref=e450]:
+            - tab " History Data grid with 0 rows and 7 columns" [selected] [ref=e452]:
+              - generic [ref=e453] [cursor=pointer]:
+                - text: 
+                - generic [ref=e454]: History
+              - group "Data grid with 0 rows and 7 columns" [ref=e456]:
+                - status [ref=e457]: Data grid with 0 rows and 7 columns
+                - row "Column Effective Date Column Position Column Organisation unit Column Directly reports to person Column Grade Column Is this a promotion?" [ref=e466]:
+                  - columnheader "Column Effective Date" [ref=e467] [cursor=pointer]:
+                    - text: Effective Date
+                    - generic [ref=e468]: 
+                  - columnheader "Column Position" [ref=e469] [cursor=pointer]: Position
+                  - columnheader "Column Organisation unit" [ref=e470] [cursor=pointer]: Organisation unit
+                  - columnheader "Column Directly reports to person" [ref=e471] [cursor=pointer]: Directly reports to person
+                  - columnheader "Column Grade" [ref=e472] [cursor=pointer]: Grade
+                  - columnheader "Column Is this a promotion?" [ref=e473] [cursor=pointer]: Is this a promotion?
+                  - gridcell [ref=e474]
+                - row "Filter cell Filter cell Filter cell Filter cell Filter cell Filter cell" [ref=e475]:
+                  - gridcell "Filter cell" [ref=e476]:
+                    - generic [ref=e477]:
+                      - menubar:
+                        - menuitem "Search box" [ref=e478] [cursor=pointer]:
+                          - generic [ref=e479]:
+                            - generic [ref=e480]: 
+                            - text: 
+                      - generic [ref=e484] [cursor=pointer]:
+                        - combobox "Filter cell" [ref=e486]
+                        - button "Select" [ref=e488]:
+                          - generic [ref=e490]: 
+                  - gridcell "Filter cell" [ref=e491]:
+                    - textbox "Filter cell" [ref=e497]
+                  - gridcell "Filter cell" [ref=e498]:
+                    - textbox "Filter cell" [ref=e504]
+                  - gridcell "Filter cell" [ref=e505]:
+                    - textbox "Filter cell" [ref=e511]
+                  - gridcell "Filter cell" [ref=e512]:
+                    - textbox "Filter cell" [ref=e518]
+                  - gridcell "Filter cell" [ref=e519]:
+                    - generic [ref=e524] [cursor=pointer]:
+                      - generic [ref=e525]:
+                        - combobox "Filter cell" [ref=e526]: (All)
+                        - text: Select...
+                      - button "Select" [ref=e528]:
+                        - generic [ref=e530]: 
+                  - gridcell [ref=e531]
+                - generic [ref=e533]: No data
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e534]:
+                - img [ref=e538]
+                - generic [ref=e540]:
+                  - button "Choose language" [ref=e543] [cursor=pointer]:
+                    - generic "English" [ref=e544]:
+                      - text: En
+                      - img [ref=e546]
+                  - button "Modules Menu" [ref=e550] [cursor=pointer]:
+                    - img [ref=e552]
+                  - button "close asap" [ref=e554] [cursor=pointer]:
+                    - img [ref=e556]
+              - generic [ref=e558]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e559]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e560] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e562]:
+                        - img [ref=e563]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e565]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+  - dialog "Dropdown" [ref=e566]:
+    - toolbar [ref=e567]:
+      - generic [ref=e568]:
+        - button "Cancel" [ref=e571] [cursor=pointer]:
+          - generic [ref=e573]: Cancel
+        - button "Clear" [ref=e576] [cursor=pointer]:
+          - generic [ref=e578]: Clear
+```

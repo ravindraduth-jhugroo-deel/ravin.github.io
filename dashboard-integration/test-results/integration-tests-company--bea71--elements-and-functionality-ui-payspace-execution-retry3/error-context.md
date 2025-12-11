@@ -1,0 +1,239 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Basic Settings " [level=1] [ref=e80]:
+              - generic [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]:
+                  - generic [ref=e83]: 
+                  - generic [ref=e84]: Basic Settings
+                - generic [ref=e85]: 
+            - treeitem " Payroll " [level=1] [ref=e86]:
+              - generic [ref=e87] [cursor=pointer]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]: 
+                  - generic [ref=e90]: Payroll
+                - generic [ref=e91]: 
+            - treeitem " Human Resources " [expanded] [level=1] [ref=e92]:
+              - generic [ref=e93] [cursor=pointer]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: 
+                  - generic [ref=e96]: Human Resources
+                - generic [ref=e97]: 
+              - group [ref=e98]:
+                - treeitem "Leave Administration " [level=2] [ref=e99]:
+                  - generic [ref=e100] [cursor=pointer]:
+                    - generic [ref=e102]: Leave Administration
+                    - generic [ref=e103]: 
+                - treeitem "Organisation Structure " [expanded] [level=2] [ref=e104]:
+                  - generic [ref=e105] [cursor=pointer]:
+                    - generic [ref=e107]: Organisation Structure
+                    - generic [ref=e108]: 
+                  - group [ref=e109]:
+                    - treeitem "Organisation Hierarchy Levels" [level=3] [ref=e110]:
+                      - generic [ref=e113] [cursor=pointer]: Organisation Hierarchy Levels
+                    - treeitem "Organisation Hierarchy Units" [level=3] [selected] [ref=e115]:
+                      - generic [ref=e118] [cursor=pointer]: Organisation Hierarchy Units
+                    - treeitem "Grades" [level=3] [ref=e120]:
+                      - generic [ref=e123] [cursor=pointer]: Grades
+                    - treeitem "Position Management" [level=3] [ref=e125]:
+                      - generic [ref=e128] [cursor=pointer]: Position Management
+                    - treeitem "Onboarding / Termination Notifications C" [level=3] [ref=e130]:
+                      - generic [ref=e132] [cursor=pointer]:
+                        - generic [ref=e133]: Onboarding / Termination Notifications
+                        - generic [ref=e134]: C
+                    - treeitem "Bulk Reporting Changes C" [level=3] [ref=e136]:
+                      - generic [ref=e138] [cursor=pointer]:
+                        - generic [ref=e139]: Bulk Reporting Changes
+                        - generic [ref=e140]: C
+                    - treeitem "Org and Position Settings" [level=3] [ref=e142]:
+                      - generic [ref=e145] [cursor=pointer]: Org and Position Settings
+                - treeitem "Performance Management " [level=2] [ref=e147]:
+                  - generic [ref=e148] [cursor=pointer]:
+                    - generic [ref=e150]: Performance Management
+                    - generic [ref=e151]: 
+                - treeitem "Upskilling " [level=2] [ref=e152]:
+                  - generic [ref=e153] [cursor=pointer]:
+                    - generic [ref=e155]: Upskilling
+                    - generic [ref=e156]: 
+                - treeitem "Workforce Planning " [level=2] [ref=e157]:
+                  - generic [ref=e158] [cursor=pointer]:
+                    - generic [ref=e160]: Workforce Planning
+                    - generic [ref=e161]: 
+                - treeitem "Workforce Planning Setup " [level=2] [ref=e162]:
+                  - generic [ref=e163] [cursor=pointer]:
+                    - generic [ref=e165]: Workforce Planning Setup
+                    - generic [ref=e166]: 
+                - treeitem "Employment Equity " [level=2] [ref=e167]:
+                  - generic [ref=e168] [cursor=pointer]:
+                    - generic [ref=e170]: Employment Equity
+                    - generic [ref=e171]: 
+            - treeitem " Security " [level=1] [ref=e172]:
+              - generic [ref=e173] [cursor=pointer]:
+                - generic [ref=e174]:
+                  - generic [ref=e175]: 
+                  - generic [ref=e176]: Security
+                - generic [ref=e177]: 
+            - treeitem " Financial " [level=1] [ref=e178]:
+              - generic [ref=e179] [cursor=pointer]:
+                - generic [ref=e180]:
+                  - generic [ref=e181]: 
+                  - generic [ref=e182]: Financial
+                - generic [ref=e183]: 
+      - generic [ref=e184]:
+        - alert [ref=e185]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - banner [ref=e186]:
+          - generic [ref=e187]:
+            - heading "Organisation Hierarchy Units" [level=1] [ref=e189]
+            - button "bulletlist" [ref=e192] [cursor=pointer]:
+              - generic [ref=e194]: 
+        - main [ref=e195]:
+          - generic [ref=e196]:
+            - form [ref=e197]:
+              - tabpanel [ref=e205]:
+                - tablist [ref=e207]:
+                  - generic [ref=e208]:
+                    - tab "Details" [selected] [ref=e209] [cursor=pointer]:
+                      - generic [ref=e212]: Details
+                    - tab "Additional" [ref=e213] [cursor=pointer]:
+                      - generic [ref=e216]: Additional
+                - tabpanel [ref=e220]:
+                  - group "Details" [ref=e229]:
+                    - generic [ref=e230]:
+                      - generic [ref=e231]: Details
+                      - button "chevronup" [ref=e232] [cursor=pointer]:
+                        - generic [ref=e234]: 
+                    - generic [ref=e238]:
+                      - generic [ref=e240]:
+                        - generic [ref=e245]:
+                          - textbox "Unit Description *" [ref=e248]: Playwright Integration Demo - Uat
+                          - generic:
+                            - generic:
+                              - generic: Unit Description *
+                        - generic [ref=e254] [cursor=pointer]:
+                          - generic [ref=e257]:
+                            - combobox "Parent Unit" [ref=e258]
+                            - generic: Top Level
+                          - generic:
+                            - generic:
+                              - generic: Parent Unit
+                        - generic [ref=e262]:
+                          - generic:
+                            - generic:
+                              - combobox [disabled]: . Company
+                              - generic: 
+                            - generic:
+                              - generic:
+                                - generic: Org Level *
+                      - generic [ref=e264]:
+                        - generic [ref=e269]:
+                          - textbox "Upload Code *" [ref=e272]: COMP
+                          - generic:
+                            - generic:
+                              - generic: Upload Code *
+                        - generic [ref=e277]:
+                          - textbox "GL/Unit Code" [ref=e280]
+                          - generic:
+                            - generic:
+                              - generic: GL/Unit Code
+                        - generic [ref=e283]:
+                          - generic [ref=e285]: Link Employee
+                          - checkbox "Link Employee" [ref=e287] [cursor=pointer]
+            - generic [ref=e290]:
+              - button "Cancel" [ref=e291] [cursor=pointer]:
+                - generic [ref=e293]: Cancel
+              - button "Update" [ref=e294] [cursor=pointer]:
+                - generic [ref=e296]: Update
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e297]:
+                - img [ref=e301]
+                - generic [ref=e303]:
+                  - button "Choose language" [ref=e306] [cursor=pointer]:
+                    - generic "English" [ref=e307]:
+                      - text: En
+                      - img [ref=e309]
+                  - button "Modules Menu" [ref=e313] [cursor=pointer]:
+                    - img [ref=e315]
+                  - button "close asap" [ref=e317] [cursor=pointer]:
+                    - img [ref=e319]
+              - generic [ref=e321]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e322]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e323] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e325]:
+                        - img [ref=e326]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e328]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+  - text:  Search 
+```

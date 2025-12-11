@@ -1,0 +1,304 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Basic Settings " [level=1] [ref=e80]:
+              - generic [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]:
+                  - generic [ref=e83]: 
+                  - generic [ref=e84]: Basic Settings
+                - generic [ref=e85]: 
+            - treeitem " Payroll " [level=1] [ref=e86]:
+              - generic [ref=e87] [cursor=pointer]:
+                - generic [ref=e88]:
+                  - generic [ref=e89]: 
+                  - generic [ref=e90]: Payroll
+                - generic [ref=e91]: 
+            - treeitem " Human Resources " [expanded] [level=1] [ref=e92]:
+              - generic [ref=e93] [cursor=pointer]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: 
+                  - generic [ref=e96]: Human Resources
+                - generic [ref=e97]: 
+              - group [ref=e98]:
+                - treeitem "Leave Administration " [expanded] [level=2] [ref=e99]:
+                  - generic [ref=e100] [cursor=pointer]:
+                    - generic [ref=e102]: Leave Administration
+                    - generic [ref=e103]: 
+                  - group [ref=e104]:
+                    - treeitem "Leave Scheme Setup" [level=3] [ref=e105]:
+                      - generic [ref=e108] [cursor=pointer]: Leave Scheme Setup
+                    - treeitem "Leave Scheme Parameters C" [level=3] [ref=e110]:
+                      - generic [ref=e112] [cursor=pointer]:
+                        - generic [ref=e113]: Leave Scheme Parameters
+                        - generic [ref=e114]: C
+                    - treeitem "Leave Scheme Parameters" [level=3] [ref=e116]:
+                      - generic [ref=e119] [cursor=pointer]: Leave Scheme Parameters
+                    - treeitem "Leave Averaging Income Setup C" [level=3] [ref=e121]:
+                      - generic [ref=e123] [cursor=pointer]:
+                        - generic [ref=e124]: Leave Averaging Income Setup
+                        - generic [ref=e125]: C
+                    - treeitem "Leave Averaging Income Setup" [level=3] [ref=e127]:
+                      - generic [ref=e130] [cursor=pointer]: Leave Averaging Income Setup
+                    - treeitem "Leave Bucket Mapping C" [level=3] [ref=e132]:
+                      - generic [ref=e134] [cursor=pointer]:
+                        - generic [ref=e135]: Leave Bucket Mapping
+                        - generic [ref=e136]: C
+                    - treeitem "Leave Bucket Mapping" [level=3] [ref=e138]:
+                      - generic [ref=e141] [cursor=pointer]: Leave Bucket Mapping
+                    - treeitem "Public Holidays" [level=3] [selected] [ref=e143]:
+                      - generic [ref=e146] [cursor=pointer]: Public Holidays
+                    - treeitem "Leave Settings" [level=3] [ref=e148]:
+                      - generic [ref=e151] [cursor=pointer]: Leave Settings
+                - treeitem "Organisation Structure " [level=2] [ref=e153]:
+                  - generic [ref=e154] [cursor=pointer]:
+                    - generic [ref=e156]: Organisation Structure
+                    - generic [ref=e157]: 
+                - treeitem "Performance Management " [level=2] [ref=e158]:
+                  - generic [ref=e159] [cursor=pointer]:
+                    - generic [ref=e161]: Performance Management
+                    - generic [ref=e162]: 
+                - treeitem "Upskilling " [level=2] [ref=e163]:
+                  - generic [ref=e164] [cursor=pointer]:
+                    - generic [ref=e166]: Upskilling
+                    - generic [ref=e167]: 
+                - treeitem "Workforce Planning " [level=2] [ref=e168]:
+                  - generic [ref=e169] [cursor=pointer]:
+                    - generic [ref=e171]: Workforce Planning
+                    - generic [ref=e172]: 
+                - treeitem "Workforce Planning Setup " [level=2] [ref=e173]:
+                  - generic [ref=e174] [cursor=pointer]:
+                    - generic [ref=e176]: Workforce Planning Setup
+                    - generic [ref=e177]: 
+                - treeitem "Employment Equity " [level=2] [ref=e178]:
+                  - generic [ref=e179] [cursor=pointer]:
+                    - generic [ref=e181]: Employment Equity
+                    - generic [ref=e182]: 
+            - treeitem " Security " [level=1] [ref=e183]:
+              - generic [ref=e184] [cursor=pointer]:
+                - generic [ref=e185]:
+                  - generic [ref=e186]: 
+                  - generic [ref=e187]: Security
+                - generic [ref=e188]: 
+            - treeitem " Financial " [level=1] [ref=e189]:
+              - generic [ref=e190] [cursor=pointer]:
+                - generic [ref=e191]:
+                  - generic [ref=e192]: 
+                  - generic [ref=e193]: Financial
+                - generic [ref=e194]: 
+      - generic [ref=e195]:
+        - alert [ref=e196]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - banner [ref=e197]:
+          - generic [ref=e198]:
+            - heading "Public Holidays" [level=1] [ref=e200]
+            - button "bulletlist" [ref=e202] [cursor=pointer]:
+              - generic [ref=e204]: 
+        - main [ref=e205]:
+          - group "Data grid with 3 rows and 7 columns" [ref=e209]:
+            - status [ref=e210]: Data grid with 3 rows and 7 columns
+            - toolbar "Data grid toolbar" [ref=e212]:
+              - generic [ref=e213]:
+                - button "edit-button-addrow" [ref=e216] [cursor=pointer]:
+                  - generic [ref=e218]: 
+                - text: 
+            - row "Column Public holiday date Column Description Column Level Column Province Column Category Column Is Active" [ref=e228]:
+              - gridcell [ref=e229]
+              - columnheader "Column Public holiday date" [ref=e230] [cursor=pointer]:
+                - text: Public holiday date
+                - generic [ref=e231]: 1
+              - columnheader "Column Description" [ref=e232] [cursor=pointer]: Description
+              - columnheader "Column Level" [ref=e233] [cursor=pointer]:
+                - text: Level
+                - generic [ref=e234]: 2
+              - columnheader "Column Province" [ref=e235] [cursor=pointer]: Province
+              - columnheader "Column Category" [ref=e236] [cursor=pointer]: Category
+              - columnheader "Column Is Active" [ref=e237] [cursor=pointer]: Is Active
+              - gridcell [ref=e238]
+            - row "Filter cell Filter cell Filter cell Filter cell Filter cell Filter cell" [ref=e239]:
+              - gridcell [ref=e240]
+              - gridcell "Filter cell" [ref=e241]:
+                - generic [ref=e242]:
+                  - menubar:
+                    - menuitem "Search box" [ref=e243] [cursor=pointer]:
+                      - generic [ref=e244]:
+                        - generic [ref=e245]: 
+                        - text: 
+                  - generic [ref=e249] [cursor=pointer]:
+                    - combobox "Filter cell" [ref=e251]
+                    - button "Select" [ref=e253]:
+                      - generic [ref=e255]: 
+              - gridcell "Filter cell" [ref=e256]:
+                - generic [ref=e257]:
+                  - menubar:
+                    - menuitem "Search box" [ref=e258] [cursor=pointer]:
+                      - generic [ref=e259]:
+                        - generic [ref=e260]: 
+                        - text: 
+                  - textbox "Filter cell" [ref=e265]: AutoTest
+              - gridcell "Filter cell" [ref=e266]:
+                - generic [ref=e271] [cursor=pointer]:
+                  - generic [ref=e272]:
+                    - combobox "Filter cell" [ref=e273]: (All)
+                    - text: Select...
+                  - button "Select" [ref=e275]:
+                    - generic [ref=e277]: 
+              - gridcell "Filter cell" [ref=e278]:
+                - generic [ref=e283] [cursor=pointer]:
+                  - generic [ref=e284]:
+                    - combobox "Filter cell" [ref=e285]: (All)
+                    - text: Select...
+                  - generic [ref=e286]:
+                    - generic [ref=e288]: 
+                    - button "Select" [ref=e289]:
+                      - generic [ref=e291]: 
+              - gridcell "Filter cell" [ref=e292]:
+                - generic [ref=e297] [cursor=pointer]:
+                  - generic [ref=e298]:
+                    - combobox "Filter cell" [ref=e299]: (All)
+                    - text: Select...
+                  - generic [ref=e300]:
+                    - generic [ref=e302]: 
+                    - button "Select" [ref=e303]:
+                      - generic [ref=e305]: 
+              - gridcell "Filter cell" [ref=e306]:
+                - generic [ref=e311] [cursor=pointer]:
+                  - generic [ref=e312]:
+                    - combobox "Filter cell" [ref=e313]: (All)
+                    - text: Select...
+                  - button "Select" [ref=e315]:
+                    - generic [ref=e317]: 
+              - gridcell [ref=e318]
+            - grid [ref=e322]:
+              - 'row "Collapse Year: 2025" [active] [ref=e332]':
+                - gridcell "Collapse" [ref=e333]:
+                  - generic [ref=e334] [cursor=pointer]: 
+                - 'gridcell "Year: 2025" [ref=e335]'
+              - row "2025/12/10 AutoTest National ON Edit Delete" [ref=e336]:
+                - gridcell [ref=e337] [cursor=pointer]
+                - gridcell "2025/12/10" [ref=e338] [cursor=pointer]
+                - gridcell "AutoTest" [ref=e339] [cursor=pointer]
+                - gridcell "National" [ref=e340] [cursor=pointer]
+                - gridcell [ref=e341] [cursor=pointer]
+                - gridcell [ref=e342] [cursor=pointer]
+                - gridcell "ON" [ref=e343] [cursor=pointer]:
+                  - switch "ON" [checked] [ref=e344]:
+                    - generic [ref=e348]: "ON"
+                - gridcell "Edit Delete" [ref=e350] [cursor=pointer]:
+                  - link "Edit" [ref=e351]:
+                    - /url: "#"
+                    - text: 
+                  - link "Delete" [ref=e352]:
+                    - /url: "#"
+                    - text: 
+                - generic [ref=e353] [cursor=pointer]: 
+              - row "2025/12/09 AutoTest National ON Edit Delete" [ref=e354]:
+                - gridcell [ref=e355] [cursor=pointer]
+                - gridcell "2025/12/09" [ref=e356] [cursor=pointer]
+                - gridcell "AutoTest" [ref=e357] [cursor=pointer]
+                - gridcell "National" [ref=e358] [cursor=pointer]
+                - gridcell [ref=e359] [cursor=pointer]
+                - gridcell [ref=e360] [cursor=pointer]
+                - gridcell "ON" [ref=e361] [cursor=pointer]:
+                  - switch "ON" [checked] [ref=e362]:
+                    - generic [ref=e366]: "ON"
+                - gridcell "Edit Delete" [ref=e368] [cursor=pointer]:
+                  - link "Edit" [ref=e369]:
+                    - /url: "#"
+                    - text: 
+                  - link "Delete" [ref=e370]:
+                    - /url: "#"
+                    - text: 
+                - generic [ref=e371] [cursor=pointer]: 
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e372]:
+                - img [ref=e376]
+                - generic [ref=e378]:
+                  - button "Choose language" [ref=e381] [cursor=pointer]:
+                    - generic "English" [ref=e382]:
+                      - text: En
+                      - img [ref=e384]
+                  - button "Modules Menu" [ref=e388] [cursor=pointer]:
+                    - img [ref=e390]
+                  - button "close asap" [ref=e392] [cursor=pointer]:
+                    - img [ref=e394]
+              - generic [ref=e396]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e397]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e398] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e400]:
+                        - img [ref=e401]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e403]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

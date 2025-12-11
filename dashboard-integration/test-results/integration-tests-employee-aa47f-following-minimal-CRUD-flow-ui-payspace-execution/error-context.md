@@ -1,0 +1,455 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Playwright Integration Demo" [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e67]: Playwright Integration Demo
+              - heading "Maryna QA Test Payspace" [level=6] [ref=e68]
+              - separator [ref=e69]
+              - generic [ref=e71]: Monthly
+          - generic:  Search  _  Search  _
+        - tree [ref=e74]:
+          - group [ref=e79]:
+            - treeitem " Add New Employee" [level=1] [ref=e80]:
+              - generic [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]: 
+                - generic [ref=e84]: Add New Employee
+            - treeitem " E-Onboarding" [level=1] [ref=e86]:
+              - generic [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]: 
+                - generic [ref=e90]: E-Onboarding
+            - treeitem " Terminate / Reinstate" [level=1] [ref=e92]:
+              - generic [ref=e94] [cursor=pointer]:
+                - generic [ref=e95]: 
+                - generic [ref=e96]: Terminate / Reinstate
+            - treeitem " Transfer C" [level=1] [ref=e98]:
+              - generic [ref=e100] [cursor=pointer]:
+                - generic [ref=e101]: 
+                - generic [ref=e102]: Transfer
+                - generic [ref=e103]: C
+            - treeitem " Transfer History C" [level=1] [ref=e105]:
+              - generic [ref=e107] [cursor=pointer]:
+                - generic [ref=e108]: 
+                - generic [ref=e109]: Transfer History
+                - generic [ref=e110]: C
+            - treeitem " Suspension" [level=1] [ref=e112]:
+              - generic [ref=e114] [cursor=pointer]:
+                - generic [ref=e115]: 
+                - generic [ref=e116]: Suspension
+            - treeitem " Create A Mock Payslip C" [level=1] [ref=e118]:
+              - generic [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]: 
+                - generic [ref=e122]: Create A Mock Payslip
+                - generic [ref=e123]: C
+      - generic [ref=e125]:
+        - alert [ref=e126]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - main [ref=e127]:
+          - generic [ref=e128]:
+            - generic [ref=e131]:
+              - heading "Stats" [level=6] [ref=e133]
+              - generic [ref=e134]:
+                - generic [ref=e139] [cursor=pointer]:
+                  - combobox [ref=e141]: December 2025
+                  - button "Select" [ref=e143]:
+                    - generic [ref=e145]: 
+                - generic [ref=e147]:
+                  - generic [ref=e149]:
+                    - generic [ref=e150]: 
+                    - generic [ref=e151]: 
+                  - generic [ref=e153]: Active Employees
+                  - heading "172 fas fa-download" [level=4] [ref=e155]:
+                    - text: "172"
+                    - button "fas fa-download" [ref=e156] [cursor=pointer]:
+                      - generic [ref=e158]: 
+                - generic [ref=e160]:
+                  - generic [ref=e162]:
+                    - generic [ref=e163]: 
+                    - generic [ref=e164]: 
+                  - generic [ref=e166]: Other Statistics
+                  - heading "fas fa-download" [level=4] [ref=e168]:
+                    - button "fas fa-download" [ref=e169] [cursor=pointer]:
+                      - generic [ref=e171]: 
+                - generic [ref=e172]:
+                  - generic [ref=e175]:
+                    - generic [ref=e177]:
+                      - generic [ref=e178]: 
+                      - generic [ref=e179]: 
+                    - generic [ref=e181]: Bank Detail Changes
+                    - heading "82" [level=4] [ref=e183]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]:
+                      - generic [ref=e189]: 
+                      - generic [ref=e190]: 
+                    - generic [ref=e192]: Reporting Line Changes
+                    - heading "0" [level=4] [ref=e194]
+                  - generic [ref=e197]:
+                    - generic [ref=e199]:
+                      - generic [ref=e200]: 
+                      - generic [ref=e201]: 
+                    - generic [ref=e203]: Position Changes
+                    - heading "0" [level=4] [ref=e205]
+                  - generic [ref=e208]:
+                    - generic [ref=e210]:
+                      - generic [ref=e211]: 
+                      - generic [ref=e212]: 
+                    - generic [ref=e214]: Pay Rate Changes
+                    - heading "0" [level=4] [ref=e216]
+                  - generic [ref=e219]:
+                    - generic [ref=e221]:
+                      - generic [ref=e222]: 
+                      - generic [ref=e223]: 
+                    - generic [ref=e225]: Active Employees Not Paid
+                    - heading "88" [level=4] [ref=e227]
+                  - generic [ref=e230]:
+                    - generic [ref=e232]:
+                      - generic [ref=e233]: 
+                      - generic [ref=e234]: 
+                    - generic [ref=e236]: Org Unit Changes
+                    - heading "0" [level=4] [ref=e238]
+            - generic [ref=e241]:
+              - heading "Employee Movement" [level=6] [ref=e243]
+              - generic [ref=e244]:
+                - generic [ref=e246]:
+                  - generic [ref=e247]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - combobox [disabled]: October 2025
+                          - generic:
+                            - button "Select":
+                              - generic:
+                                - generic: 
+                  - generic [ref=e249]: to
+                  - generic [ref=e253] [cursor=pointer]:
+                    - combobox [ref=e255]: December 2025
+                    - button "Select" [ref=e257]:
+                      - generic [ref=e259]: 
+                - img [ref=e262]:
+                  - generic [ref=e276]:
+                    - generic [ref=e277]:
+                      - generic [ref=e278]: "0"
+                      - generic [ref=e279]: "50"
+                      - generic [ref=e280]: "100"
+                      - generic [ref=e281]: "150"
+                      - generic [ref=e282]: "200"
+                    - generic [ref=e284]: December
+                  - generic [ref=e287]:
+                    - generic [ref=e291]: Terminations
+                    - generic [ref=e295]: New Engagements
+                - generic [ref=e296]:
+                  - generic [ref=e297]:
+                    - generic [ref=e298]: Termination Reason
+                    - img [ref=e301]
+                    - generic [ref=e308]:
+                      - img [ref=e310]
+                      - text: Contract Expired
+                  - generic [ref=e312]:
+                    - generic [ref=e313]: Leaver's Length of Service
+                    - img [ref=e316]
+                    - generic [ref=e323]:
+                      - img [ref=e325]
+                      - text: < 1
+  - dialog [ref=e327]:
+    - generic [ref=e328]:
+      - heading "Employee search" [level=5] [ref=e329]
+      - button [ref=e330] [cursor=pointer]
+    - generic [ref=e331]:
+      - generic [ref=e334]:
+        - generic [ref=e335]:
+          - generic [ref=e336]:
+            - generic [ref=e337]:
+              - generic: 
+              - textbox "Employee" [active] [ref=e338]: Beaulah Lockman
+            - generic [ref=e341] [cursor=pointer]: 
+          - generic:
+            - generic:
+              - generic: Employee
+        - checkbox "Incl. Terminated":
+          - generic:
+            - generic: Incl. Terminated
+        - application [ref=e343] [cursor=pointer]:
+          - generic [ref=e346]:
+            - combobox "Company" [ref=e347]
+            - generic: Select...
+          - generic:
+            - generic:
+              - generic: Company
+        - text: Select...
+        - generic [ref=e348]:
+          - button "Clear Filters" [ref=e349] [cursor=pointer]:
+            - generic [ref=e351]: Clear Filters
+          - button "Search" [ref=e352] [cursor=pointer]:
+            - generic [ref=e354]: Search
+      - generic [ref=e355]:
+        - paragraph [ref=e356]: "Results: 342 | Terminated: 8"
+        - group [ref=e357]:
+          - application [ref=e361]:
+            - listbox "Items" [ref=e362]:
+              - option "_ Sasha Kunze Playwright Integration Demo Sasha Kunze (664675) Monthly" [ref=e363] [cursor=pointer]:
+                - generic [ref=e364]:
+                  - text: _
+                  - generic [ref=e365]:
+                    - img "Sasha Kunze" [ref=e366]
+                    - generic [ref=e367]:
+                      - generic [ref=e368]: Playwright Integration Demo
+                      - generic [ref=e369]: Sasha Kunze (664675)
+                      - generic [ref=e370]: Monthly
+              - option "_ Orval Rodriguez Playwright Integration Demo Orval Rodriguez (483613) Monthly" [ref=e371] [cursor=pointer]:
+                - generic [ref=e372]:
+                  - text: _
+                  - generic [ref=e373]:
+                    - img "Orval Rodriguez" [ref=e374]
+                    - generic [ref=e375]:
+                      - generic [ref=e376]: Playwright Integration Demo
+                      - generic [ref=e377]: Orval Rodriguez (483613)
+                      - generic [ref=e378]: Monthly
+              - option "_ Elta Littel Playwright Integration Demo Elta Littel (457440) Monthly" [ref=e379] [cursor=pointer]:
+                - generic [ref=e380]:
+                  - text: _
+                  - generic [ref=e381]:
+                    - img "Elta Littel" [ref=e382]
+                    - generic [ref=e383]:
+                      - generic [ref=e384]: Playwright Integration Demo
+                      - generic [ref=e385]: Elta Littel (457440)
+                      - generic [ref=e386]: Monthly
+              - option "_ Pauline Macejkovic Playwright Integration Demo Pauline Macejkovic (413801) Monthly" [ref=e387] [cursor=pointer]:
+                - generic [ref=e388]:
+                  - text: _
+                  - generic [ref=e389]:
+                    - img "Pauline Macejkovic" [ref=e390]
+                    - generic [ref=e391]:
+                      - generic [ref=e392]: Playwright Integration Demo
+                      - generic [ref=e393]: Pauline Macejkovic (413801)
+                      - generic [ref=e394]: Monthly
+              - option "_ Francis Daniel-Donnelly Playwright Integration Demo Francis Daniel-Donnelly (175200) Monthly" [ref=e395] [cursor=pointer]:
+                - generic [ref=e396]:
+                  - text: _
+                  - generic [ref=e397]:
+                    - img "Francis Daniel-Donnelly" [ref=e398]
+                    - generic [ref=e399]:
+                      - generic [ref=e400]: Playwright Integration Demo
+                      - generic [ref=e401]: Francis Daniel-Donnelly (175200)
+                      - generic [ref=e402]: Monthly
+              - option "_ Antonia Wyman Playwright Integration Demo Antonia Wyman (525003) Monthly" [ref=e403] [cursor=pointer]:
+                - generic [ref=e404]:
+                  - text: _
+                  - generic [ref=e405]:
+                    - img "Antonia Wyman" [ref=e406]
+                    - generic [ref=e407]:
+                      - generic [ref=e408]: Playwright Integration Demo
+                      - generic [ref=e409]: Antonia Wyman (525003)
+                      - generic [ref=e410]: Monthly
+              - option "_ Taryn Mante-Ritchie Playwright Integration Demo Taryn Mante-Ritchie (796372) Monthly" [ref=e411] [cursor=pointer]:
+                - generic [ref=e412]:
+                  - text: _
+                  - generic [ref=e413]:
+                    - img "Taryn Mante-Ritchie" [ref=e414]
+                    - generic [ref=e415]:
+                      - generic [ref=e416]: Playwright Integration Demo
+                      - generic [ref=e417]: Taryn Mante-Ritchie (796372)
+                      - generic [ref=e418]: Monthly
+              - option "_ Ceasar Erdman Playwright Integration Demo Ceasar Erdman (708295) Monthly" [ref=e419] [cursor=pointer]:
+                - generic [ref=e420]:
+                  - text: _
+                  - generic [ref=e421]:
+                    - img "Ceasar Erdman" [ref=e422]
+                    - generic [ref=e423]:
+                      - generic [ref=e424]: Playwright Integration Demo
+                      - generic [ref=e425]: Ceasar Erdman (708295)
+                      - generic [ref=e426]: Monthly
+              - option "_ Jolie Skiles Playwright Integration Demo Jolie Skiles (668046) Monthly" [ref=e427] [cursor=pointer]:
+                - generic [ref=e428]:
+                  - text: _
+                  - generic [ref=e429]:
+                    - img "Jolie Skiles" [ref=e430]
+                    - generic [ref=e431]:
+                      - generic [ref=e432]: Playwright Integration Demo
+                      - generic [ref=e433]: Jolie Skiles (668046)
+                      - generic [ref=e434]: Monthly
+              - option "_ Brayan Murazik Playwright Integration Demo Brayan Murazik (086890) Monthly" [ref=e435] [cursor=pointer]:
+                - generic [ref=e436]:
+                  - text: _
+                  - generic [ref=e437]:
+                    - img "Brayan Murazik" [ref=e438]
+                    - generic [ref=e439]:
+                      - generic [ref=e440]: Playwright Integration Demo
+                      - generic [ref=e441]: Brayan Murazik (086890)
+                      - generic [ref=e442]: Monthly
+              - option "_ Vincenzo Cremin Playwright Integration Demo Vincenzo Cremin (553876) Monthly" [ref=e443] [cursor=pointer]:
+                - generic [ref=e444]:
+                  - text: _
+                  - generic [ref=e445]:
+                    - img "Vincenzo Cremin" [ref=e446]
+                    - generic [ref=e447]:
+                      - generic [ref=e448]: Playwright Integration Demo
+                      - generic [ref=e449]: Vincenzo Cremin (553876)
+                      - generic [ref=e450]: Monthly
+              - option "_ Leanne Rohan-Conroy Playwright Integration Demo Leanne Rohan-Conroy (088632) Monthly" [ref=e451] [cursor=pointer]:
+                - generic [ref=e452]:
+                  - text: _
+                  - generic [ref=e453]:
+                    - img "Leanne Rohan-Conroy" [ref=e454]
+                    - generic [ref=e455]:
+                      - generic [ref=e456]: Playwright Integration Demo
+                      - generic [ref=e457]: Leanne Rohan-Conroy (088632)
+                      - generic [ref=e458]: Monthly
+              - option "_ Johann Kozey Playwright Integration Demo Johann Kozey (210985) Monthly" [ref=e459] [cursor=pointer]:
+                - generic [ref=e460]:
+                  - text: _
+                  - generic [ref=e461]:
+                    - img "Johann Kozey" [ref=e462]
+                    - generic [ref=e463]:
+                      - generic [ref=e464]: Playwright Integration Demo
+                      - generic [ref=e465]: Johann Kozey (210985)
+                      - generic [ref=e466]: Monthly
+              - option "_ General Rutherford Playwright Integration Demo General Rutherford (081600) Monthly" [ref=e467] [cursor=pointer]:
+                - generic [ref=e468]:
+                  - text: _
+                  - generic [ref=e469]:
+                    - img "General Rutherford" [ref=e470]
+                    - generic [ref=e471]:
+                      - generic [ref=e472]: Playwright Integration Demo
+                      - generic [ref=e473]: General Rutherford (081600)
+                      - generic [ref=e474]: Monthly
+              - option "_ Maritza Trantow Playwright Integration Demo Maritza Trantow (274782) Monthly" [ref=e475] [cursor=pointer]:
+                - generic [ref=e476]:
+                  - text: _
+                  - generic [ref=e477]:
+                    - img "Maritza Trantow" [ref=e478]
+                    - generic [ref=e479]:
+                      - generic [ref=e480]: Playwright Integration Demo
+                      - generic [ref=e481]: Maritza Trantow (274782)
+                      - generic [ref=e482]: Monthly
+              - option "_ Fay Cummings Playwright Integration Demo Fay Cummings (322965) Monthly" [ref=e483] [cursor=pointer]:
+                - generic [ref=e484]:
+                  - text: _
+                  - generic [ref=e485]:
+                    - img "Fay Cummings" [ref=e486]
+                    - generic [ref=e487]:
+                      - generic [ref=e488]: Playwright Integration Demo
+                      - generic [ref=e489]: Fay Cummings (322965)
+                      - generic [ref=e490]: Monthly
+              - option "_ Jason Feest Playwright Integration Demo Jason Feest (376368) Monthly" [ref=e491] [cursor=pointer]:
+                - generic [ref=e492]:
+                  - text: _
+                  - generic [ref=e493]:
+                    - img "Jason Feest" [ref=e494]
+                    - generic [ref=e495]:
+                      - generic [ref=e496]: Playwright Integration Demo
+                      - generic [ref=e497]: Jason Feest (376368)
+                      - generic [ref=e498]: Monthly
+              - option "_ Cali Schuster Playwright Integration Demo Cali Schuster (330570) Monthly" [ref=e499] [cursor=pointer]:
+                - generic [ref=e500]:
+                  - text: _
+                  - generic [ref=e501]:
+                    - img "Cali Schuster" [ref=e502]
+                    - generic [ref=e503]:
+                      - generic [ref=e504]: Playwright Integration Demo
+                      - generic [ref=e505]: Cali Schuster (330570)
+                      - generic [ref=e506]: Monthly
+              - option "_ Amely Harber Playwright Integration Demo Amely Harber (506978) Monthly" [ref=e507] [cursor=pointer]:
+                - generic [ref=e508]:
+                  - text: _
+                  - generic [ref=e509]:
+                    - img "Amely Harber" [ref=e510]
+                    - generic [ref=e511]:
+                      - generic [ref=e512]: Playwright Integration Demo
+                      - generic [ref=e513]: Amely Harber (506978)
+                      - generic [ref=e514]: Monthly
+              - option "_ Eloy Cormier Playwright Integration Demo Eloy Cormier (319732) Monthly" [ref=e515] [cursor=pointer]:
+                - generic [ref=e516]:
+                  - text: _
+                  - generic [ref=e517]:
+                    - img "Eloy Cormier" [ref=e518]
+                    - generic [ref=e519]:
+                      - generic [ref=e520]: Playwright Integration Demo
+                      - generic [ref=e521]: Eloy Cormier (319732)
+                      - generic [ref=e522]: Monthly
+            - button "More" [ref=e524] [cursor=pointer]:
+              - generic [ref=e526]: More
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e527]:
+                - img [ref=e531]
+                - generic [ref=e533]:
+                  - button "Choose language" [ref=e536] [cursor=pointer]:
+                    - generic "English" [ref=e537]:
+                      - text: En
+                      - img [ref=e539]
+                  - button "Modules Menu" [ref=e543] [cursor=pointer]:
+                    - img [ref=e545]
+                  - button "close asap" [ref=e547] [cursor=pointer]:
+                    - img [ref=e549]
+              - generic [ref=e551]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e552]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e553] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e555]:
+                        - img [ref=e556]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e558]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

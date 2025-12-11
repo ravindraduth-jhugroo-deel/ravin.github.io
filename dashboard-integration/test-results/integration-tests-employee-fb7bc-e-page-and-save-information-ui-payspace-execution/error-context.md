@@ -1,0 +1,206 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Dashboard" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "" [ref=e9] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e10]: 
+          - listitem [ref=e11]:
+            - generic [ref=e15]:
+              - generic [ref=e16]:
+                - combobox "Search employees and menus" [ref=e17]
+                - generic: Search employees and menus
+              - generic: 
+          - listitem [ref=e18]:
+            - generic "Change Employee" [ref=e19]:
+              - generic [ref=e20]: 
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link " 6" [ref=e23] [cursor=pointer]:
+              - /url: /company/50830/release-notes
+              - generic [ref=e24]: 
+              - generic [ref=e25]: "6"
+          - text: "!   "
+          - listitem [ref=e26]:
+            - generic "copwint@payspaceteam633061.testinator.com" [ref=e27]:
+              - img "Company User" [ref=e28]
+            - text:     
+    - menubar [ref=e31]:
+      - generic [ref=e32]:
+        - menuitem "Employee" [ref=e33] [cursor=pointer]:
+          - generic [ref=e35]: Employee
+        - menuitem "On / Off Boarding" [ref=e36] [cursor=pointer]:
+          - generic [ref=e38]: On / Off Boarding
+        - menuitem "Bulk Actions" [ref=e39] [cursor=pointer]:
+          - generic [ref=e41]: Bulk Actions
+        - menuitem "Reports" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Reports
+        - menuitem "Payroll Cycle" [ref=e45] [cursor=pointer]:
+          - generic [ref=e47]: Payroll Cycle
+        - menuitem "Config" [ref=e48] [cursor=pointer]:
+          - generic [ref=e50]: Config
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - text:  Search  _  Search  _
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - link "Beaulah Lockman":
+                - /url: /employees/5153673/contact
+                - img "Beaulah Lockman" [ref=e62] [cursor=pointer]
+            - generic [ref=e63]:
+              - generic [ref=e64]: Playwright Integration Demo
+              - generic [ref=e65]: Monthly
+            - separator [ref=e66]
+            - generic [ref=e68]: Beaulah Lockman
+            - generic [ref=e69]:
+              - link "" [ref=e70] [cursor=pointer]:
+                - /url: /Menu/Previous?userId=1252776&companyId=50830&employeeId=5153673&frequencyId=108658&returnUrl=%2Femployees%2F5153673%2Fcontact
+              - button "224694" [ref=e71] [cursor=pointer]
+              - link "" [ref=e72] [cursor=pointer]:
+                - /url: /Menu/Next?userId=1252776&companyId=50830&employeeId=5153673&frequencyId=108658&returnUrl=%2Femployees%2F5153673%2Fcontact
+        - tree [ref=e75]:
+          - group [ref=e80]:
+            - treeitem " Basic Information " [expanded] [level=1] [ref=e81]:
+              - generic [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: 
+                  - generic [ref=e85]: Basic Information
+                - generic [ref=e86]: 
+              - group [ref=e87]:
+                - treeitem "Basic Profile" [level=2] [ref=e88]:
+                  - generic [ref=e91] [cursor=pointer]: Basic Profile
+                - treeitem "Tax Profile" [level=2] [ref=e93]:
+                  - generic [ref=e96] [cursor=pointer]: Tax Profile
+                - treeitem "Position" [level=2] [ref=e98]:
+                  - generic [ref=e101] [cursor=pointer]: Position
+                - treeitem "Banking Details" [level=2] [ref=e103]:
+                  - generic [ref=e106] [cursor=pointer]: Banking Details
+                - treeitem "Incident Management" [level=2] [ref=e108]:
+                  - generic [ref=e111] [cursor=pointer]: Incident Management
+                - treeitem "Dependants" [level=2] [ref=e113]:
+                  - generic [ref=e116] [cursor=pointer]: Dependants
+                - treeitem "Attachments" [level=2] [ref=e118]:
+                  - generic [ref=e121] [cursor=pointer]: Attachments
+                - treeitem "Asset Register" [level=2] [ref=e123]:
+                  - generic [ref=e126] [cursor=pointer]: Asset Register
+                - treeitem "Custom Forms" [level=2] [ref=e128]:
+                  - generic [ref=e131] [cursor=pointer]: Custom Forms
+                - treeitem "Employee Templates" [level=2] [ref=e133]:
+                  - generic [ref=e136] [cursor=pointer]: Employee Templates
+            - treeitem " Payroll Processing " [level=1] [ref=e138]:
+              - generic [ref=e139] [cursor=pointer]:
+                - generic [ref=e140]:
+                  - generic [ref=e141]: 
+                  - generic [ref=e142]: Payroll Processing
+                - generic [ref=e143]: 
+            - treeitem " Payroll Results " [level=1] [ref=e144]:
+              - generic [ref=e145] [cursor=pointer]:
+                - generic [ref=e146]:
+                  - generic [ref=e147]: 
+                  - generic [ref=e148]: Payroll Results
+                - generic [ref=e149]: 
+            - treeitem " Leave " [level=1] [ref=e150]:
+              - generic [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - generic [ref=e153]: 
+                  - generic [ref=e154]: Leave
+                - generic [ref=e155]: 
+            - treeitem " Performance " [level=1] [ref=e156]:
+              - generic [ref=e157] [cursor=pointer]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]: 
+                  - generic [ref=e160]: Performance
+                - generic [ref=e161]: 
+            - treeitem " Skills " [level=1] [ref=e162]:
+              - generic [ref=e163] [cursor=pointer]:
+                - generic [ref=e164]:
+                  - generic [ref=e165]: 
+                  - generic [ref=e166]: Skills
+                - generic [ref=e167]: 
+            - treeitem " Costing " [level=1] [ref=e168]:
+              - generic [ref=e169] [cursor=pointer]:
+                - generic [ref=e170]:
+                  - generic [ref=e171]: 
+                  - generic [ref=e172]: Costing
+                - generic [ref=e173]: 
+            - treeitem " Other " [level=1] [ref=e174]:
+              - generic [ref=e175] [cursor=pointer]:
+                - generic [ref=e176]:
+                  - generic [ref=e177]: 
+                  - generic [ref=e178]: Other
+                - generic [ref=e179]: 
+      - generic [ref=e180]:
+        - alert [ref=e181]: This environment is not a live environment, it is a backup from 2025/12/07
+        - text: 
+        - main [ref=e182]:
+          - generic [ref=e186]:
+            - heading "About" [level=6] [ref=e188]
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - img "Beaulah Lockman" [ref=e191]
+                - heading "Beaulah Lockman" [level=4] [ref=e193]
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - heading "Personal" [level=6] [ref=e196]
+                  - list [ref=e197]:
+                    - listitem [ref=e198]:
+                      - strong [ref=e199]: Birth Date
+                      - generic [ref=e200]: 11 February
+                    - listitem [ref=e201]:
+                      - strong [ref=e202]: Group Join Date
+                      - generic [ref=e203]: 01 January 0001
+                    - listitem [ref=e204]:
+                      - strong [ref=e205]: Full Name
+                      - generic [ref=e206]: Beaulah Lockman
+                - generic [ref=e208]:
+                  - heading "Company" [level=6] [ref=e209]
+                  - list [ref=e210]:
+                    - listitem [ref=e211]:
+                      - strong [ref=e212]: Employee Number
+                      - generic [ref=e213]: "224694"
+                    - listitem [ref=e214]:
+                      - strong [ref=e215]: Frequency Name
+                      - generic [ref=e216]: Monthly
+  - text:  Search 
+  - complementary:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Welcome to White Label
+              - generic [ref=e217]:
+                - img [ref=e221]
+                - generic [ref=e223]:
+                  - button "Choose language" [ref=e226] [cursor=pointer]:
+                    - generic "English" [ref=e227]:
+                      - text: En
+                      - img [ref=e229]
+                  - button "Modules Menu" [ref=e233] [cursor=pointer]:
+                    - img [ref=e235]
+                  - button "close asap" [ref=e237] [cursor=pointer]:
+                    - img [ref=e239]
+              - generic [ref=e241]:
+                - heading "Hi there!" [level=1]
+                - generic:
+                  - paragraph: How can we help? We're here for you!
+            - generic [ref=e242]:
+              - list:
+                - listitem:
+                  - link "Knowledge Base Browse through our collection of articles, user guides and FAQs." [ref=e243] [cursor=pointer]:
+                    - generic:
+                      - img [ref=e245]:
+                        - img [ref=e246]
+                      - heading "Knowledge Base" [level=4]
+                    - generic [ref=e248]:
+                      - paragraph: Browse through our collection of articles, user guides and FAQs.
+```

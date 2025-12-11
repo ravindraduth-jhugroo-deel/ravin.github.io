@@ -1,0 +1,229 @@
+# Page snapshot
+
+```yaml
+- dialog [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Employee search" [level=5] [ref=e4]
+    - link "fa fa-home" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - button "fa fa-home" [ref=e6]:
+        - generic [ref=e8]: 
+    - link "fa fa-building" [ref=e9] [cursor=pointer]:
+      - /url: /Select?returnUrl=%2FEmployees%2FEmploymentStatus%3FCompanyId%3D50830%26FrequencyId%3D108658
+      - button "fa fa-building" [ref=e10]:
+        - generic [ref=e12]: 
+  - generic [ref=e13]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - generic: 
+            - textbox "Employee" [active] [ref=e20]: Albin Fay
+          - generic [ref=e23] [cursor=pointer]: 
+        - generic:
+          - generic:
+            - generic: Employee
+      - checkbox "Incl. Terminated":
+        - generic:
+          - generic: Incl. Terminated
+      - application [ref=e25] [cursor=pointer]:
+        - generic [ref=e28]:
+          - combobox "Company" [ref=e29]
+          - generic: Select...
+        - generic:
+          - generic:
+            - generic: Company
+      - text: Select...
+      - generic [ref=e30]:
+        - button "Clear Filters" [ref=e31] [cursor=pointer]:
+          - generic [ref=e33]: Clear Filters
+        - button "Search" [ref=e34] [cursor=pointer]:
+          - generic [ref=e36]: Search
+    - generic [ref=e37]:
+      - paragraph [ref=e38]: "Results: 361 | Terminated: 9"
+      - group [ref=e39]:
+        - application [ref=e43]:
+          - listbox "Items" [ref=e44]:
+            - option "_ Sasha Kunze Playwright Integration Demo Sasha Kunze (664675) Monthly" [ref=e45] [cursor=pointer]:
+              - generic [ref=e46]:
+                - text: _
+                - generic [ref=e47]:
+                  - img "Sasha Kunze" [ref=e48]
+                  - generic [ref=e49]:
+                    - generic [ref=e50]: Playwright Integration Demo
+                    - generic [ref=e51]: Sasha Kunze (664675)
+                    - generic [ref=e52]: Monthly
+            - option "_ Orval Rodriguez Playwright Integration Demo Orval Rodriguez (483613) Monthly" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]:
+                - text: _
+                - generic [ref=e55]:
+                  - img "Orval Rodriguez" [ref=e56]
+                  - generic [ref=e57]:
+                    - generic [ref=e58]: Playwright Integration Demo
+                    - generic [ref=e59]: Orval Rodriguez (483613)
+                    - generic [ref=e60]: Monthly
+            - option "_ Elta Littel Playwright Integration Demo Elta Littel (457440) Monthly" [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]:
+                - text: _
+                - generic [ref=e63]:
+                  - img "Elta Littel" [ref=e64]
+                  - generic [ref=e65]:
+                    - generic [ref=e66]: Playwright Integration Demo
+                    - generic [ref=e67]: Elta Littel (457440)
+                    - generic [ref=e68]: Monthly
+            - option "_ Pauline Macejkovic Playwright Integration Demo Pauline Macejkovic (413801) Monthly" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]:
+                - text: _
+                - generic [ref=e71]:
+                  - img "Pauline Macejkovic" [ref=e72]
+                  - generic [ref=e73]:
+                    - generic [ref=e74]: Playwright Integration Demo
+                    - generic [ref=e75]: Pauline Macejkovic (413801)
+                    - generic [ref=e76]: Monthly
+            - option "_ Francis Daniel-Donnelly Playwright Integration Demo Francis Daniel-Donnelly (175200) Monthly" [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]:
+                - text: _
+                - generic [ref=e79]:
+                  - img "Francis Daniel-Donnelly" [ref=e80]
+                  - generic [ref=e81]:
+                    - generic [ref=e82]: Playwright Integration Demo
+                    - generic [ref=e83]: Francis Daniel-Donnelly (175200)
+                    - generic [ref=e84]: Monthly
+            - option "_ Antonia Wyman Playwright Integration Demo Antonia Wyman (525003) Monthly" [ref=e85] [cursor=pointer]:
+              - generic [ref=e86]:
+                - text: _
+                - generic [ref=e87]:
+                  - img "Antonia Wyman" [ref=e88]
+                  - generic [ref=e89]:
+                    - generic [ref=e90]: Playwright Integration Demo
+                    - generic [ref=e91]: Antonia Wyman (525003)
+                    - generic [ref=e92]: Monthly
+            - option "_ Taryn Mante-Ritchie Playwright Integration Demo Taryn Mante-Ritchie (796372) Monthly" [ref=e93] [cursor=pointer]:
+              - generic [ref=e94]:
+                - text: _
+                - generic [ref=e95]:
+                  - img "Taryn Mante-Ritchie" [ref=e96]
+                  - generic [ref=e97]:
+                    - generic [ref=e98]: Playwright Integration Demo
+                    - generic [ref=e99]: Taryn Mante-Ritchie (796372)
+                    - generic [ref=e100]: Monthly
+            - option "_ Ceasar Erdman Playwright Integration Demo Ceasar Erdman (708295) Monthly" [ref=e101] [cursor=pointer]:
+              - generic [ref=e102]:
+                - text: _
+                - generic [ref=e103]:
+                  - img "Ceasar Erdman" [ref=e104]
+                  - generic [ref=e105]:
+                    - generic [ref=e106]: Playwright Integration Demo
+                    - generic [ref=e107]: Ceasar Erdman (708295)
+                    - generic [ref=e108]: Monthly
+            - option "_ Jolie Skiles Playwright Integration Demo Jolie Skiles (668046) Monthly" [ref=e109] [cursor=pointer]:
+              - generic [ref=e110]:
+                - text: _
+                - generic [ref=e111]:
+                  - img "Jolie Skiles" [ref=e112]
+                  - generic [ref=e113]:
+                    - generic [ref=e114]: Playwright Integration Demo
+                    - generic [ref=e115]: Jolie Skiles (668046)
+                    - generic [ref=e116]: Monthly
+            - option "_ Brayan Murazik Playwright Integration Demo Brayan Murazik (086890) Monthly" [ref=e117] [cursor=pointer]:
+              - generic [ref=e118]:
+                - text: _
+                - generic [ref=e119]:
+                  - img "Brayan Murazik" [ref=e120]
+                  - generic [ref=e121]:
+                    - generic [ref=e122]: Playwright Integration Demo
+                    - generic [ref=e123]: Brayan Murazik (086890)
+                    - generic [ref=e124]: Monthly
+            - option "_ Vincenzo Cremin Playwright Integration Demo Vincenzo Cremin (553876) Monthly" [ref=e125] [cursor=pointer]:
+              - generic [ref=e126]:
+                - text: _
+                - generic [ref=e127]:
+                  - img "Vincenzo Cremin" [ref=e128]
+                  - generic [ref=e129]:
+                    - generic [ref=e130]: Playwright Integration Demo
+                    - generic [ref=e131]: Vincenzo Cremin (553876)
+                    - generic [ref=e132]: Monthly
+            - option "_ Leanne Rohan-Conroy Playwright Integration Demo Leanne Rohan-Conroy (088632) Monthly" [ref=e133] [cursor=pointer]:
+              - generic [ref=e134]:
+                - text: _
+                - generic [ref=e135]:
+                  - img "Leanne Rohan-Conroy" [ref=e136]
+                  - generic [ref=e137]:
+                    - generic [ref=e138]: Playwright Integration Demo
+                    - generic [ref=e139]: Leanne Rohan-Conroy (088632)
+                    - generic [ref=e140]: Monthly
+            - option "_ Johann Kozey Playwright Integration Demo Johann Kozey (210985) Monthly" [ref=e141] [cursor=pointer]:
+              - generic [ref=e142]:
+                - text: _
+                - generic [ref=e143]:
+                  - img "Johann Kozey" [ref=e144]
+                  - generic [ref=e145]:
+                    - generic [ref=e146]: Playwright Integration Demo
+                    - generic [ref=e147]: Johann Kozey (210985)
+                    - generic [ref=e148]: Monthly
+            - option "_ General Rutherford Playwright Integration Demo General Rutherford (081600) Monthly" [ref=e149] [cursor=pointer]:
+              - generic [ref=e150]:
+                - text: _
+                - generic [ref=e151]:
+                  - img "General Rutherford" [ref=e152]
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: Playwright Integration Demo
+                    - generic [ref=e155]: General Rutherford (081600)
+                    - generic [ref=e156]: Monthly
+            - option "_ Maritza Trantow Playwright Integration Demo Maritza Trantow (274782) Monthly" [ref=e157] [cursor=pointer]:
+              - generic [ref=e158]:
+                - text: _
+                - generic [ref=e159]:
+                  - img "Maritza Trantow" [ref=e160]
+                  - generic [ref=e161]:
+                    - generic [ref=e162]: Playwright Integration Demo
+                    - generic [ref=e163]: Maritza Trantow (274782)
+                    - generic [ref=e164]: Monthly
+            - option "_ Fay Cummings Playwright Integration Demo Fay Cummings (322965) Monthly" [ref=e165] [cursor=pointer]:
+              - generic [ref=e166]:
+                - text: _
+                - generic [ref=e167]:
+                  - img "Fay Cummings" [ref=e168]
+                  - generic [ref=e169]:
+                    - generic [ref=e170]: Playwright Integration Demo
+                    - generic [ref=e171]: Fay Cummings (322965)
+                    - generic [ref=e172]: Monthly
+            - option "_ Jason Feest Playwright Integration Demo Jason Feest (376368) Monthly" [ref=e173] [cursor=pointer]:
+              - generic [ref=e174]:
+                - text: _
+                - generic [ref=e175]:
+                  - img "Jason Feest" [ref=e176]
+                  - generic [ref=e177]:
+                    - generic [ref=e178]: Playwright Integration Demo
+                    - generic [ref=e179]: Jason Feest (376368)
+                    - generic [ref=e180]: Monthly
+            - option "_ Cali Schuster Playwright Integration Demo Cali Schuster (330570) Monthly" [ref=e181] [cursor=pointer]:
+              - generic [ref=e182]:
+                - text: _
+                - generic [ref=e183]:
+                  - img "Cali Schuster" [ref=e184]
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: Playwright Integration Demo
+                    - generic [ref=e187]: Cali Schuster (330570)
+                    - generic [ref=e188]: Monthly
+            - option "_ Amely Harber Playwright Integration Demo Amely Harber (506978) Monthly" [ref=e189] [cursor=pointer]:
+              - generic [ref=e190]:
+                - text: _
+                - generic [ref=e191]:
+                  - img "Amely Harber" [ref=e192]
+                  - generic [ref=e193]:
+                    - generic [ref=e194]: Playwright Integration Demo
+                    - generic [ref=e195]: Amely Harber (506978)
+                    - generic [ref=e196]: Monthly
+            - option "_ Eloy Cormier Playwright Integration Demo Eloy Cormier (319732) Monthly" [ref=e197] [cursor=pointer]:
+              - generic [ref=e198]:
+                - text: _
+                - generic [ref=e199]:
+                  - img "Eloy Cormier" [ref=e200]
+                  - generic [ref=e201]:
+                    - generic [ref=e202]: Playwright Integration Demo
+                    - generic [ref=e203]: Eloy Cormier (319732)
+                    - generic [ref=e204]: Monthly
+          - button "More" [ref=e206] [cursor=pointer]:
+            - generic [ref=e208]: More
+```
